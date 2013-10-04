@@ -1,0 +1,54 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+datosCompartidos
+</name>
+</assembly>
+<members>
+<member name="P:datosCompartidos.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:datosCompartidos.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:datosCompartidos.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:datosCompartidos.NumToLetter.Number">
+	<summary>
+ Number property
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:datosCompartidos.NumToLetter.Currency">
+	<summary>
+ Currency type property
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:datosCompartidos.NumToLetter.#ctor">
+	<summary>
+ Default Constructor
+ </summary>
+	<remarks></remarks>
+</member><member name="M:datosCompartidos.NumToLetter.Initialize">
+	<summary>
+ Initialize variables
+ </summary>
+	<remarks></remarks>
+</member><member name="M:datosCompartidos.NumToLetter.ToLetter">
+	<summary>
+ Convert number to letter
+ </summary>
+	<returns>A string with the value text</returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

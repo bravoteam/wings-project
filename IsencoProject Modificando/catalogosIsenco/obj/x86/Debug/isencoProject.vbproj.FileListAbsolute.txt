@@ -1,0 +1,940 @@
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\bin\Debug\Resources\Logo ISENCO.jpg
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\bin\Debug\Resources\LOGO SE a colores.jpg
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.exe.config
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.exe
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.pdb
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.xml
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.exe
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.pdb
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.xml
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.administrativosFrm.resources
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.alumnosFrm.resources
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.campusFrm.resources
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.cicloEscolarFrm.resources
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.configuracionFrm.resources
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.estadisticasFrm.resources
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.frmBuscarAlumbo.resources
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.generarMatriculas.resources
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.maestrosFrm.resources
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.materiasFrm.resources
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.modificacionCalifFrm.resources
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.promocionAlumnosFrm.resources
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.certificadosFrm.resources
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimeCertificadoFrm.resources
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.menuPrincipalFrm.resources
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Resources.resources
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\RdlCompile.cache
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\RdlCompile.compiled
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.exe
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.xml
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.pdb
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\isencoProject.vbprojResolveAssemblyReference.cache
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.administrativosFrm.resources
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.alumnosFrm.resources
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.cambiosGruposFrm.resources
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.campusFrm.resources
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.cicloEscolarFrm.resources
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.configuracionFrm.resources
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.estadisticasFrm.resources
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.frmBuscarAlumbo.resources
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.generarMatriculas.resources
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.importacionAlumnos.resources
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.maestrosFrm.resources
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.materiasFrm.resources
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.modificacionCalifFrm.resources
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.promocionAlumnosFrm.resources
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.certificadosFrm.resources
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimeCertificadoFrm.resources
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.exportacionAlumnosFrm.resources
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.menuPrincipalFrm.resources
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Resources.resources
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.culturalesNoACFrm.resources
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.principalOtrosRpt.resources
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\isencoProject.vbproj.GenerateResource.Cache
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\RdlCompile.cache
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\RdlCompile.compiled
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\Resources\Logo ISENCO.jpg
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\Resources\LOGO SE a colores.jpg
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.exe.config
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.exe
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.pdb
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.xml
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.exe
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.pdb
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.xml
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.exe
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.xml
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.pdb
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.primeraSegundaFrm.resources
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.impresionListas.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\Resources\Logo ISENCO.jpg
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\Resources\LOGO SE a colores.jpg
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.exe.config
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.exe
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.pdb
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.xml
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.exe
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.pdb
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.xml
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.becadoImprFrm.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.becados.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Calificacion.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.calificacionesExtraFrm.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirBoleta.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.administrativosFrm.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.alumnosFrm.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.cambiosGruposFrm.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.campusFrm.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.cicloEscolarFrm.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.configuracionFrm.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.inscripcionFrm.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.estadisticasFrm.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.frmBuscarAlumno.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.generarMatriculas.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.importacionAlumnos.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.maestrosFrm.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.materiasFrm.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.modificacionCalifFrm.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.promocionAlumnosFrm.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.LoginForm1.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.asignarAulasFrm.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.consultaPreregFrm.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.ImprimirListasFrm.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.preregistroFrm.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.validarPreFrm.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FRmRep_Registro.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FrmConfiguration.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.certificadosFrm.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimeCertificadoFrm.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.exportacionAlumnosFrm.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.estadisticasImprFrm.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.frmdocente.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirKardexFrm.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.impresionListas.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.menuPrincipalFrm.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Resources.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.pruebaFrm.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FrmRegistro.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.culturalesNoACFrm.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.primeraSegundaFrm.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.principalOtrosRpt.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.reportePagosFrm.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirActaExamen.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirTitulo.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.llenarActaExamen.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.llenarTituloFrm.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.titulosActasFrm.resources
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\RdlCompile.cache
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\RdlCompile.compiled
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.exe
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.xml
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.pdb
+C:\Users\usuario\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\GenerateResource.write.1013.tlog
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\Resources\Logo ISENCO.jpg
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\Resources\LOGO SE a colores.jpg
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.exe.config
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.exe
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.pdb
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.xml
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.exe
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.pdb
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.xml
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.becadoImprFrm.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.becados.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Calificacion.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.calificacionesExtraFrm.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirBoleta.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.administrativosFrm.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.alumnosFrm.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.cambiosGruposFrm.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.campusFrm.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.cicloEscolarFrm.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.configuracionFrm.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.impresionFicha.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.inscripcionFrm.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.estadisticasFrm.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.frmBuscarAlumno.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.generarMatriculas.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.importacionAlumnos.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.maestrosFrm.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.materiasFrm.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.modificacionCalifFrm.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.promocionAlumnosFrm.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.impresionInscripcionFrm.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.procesoInscripcionFrm.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.tomarFotoFrm.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.LoginForm1.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.asignarAulasFrm.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.consultaPreregFrm.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.ImprimirListasFrm.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.preregistroFrm.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.validarPreFrm.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FRmRep_Registro.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FrmConfiguration.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.certificadosFrm.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimeCertificadoFrm.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.exportacionAlumnosFrm.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.estadisticasImprFrm.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.frmdocente.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirKardexFrm.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.impresionListas.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.menuPrincipalFrm.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Resources.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.pruebaFrm.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FrmRegistro.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.culturalesNoACFrm.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.primeraSegundaFrm.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.principalOtrosRpt.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.reportePagosFrm.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirActaExamen.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirTitulo.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.llenarActaExamen.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.llenarTituloFrm.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.titulosActasFrm.resources
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\RdlCompile.cache
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\RdlCompile.compiled
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.exe
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.xml
+C:\Users\usuario\Documents\proyecto isenco actual\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.pdb
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\Resources\Logo ISENCO.jpg
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\Resources\LOGO SE a colores.jpg
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.exe.config
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.exe
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.pdb
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.xml
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.exe
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.pdb
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.xml
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.becadoImprFrm.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.becados.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Calificacion.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.calificacionesExtraFrm.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirBoleta.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.administrativosFrm.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.alumnosFrm.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.cambiosGruposFrm.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.campusFrm.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.cicloEscolarFrm.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.configuracionFrm.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.impresionFicha.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.inscripcionFrm.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.estadisticasFrm.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.frmBuscarAlumno.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.generarMatriculas.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.importacionAlumnos.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.maestrosFrm.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.materiasFrm.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.modificacionCalifFrm.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.promocionAlumnosFrm.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.impresionInscripcionFrm.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.procesoInscripcionFrm.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.tomarFotoFrm.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.LoginForm1.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.asignarAulasFrm.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.consultaPreregFrm.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.ImprimirListasFrm.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.preregistroFrm.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.validarPreFrm.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FRmRep_Registro.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FrmConfiguration.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Rpt_ReprobadasFrm.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.certificadosFrm.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimeCertificadoFrm.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.exportacionAlumnosFrm.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.estadisticasImprFrm.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.frmdocente.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirKardexFrm.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.impresionListas.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.menuPrincipalFrm.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Resources.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.pruebaFrm.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FrmRegistro.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.culturalesNoACFrm.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.primeraSegundaFrm.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.principalOtrosRpt.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.reportePagosFrm.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirActaExamen.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirTitulo.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.llenarActaExamen.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.llenarTituloFrm.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.titulosActasFrm.resources
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\RdlCompile.cache
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\RdlCompile.compiled
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.exe
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.xml
+C:\Users\Public\Documents\proyecto nuevo para certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.pdb
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\Resources\Logo ISENCO.jpg
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\Resources\LOGO SE a colores.jpg
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.exe.config
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.exe
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.pdb
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.xml
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.exe
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.pdb
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.xml
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.becadoImprFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.becados.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Calificacion.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.calificacionesExtraFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirBoleta.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.administrativosFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.alumnosFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.cambiosGruposFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.campusFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.cicloEscolarFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.configuracionFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.impresionFicha.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.inscripcionFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.materiaMaestroFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.estadisticasFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.frmBuscarAlumno.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.generarMatriculas.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.importacionAlumnos.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.maestrosFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.materiasFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.modificacionCalifFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.promocionAlumnosFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.impresionInscripcionFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.procesoInscripcionFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.tomarFotoFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.LoginForm1.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.PlanEstudiosCicloFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.asignarAulasFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.consultaPreregFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.ImprimirListasFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.preregistroFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.validarPreFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FRmRep_Registro.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FrmConfiguration.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Rpt_ReprobadasFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.certificadosFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimeCertificadoFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.exportacionAlumnosFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.estadisticasImprFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.frmdocente.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirKardexFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.impresionListas.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.menuPrincipalFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Resources.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.pruebaFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FrmRegistro.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.culturalesNoACFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.primeraSegundaFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.principalOtrosRpt.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.reportePagosFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirActaExamen.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirTitulo.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.llenarActaExamen.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.llenarTituloFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.titulosActasFrm.resources
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\RdlCompile.cache
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\RdlCompile.compiled
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.exe
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.xml
+C:\Users\Public\Documents\isenco proyecto mas mas actual despues de certificados\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.pdb
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\Resources\Logo ISENCO.jpg
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\Resources\LOGO SE a colores.jpg
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.exe.config
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.exe
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.pdb
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.xml
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.exe
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.pdb
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.xml
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\isencoProject.vbprojResolveAssemblyReference.cache
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.becadoImprFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.becados.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Calificacion.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.calificacionesExtraFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirBoleta.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.administrativosFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.alumnosFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.cambiosGruposFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.campusFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.cicloEscolarFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.configuracionFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.impresionFicha.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.inscripcionFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.materiaMaestroFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.estadisticasFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.frmBuscarAlumno.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.generarMatriculas.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.importacionAlumnos.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.maestrosFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.materiasFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.modificacionCalifFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.promocionAlumnosFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.impresionInscripcionFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.procesoInscripcionFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.tomarFotoFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.LoginForm1.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.PlanEstudiosCicloFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.asignarAulasFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.consultaPreregFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.ImprimirListasFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.preregistroFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.validarPreFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FRmRep_Registro.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FrmConfiguration.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Rpt_ReprobadasFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.certificadosFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimeCertificadoFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.exportacionAlumnosFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.estadisticasImprFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.frmdocente.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirKardexFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.impresionListas.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.menuPrincipalFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Resources.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.pruebaFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FrmRegistro.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.culturalesNoACFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.primeraSegundaFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.principalOtrosRpt.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.reportePagosFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirActaExamen.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirTitulo.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.llenarActaExamen.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.llenarTituloFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.titulosActasFrm.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\isencoProject.vbproj.GenerateResource.Cache
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\RdlCompile.cache
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\RdlCompile.compiled
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.exe
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.xml
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.pdb
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\Resources\Logo ISENCO.jpg
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\Resources\LOGO SE a colores.jpg
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.exe.config
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.exe
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.pdb
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.xml
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.exe
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.pdb
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.xml
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\isencoProject.vbprojResolveAssemblyReference.cache
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.becadoImprFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.becados.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Calificacion.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.calificacionesExtraFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirBoleta.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.administrativosFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.alumnosFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.cambiosGruposFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.campusFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.cicloEscolarFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.configuracionFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.impresionFicha.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.inscripcionFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.materiaMaestroFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.estadisticasFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.frmBuscarAlumno.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.generarMatriculas.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.importacionAlumnos.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.maestrosFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.materiasFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.modificacionCalifFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.promocionAlumnosFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.impresionInscripcionFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.procesoInscripcionFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.tomarFotoFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.LoginForm1.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.PlanEstudiosCicloFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.asignarAulasFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.consultaPreregFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.ImprimirListasFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.preregistroFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.validarPreFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FRmRep_Registro.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FrmConfiguration.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Rpt_ReprobadasFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.certificadosFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimeCertificadoFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.exportacionAlumnosFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.estadisticasImprFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.frmdocente.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirKardexFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.impresionListas.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.menuPrincipalFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Resources.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.pruebaFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FrmRegistro.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.culturalesNoACFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.primeraSegundaFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.principalOtrosRpt.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.reportePagosFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirActaExamen.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirTitulo.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.llenarActaExamen.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.llenarTituloFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.titulosActasFrm.resources
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\isencoProject.vbproj.GenerateResource.Cache
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\RdlCompile.cache
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\RdlCompile.compiled
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.exe
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.xml
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.pdb
+C:\Users\Public\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.calificacionMaestroFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\Resources\Logo ISENCO.jpg
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\Resources\LOGO SE a colores.jpg
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.exe.config
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.exe
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.pdb
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.xml
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.exe
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.pdb
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.xml
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.becadoImprFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.becados.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Calificacion.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.calificacionesExtraFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.calificacionMaestroFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirBoleta.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.administrativosFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.alumnosFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.cambiosGruposFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.campusFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.cicloEscolarFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.configuracionFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.impresionFicha.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.inscripcionFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.materiaMaestroFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.estadisticasFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.frmBuscarAlumno.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.generarMatriculas.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.importacionAlumnos.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.maestrosFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.materiasFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.modificacionCalifFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.promocionAlumnosFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.impresionInscripcionFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.procesoInscripcionFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.tomarFotoFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.LoginForm1.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.PlanEstudiosCicloFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.asignarAulasFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.consultaPreregFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.ImprimirListasFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.preregistroFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.validarPreFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FRmRep_Registro.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FrmConfiguration.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Rpt_ReprobadasFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.certificadosFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimeCertificadoFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.exportacionAlumnosFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.estadisticasImprFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.frmdocente.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirKardexFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.impresionListas.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.menuPrincipalFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Resources.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.pruebaFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FrmRegistro.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.culturalesNoACFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.primeraSegundaFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.principalOtrosRpt.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.reportePagosFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirActaExamen.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirTitulo.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.llenarActaExamen.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.llenarTituloFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.titulosActasFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\RdlCompile.cache
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\RdlCompile.compiled
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.exe
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.xml
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.pdb
+C:\Users\usuario\Desktop\isenco proyecto esteban\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.ExtrasFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\Resources\Logo ISENCO.jpg
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\Resources\LOGO SE a colores.jpg
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.exe.config
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.exe
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.pdb
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.xml
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.exe
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.pdb
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.xml
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.becadoImprFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.becados.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Calificacion.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.calificacionesExtraFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.calificacionMaestroFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirBoleta.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.ExtrasFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.administrativosFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.alumnosFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.cambiosGruposFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.campusFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.cicloEscolarFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.configuracionFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.impresionFicha.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.inscripcionFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.materiaMaestroFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.estadisticasFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.frmBuscarAlumno.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.generarMatriculas.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.importacionAlumnos.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.maestrosFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.materiasFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.modificacionCalifFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.promocionAlumnosFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.impresionInscripcionFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.procesoInscripcionFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.tomarFotoFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.LoginForm1.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.PlanEstudiosCicloFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.asignarAulasFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.consultaPreregFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.ImprimirListasFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.preregistroFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.validarPreFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FRmRep_Registro.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FrmConfiguration.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Rpt_ReprobadasFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.certificadosFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimeCertificadoFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.exportacionAlumnosFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.estadisticasImprFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.frmdocente.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirKardexFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.impresionListas.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.menuPrincipalFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Resources.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.pruebaFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FrmRegistro.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.culturalesNoACFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.primeraSegundaFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.principalOtrosRpt.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.reportePagosFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirActaExamen.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirTitulo.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.llenarActaExamen.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.llenarTituloFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.titulosActasFrm.resources
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\RdlCompile.cache
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\RdlCompile.compiled
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.exe
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.xml
+C:\Users\usuario\Desktop\isenco proyecto esteban con calificaciones extras\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.pdb
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\Resources\Logo ISENCO.jpg
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\Resources\LOGO SE a colores.jpg
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.exe.config
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.exe
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.pdb
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.xml
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.exe
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.pdb
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.xml
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\isencoProject.vbprojResolveAssemblyReference.cache
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.becadoImprFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.becados.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Calificacion.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.calificacionMaestroFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirBoleta.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.ExtrasFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.administrativosFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.alumnosFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.cambiosGruposFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.campusFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.cicloEscolarFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.configuracionFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.impresionFicha.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.inscripcionFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.materiaMaestroFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.estadisticasFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.frmBuscarAlumno.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.generarMatriculas.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.importacionAlumnos.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.maestrosFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.materiasFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.modificacionCalifFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.promocionAlumnosFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.impresionInscripcionFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.procesoInscripcionFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.tomarFotoFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.LoginForm1.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.PlanEstudiosCicloFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.asignarAulasFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.consultaPreregFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.ImprimirListasFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.preregistroFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.validarPreFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Rpt_ReprobadasFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.certificadosFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimeCertificadoFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.exportacionAlumnosFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.estadisticasImprFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.frmdocente.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirKardexFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.impresionListas.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.menuPrincipalFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Resources.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.pruebaFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.culturalesNoACFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.primeraSegundaFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.principalOtrosRpt.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.reportePagosFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirActaExamen.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirTitulo.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.llenarActaExamen.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.llenarTituloFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.titulosActasFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\isencoProject.vbproj.GenerateResource.Cache
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\RdlCompile.cache
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\RdlCompile.compiled
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.exe
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.xml
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.pdb
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\bin\Debug\Resources\Logo ISENCO.jpg
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\bin\Debug\Resources\LOGO SE a colores.jpg
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.exe.config
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.exe
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.pdb
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.xml
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.exe
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.pdb
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.xml
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.becadoImprFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.becados.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Calificacion.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.calificacionesExtraFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.calificacionMaestroFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirBoleta.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.ExtrasFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.administrativosFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.alumnosFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.cambiosGruposFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.campusFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.cicloEscolarFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.configuracionFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.impresionFicha.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.inscripcionFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.materiaMaestroFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.estadisticasFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.frmBuscarAlumno.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.generarMatriculas.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.importacionAlumnos.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.maestrosFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.materiasFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.modificacionCalifFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.promocionAlumnosFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.impresionInscripcionFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.procesoInscripcionFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.tomarFotoFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.LoginForm1.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.PlanEstudiosCicloFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.asignarAulasFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.consultaPreregFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.ImprimirListasFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.preregistroFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.validarPreFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FRmRep_Registro2.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FrmConfiguration2.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Rpt_ReprobadasFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.certificadosFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimeCertificadoFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.exportacionAlumnosFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.estadisticasImprFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.frmdocente.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirKardexFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.impresionListas.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.menuPrincipalFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Resources.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.pruebaFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FrmRegistro2.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.culturalesNoACFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.primeraSegundaFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.principalOtrosRpt.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.reportePagosFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirActaExamen.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirTitulo.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.llenarActaExamen.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.llenarTituloFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.titulosActasFrm.resources
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\RdlCompile.cache
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\RdlCompile.compiled
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.exe
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.xml
+C:\Users\usuario\Desktop\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.pdb
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\bin\Debug\Resources\Logo ISENCO.jpg
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\bin\Debug\Resources\LOGO SE a colores.jpg
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.exe.config
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.exe
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.pdb
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.xml
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.exe
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.pdb
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.xml
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.becadoImprFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.becados.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Calificacion.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.calificacionesExtraFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.calificacionMaestroFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirBoleta.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.ExtrasFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.administrativosFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.alumnosFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.cambiosGruposFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.campusFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.cicloEscolarFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.configuracionFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.impresionFicha.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.inscripcionFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.materiaMaestroFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.estadisticasFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.frmBuscarAlumno.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.generarMatriculas.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.importacionAlumnos.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.maestrosFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.materiasFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.modificacionCalifFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.promocionAlumnosFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.impresionInscripcionFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.procesoInscripcionFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.tomarFotoFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.LoginForm1.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.PlanEstudiosCicloFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.asignarAulasFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.consultaPreregFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.ImprimirListasFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.preregistroFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.validarPreFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FRmRep_Registro2.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FrmConfiguration2.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Rpt_ReprobadasFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.certificadosFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimeCertificadoFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.exportacionAlumnosFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.estadisticasImprFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.frmdocente.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirKardexFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.impresionListas.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.menuPrincipalFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Resources.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.pruebaFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FrmRegistro2.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.culturalesNoACFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.primeraSegundaFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.principalOtrosRpt.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.reportePagosFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirActaExamen.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirTitulo.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.llenarActaExamen.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.llenarTituloFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.titulosActasFrm.resources
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\RdlCompile.cache
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\RdlCompile.compiled
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.exe
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.xml
+C:\Users\usuario\Desktop\sistema anterior\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.pdb
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\Resources\Logo ISENCO.jpg
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\Resources\LOGO SE a colores.jpg
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.exe.config
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.exe
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.pdb
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.xml
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.exe
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.pdb
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.xml
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.becadoImprFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.becados.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Calificacion.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.calificacionAlumnoFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.calificacionMaestroFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirBoleta.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.ExtrasFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.administrativosFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.alumnosFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.cambiosGruposFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.campusFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.cicloEscolarFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.configuracionFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.impresionFicha.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.inscripcionFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.materiaMaestroFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.estadisticasFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.frmBuscarAlumno.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.generarMatriculas.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.importacionAlumnos.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.maestrosFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.materiasFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.modificacionCalifFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.promocionAlumnosFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.impresionInscripcionFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.procesoInscripcionFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.tomarFotoFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.LoginForm1.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.PlanEstudiosCicloFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.asignarAulasFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.consultaPreregFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.ImprimirListasFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.preregistroFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.validarPreFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FRmRep_Registro2.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FrmConfiguration2.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FrmRegistroEsp.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FRmRep_RegistroEsp.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Rpt_ReprobadasFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.certificadosFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimeCertificadoFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.exportacionAlumnosFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.estadisticasImprFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.frmdocente.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirKardexFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.impresionListas.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.menuPrincipalFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Resources.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.pruebaFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FrmRegistro2.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.culturalesNoACFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.primeraSegundaFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.principalOtrosRpt.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.reportePagosFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirActaExamen.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.imprimirTitulo.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.llenarActaExamen.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.llenarTituloFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.titulosActasFrm.resources
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\RdlCompile.cache
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\RdlCompile.compiled
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.exe
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.xml
+C:\Users\usuario\Desktop\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.pdb
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.calificacionAlumnoFrm.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FRmRep_Registro2.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FrmConfiguration2.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FrmRegistroEsp.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FRmRep_RegistroEsp.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FrmRegistro2.resources
+C:\Users\estebanbt\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.menuAlumnos.resources

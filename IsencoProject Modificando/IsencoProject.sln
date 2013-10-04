@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "datosCompartidos", "datosCompartidos\datosCompartidos.vbproj", "{706CCABE-14F4-46DB-A5FB-AB347B814559}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "isencoProject", "catalogosIsenco\isencoProject.vbproj", "{46D805C7-B4BC-4A4A-9938-F928AD1EB48B}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "instalador Isenco", "instalador Isenco\instalador Isenco.vdproj", "{2F36CFE2-65B2-48E4-8811-68C17833C015}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{706CCABE-14F4-46DB-A5FB-AB347B814559}.Debug|x86.ActiveCfg = Debug|x86
+		{706CCABE-14F4-46DB-A5FB-AB347B814559}.Debug|x86.Build.0 = Debug|x86
+		{706CCABE-14F4-46DB-A5FB-AB347B814559}.Release|x86.ActiveCfg = Release|x86
+		{706CCABE-14F4-46DB-A5FB-AB347B814559}.Release|x86.Build.0 = Release|x86
+		{46D805C7-B4BC-4A4A-9938-F928AD1EB48B}.Debug|x86.ActiveCfg = Debug|x86
+		{46D805C7-B4BC-4A4A-9938-F928AD1EB48B}.Debug|x86.Build.0 = Debug|x86
+		{46D805C7-B4BC-4A4A-9938-F928AD1EB48B}.Release|x86.ActiveCfg = Release|x86
+		{46D805C7-B4BC-4A4A-9938-F928AD1EB48B}.Release|x86.Build.0 = Release|x86
+		{2F36CFE2-65B2-48E4-8811-68C17833C015}.Debug|x86.ActiveCfg = Debug
+		{2F36CFE2-65B2-48E4-8811-68C17833C015}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

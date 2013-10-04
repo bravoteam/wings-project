@@ -1,0 +1,66 @@
+C:\isenco\PROGRAMAS\kardex\Kardex_Alumno\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\isenco\PROGRAMAS\kardex\Kardex_Alumno\obj\x86\Debug\Kardex_Alumno.frmBuscarAlumbo.resources
+C:\isenco\PROGRAMAS\kardex\Kardex_Alumno\obj\x86\Debug\Kardex_Alumno.Resources.resources
+C:\isenco\PROGRAMAS\kardex\Kardex_Alumno\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\isenco\PROGRAMAS\kardex\Kardex_Alumno\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\isenco\PROGRAMAS\kardex\Kardex_Alumno\obj\x86\Debug\RdlCompile.cache
+C:\isenco\PROGRAMAS\kardex\Kardex_Alumno\obj\x86\Debug\RdlCompile.compiled
+C:\isenco\PROGRAMAS\kardex\Kardex_Alumno\bin\Debug\Kardex_Alumno.exe.config
+C:\isenco\PROGRAMAS\kardex\Kardex_Alumno\bin\Debug\Kardex_Alumno.exe
+C:\isenco\PROGRAMAS\kardex\Kardex_Alumno\bin\Debug\Kardex_Alumno.pdb
+C:\isenco\PROGRAMAS\kardex\Kardex_Alumno\bin\Debug\Kardex_Alumno.xml
+C:\isenco\PROGRAMAS\kardex\Kardex_Alumno\obj\x86\Debug\Kardex_Alumno.exe
+C:\isenco\PROGRAMAS\kardex\Kardex_Alumno\obj\x86\Debug\Kardex_Alumno.xml
+C:\isenco\PROGRAMAS\kardex\Kardex_Alumno\obj\x86\Debug\Kardex_Alumno.pdb
+C:\isenco\PROGRAMAS\kardex\Kardex_Alumno\obj\x86\Debug\Kardex_Alumno.frmKardex.resources
+C:\isenco\PROGRAMAS\ISENCOkardex\Kardex_Alumno\bin\Debug\Kardex_Alumno.exe.config
+C:\isenco\PROGRAMAS\ISENCOkardex\Kardex_Alumno\obj\x86\Debug\Kardex_Alumno.exe
+C:\isenco\PROGRAMAS\ISENCOkardex\Kardex_Alumno\obj\x86\Debug\Kardex_Alumno.xml
+C:\isenco\PROGRAMAS\ISENCOkardex\Kardex_Alumno\obj\x86\Debug\Kardex_Alumno.pdb
+C:\isenco\PROGRAMAS\ISENCOkardex\Kardex_Alumno\bin\Debug\Kardex_Alumno.exe
+C:\isenco\PROGRAMAS\ISENCOkardex\Kardex_Alumno\bin\Debug\Kardex_Alumno.pdb
+C:\isenco\PROGRAMAS\ISENCOkardex\Kardex_Alumno\bin\Debug\Kardex_Alumno.xml
+C:\isenco\PROGRAMAS\ISENCOkardex\Kardex_Alumno\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\isenco\PROGRAMAS\ISENCOkardex\Kardex_Alumno\obj\x86\Debug\Kardex_Alumno.frmBuscarAlumbo.resources
+C:\isenco\PROGRAMAS\ISENCOkardex\Kardex_Alumno\obj\x86\Debug\Kardex_Alumno.frmKardex.resources
+C:\isenco\PROGRAMAS\ISENCOkardex\Kardex_Alumno\obj\x86\Debug\Kardex_Alumno.Resources.resources
+C:\isenco\PROGRAMAS\ISENCOkardex\Kardex_Alumno\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\isenco\PROGRAMAS\ISENCOkardex\Kardex_Alumno\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\isenco\PROGRAMAS\ISENCOkardex\Kardex_Alumno\obj\x86\Debug\RdlCompile.cache
+C:\isenco\PROGRAMAS\ISENCOkardex\Kardex_Alumno\obj\x86\Debug\RdlCompile.compiled
+C:\isenco\PROGRAMAS\ISENCOkardex\Kardex_Alumno\obj\x86\Debug\Kardex_Alumno.frmdocente.resources
+C:\isenco\PROGRAMAS\ISENCOkardex\Kardex_Alumno\obj\x86\Debug\GenerateResource.write.872.tlog
+C:\isenco\PROGRAMAS\ISENCOkardex\Kardex_Alumno\obj\x86\Debug\GenerateResource.write.902.tlog
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\Kardex_Alumno\bin\Debug\Kardex_Alumno.exe.config
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\Kardex_Alumno\obj\x86\Debug\Kardex_Alumno.exe
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\Kardex_Alumno\obj\x86\Debug\Kardex_Alumno.xml
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\Kardex_Alumno\obj\x86\Debug\Kardex_Alumno.pdb
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\Kardex_Alumno\bin\Debug\Kardex_Alumno.exe.config
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\Kardex_Alumno\bin\Debug\Kardex_Alumno.exe
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\Kardex_Alumno\bin\Debug\Kardex_Alumno.pdb
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\Kardex_Alumno\bin\Debug\Kardex_Alumno.xml
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\Kardex_Alumno\obj\x86\Debug\Kardex_Alumno.frmBuscarAlumbo.resources
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\Kardex_Alumno\obj\x86\Debug\Kardex_Alumno.frmdocente.resources
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\Kardex_Alumno\obj\x86\Debug\Kardex_Alumno.frmKardex.resources
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\Kardex_Alumno\obj\x86\Debug\Kardex_Alumno.Resources.resources
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\Kardex_Alumno\obj\x86\Debug\Kardex_Alumno.vbproj.GenerateResource.Cache
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\Kardex_Alumno\obj\x86\Debug\RdlCompile.cache
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\Kardex_Alumno\obj\x86\Debug\RdlCompile.compiled
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\Kardex_Alumno\obj\x86\Debug\Kardex_Alumno.exe
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\Kardex_Alumno\obj\x86\Debug\Kardex_Alumno.xml
+D:\Documents\GitHub\IsencoProject\IsencoProject Modificando\Kardex_Alumno\obj\x86\Debug\Kardex_Alumno.pdb
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\Kardex_Alumno\bin\Debug\Kardex_Alumno.exe.config
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\Kardex_Alumno\obj\x86\Debug\Kardex_Alumno.exe
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\Kardex_Alumno\obj\x86\Debug\Kardex_Alumno.xml
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\Kardex_Alumno\obj\x86\Debug\Kardex_Alumno.pdb
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\Kardex_Alumno\bin\Debug\Kardex_Alumno.exe
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\Kardex_Alumno\bin\Debug\Kardex_Alumno.pdb
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\Kardex_Alumno\bin\Debug\Kardex_Alumno.xml
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\Kardex_Alumno\obj\x86\Debug\Kardex_Alumno.frmBuscarAlumbo.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\Kardex_Alumno\obj\x86\Debug\Kardex_Alumno.frmdocente.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\Kardex_Alumno\obj\x86\Debug\Kardex_Alumno.frmKardex.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\Kardex_Alumno\obj\x86\Debug\Kardex_Alumno.Resources.resources
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\Kardex_Alumno\obj\x86\Debug\Kardex_Alumno.vbproj.GenerateResource.Cache
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\Kardex_Alumno\obj\x86\Debug\RdlCompile.cache
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\Kardex_Alumno\obj\x86\Debug\RdlCompile.compiled
+C:\Users\estebanbt\Documents\GitHub\IsencoProject\IsencoProject Modificando\Kardex_Alumno\obj\x86\Debug\Kardex_Alumno.vbprojResolveAssemblyReference.cache

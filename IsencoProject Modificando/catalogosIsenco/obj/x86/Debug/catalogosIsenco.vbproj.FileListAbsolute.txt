@@ -1,0 +1,151 @@
+D:\Documents\ISENCO ALL LAPTOP\Projects\IsencoProject\catalogosIsenco\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Documents\ISENCO ALL LAPTOP\Projects\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.campusFrm.resources
+D:\Documents\ISENCO ALL LAPTOP\Projects\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Resources.resources
+D:\Documents\ISENCO ALL LAPTOP\Projects\IsencoProject\catalogosIsenco\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Documents\ISENCO ALL LAPTOP\Projects\IsencoProject\catalogosIsenco\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Documents\ISENCO ALL LAPTOP\Projects\IsencoProject\catalogosIsenco\bin\Debug\catalogosIsenco.exe
+D:\Documents\ISENCO ALL LAPTOP\Projects\IsencoProject\catalogosIsenco\bin\Debug\catalogosIsenco.pdb
+D:\Documents\ISENCO ALL LAPTOP\Projects\IsencoProject\catalogosIsenco\bin\Debug\catalogosIsenco.xml
+D:\Documents\ISENCO ALL LAPTOP\Projects\IsencoProject\catalogosIsenco\bin\Debug\datosCompartidos.exe
+D:\Documents\ISENCO ALL LAPTOP\Projects\IsencoProject\catalogosIsenco\bin\Debug\datosCompartidos.pdb
+D:\Documents\ISENCO ALL LAPTOP\Projects\IsencoProject\catalogosIsenco\bin\Debug\datosCompartidos.xml
+D:\Documents\ISENCO ALL LAPTOP\Projects\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.exe
+D:\Documents\ISENCO ALL LAPTOP\Projects\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.xml
+D:\Documents\ISENCO ALL LAPTOP\Projects\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.pdb
+D:\Documents\ISENCO ALL LAPTOP\Projects\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.frmBuscar.resources
+D:\Documents\ISENCO ALL LAPTOP\Projects\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.materiasFrm.resources
+F:\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.campusFrm.resources
+F:\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.frmBuscarAlumbo.resources
+F:\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.generarMatriculas.resources
+F:\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.maestrosFrm.resources
+F:\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.materiasFrm.resources
+F:\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.menuPrincipalFrm.resources
+F:\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Resources.resources
+F:\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\VB PROJECTS\IsencoProject\catalogosIsenco\bin\Debug\Resources\Logo ISENCO.jpg
+F:\VB PROJECTS\IsencoProject\catalogosIsenco\bin\Debug\Resources\LOGO SE a colores.jpg
+F:\VB PROJECTS\IsencoProject\catalogosIsenco\bin\Debug\catalogosIsenco.exe
+F:\VB PROJECTS\IsencoProject\catalogosIsenco\bin\Debug\catalogosIsenco.pdb
+F:\VB PROJECTS\IsencoProject\catalogosIsenco\bin\Debug\catalogosIsenco.xml
+F:\VB PROJECTS\IsencoProject\catalogosIsenco\bin\Debug\datosCompartidos.exe
+F:\VB PROJECTS\IsencoProject\catalogosIsenco\bin\Debug\ISENCOInscripcion.exe
+F:\VB PROJECTS\IsencoProject\catalogosIsenco\bin\Debug\datosCompartidos.pdb
+F:\VB PROJECTS\IsencoProject\catalogosIsenco\bin\Debug\datosCompartidos.xml
+F:\VB PROJECTS\IsencoProject\catalogosIsenco\bin\Debug\ISENCOInscripcion.pdb
+F:\VB PROJECTS\IsencoProject\catalogosIsenco\bin\Debug\ISENCOInscripcion.xml
+F:\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.exe
+F:\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.xml
+F:\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.pdb
+G:\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.exe
+G:\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.xml
+G:\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.pdb
+G:\VB PROJECTS\IsencoProject\catalogosIsenco\bin\Debug\Resources\Logo ISENCO.jpg
+G:\VB PROJECTS\IsencoProject\catalogosIsenco\bin\Debug\Resources\LOGO SE a colores.jpg
+G:\VB PROJECTS\IsencoProject\catalogosIsenco\bin\Debug\catalogosIsenco.exe
+G:\VB PROJECTS\IsencoProject\catalogosIsenco\bin\Debug\catalogosIsenco.pdb
+G:\VB PROJECTS\IsencoProject\catalogosIsenco\bin\Debug\catalogosIsenco.xml
+G:\VB PROJECTS\IsencoProject\catalogosIsenco\bin\Debug\datosCompartidos.exe
+G:\VB PROJECTS\IsencoProject\catalogosIsenco\bin\Debug\ISENCOInscripcion.exe
+G:\VB PROJECTS\IsencoProject\catalogosIsenco\bin\Debug\datosCompartidos.pdb
+G:\VB PROJECTS\IsencoProject\catalogosIsenco\bin\Debug\datosCompartidos.xml
+G:\VB PROJECTS\IsencoProject\catalogosIsenco\bin\Debug\ISENCOInscripcion.pdb
+G:\VB PROJECTS\IsencoProject\catalogosIsenco\bin\Debug\ISENCOInscripcion.xml
+G:\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.campusFrm.resources
+G:\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.frmBuscarAlumbo.resources
+G:\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.generarMatriculas.resources
+G:\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.maestrosFrm.resources
+G:\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.materiasFrm.resources
+G:\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.menuPrincipalFrm.resources
+G:\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Resources.resources
+G:\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\catalogosIsenco\bin\Debug\Resources\Logo ISENCO.jpg
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\catalogosIsenco\bin\Debug\Resources\LOGO SE a colores.jpg
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\catalogosIsenco\bin\Debug\catalogosIsenco.exe
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\catalogosIsenco\bin\Debug\catalogosIsenco.pdb
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\catalogosIsenco\bin\Debug\catalogosIsenco.xml
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\catalogosIsenco\bin\Debug\datosCompartidos.exe
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\catalogosIsenco\bin\Debug\ISENCOInscripcion.exe
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\catalogosIsenco\bin\Debug\datosCompartidos.pdb
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\catalogosIsenco\bin\Debug\datosCompartidos.xml
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\catalogosIsenco\bin\Debug\ISENCOInscripcion.pdb
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\catalogosIsenco\bin\Debug\ISENCOInscripcion.xml
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\catalogosIsenco\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.campusFrm.resources
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.frmBuscarAlumbo.resources
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.generarMatriculas.resources
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.maestrosFrm.resources
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.materiasFrm.resources
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.menuPrincipalFrm.resources
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Resources.resources
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\catalogosIsenco\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\catalogosIsenco\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.exe
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.xml
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.pdb
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.promocionAlumnosFrm.resources
+F:\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.promocionAlumnosFrm.resources
+F:\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.configuracionFrm.resources
+F:\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.administrativosFrm.resources
+F:\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.estadisticasFrm.resources
+D:\Desktop\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.exe
+D:\Desktop\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.xml
+D:\Desktop\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.pdb
+D:\Desktop\VB PROJECTS\IsencoProject\catalogosIsenco\bin\Debug\Resources\Logo ISENCO.jpg
+D:\Desktop\VB PROJECTS\IsencoProject\catalogosIsenco\bin\Debug\Resources\LOGO SE a colores.jpg
+D:\Desktop\VB PROJECTS\IsencoProject\catalogosIsenco\bin\Debug\catalogosIsenco.exe
+D:\Desktop\VB PROJECTS\IsencoProject\catalogosIsenco\bin\Debug\catalogosIsenco.pdb
+D:\Desktop\VB PROJECTS\IsencoProject\catalogosIsenco\bin\Debug\catalogosIsenco.xml
+D:\Desktop\VB PROJECTS\IsencoProject\catalogosIsenco\bin\Debug\datosCompartidos.exe
+D:\Desktop\VB PROJECTS\IsencoProject\catalogosIsenco\bin\Debug\ISENCOInscripcion.exe
+D:\Desktop\VB PROJECTS\IsencoProject\catalogosIsenco\bin\Debug\datosCompartidos.pdb
+D:\Desktop\VB PROJECTS\IsencoProject\catalogosIsenco\bin\Debug\datosCompartidos.xml
+D:\Desktop\VB PROJECTS\IsencoProject\catalogosIsenco\bin\Debug\ISENCOInscripcion.pdb
+D:\Desktop\VB PROJECTS\IsencoProject\catalogosIsenco\bin\Debug\ISENCOInscripcion.xml
+D:\Desktop\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Desktop\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.administrativosFrm.resources
+D:\Desktop\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.campusFrm.resources
+D:\Desktop\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.configuracionFrm.resources
+D:\Desktop\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.estadisticasFrm.resources
+D:\Desktop\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.frmBuscarAlumbo.resources
+D:\Desktop\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.generarMatriculas.resources
+D:\Desktop\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.maestrosFrm.resources
+D:\Desktop\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.materiasFrm.resources
+D:\Desktop\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.modificacionCalifFrm.resources
+D:\Desktop\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.promocionAlumnosFrm.resources
+D:\Desktop\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.menuPrincipalFrm.resources
+D:\Desktop\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Resources.resources
+D:\Desktop\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Desktop\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Desktop\VB PROJECTS\IsencoProject\catalogosIsenco\obj\x86\Debug\catalogosIsenco.cicloEscolarFrm.resources
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.exe
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.xml
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.pdb
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.administrativosFrm.resources
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.alumnosFrm.resources
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.campusFrm.resources
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.cicloEscolarFrm.resources
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.configuracionFrm.resources
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.estadisticasFrm.resources
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.frmBuscarAlumbo.resources
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.generarMatriculas.resources
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.maestrosFrm.resources
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.materiasFrm.resources
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.modificacionCalifFrm.resources
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.promocionAlumnosFrm.resources
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.menuPrincipalFrm.resources
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.Resources.resources
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\bin\Debug\Resources\Logo ISENCO.jpg
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\bin\Debug\Resources\LOGO SE a colores.jpg
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.exe
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.pdb
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.xml
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.exe
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.pdb
+D:\Desktop\VB PROJECTS\IsencoProject Modificando\catalogosIsenco\bin\Debug\datosCompartidos.xml

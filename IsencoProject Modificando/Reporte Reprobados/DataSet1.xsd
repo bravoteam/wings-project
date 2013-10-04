@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ISENCOConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ISENCOConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.REPORTE_DE_REPROBADOS.My.MySettings.GlobalReference.Default.ISENCOConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Reporte_GeneralTableAdapter" GeneratorDataComponentClassName="Reporte_GeneralTableAdapter" Name="Reporte_General" UserDataComponentName="Reporte_GeneralTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ISENCOConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select a.NOMBRE,a.APELLIDO_PATERNO,a.APELLIDO_MATERNO,a.IDLICENCIATURA,a.IDESPECIALIDAD,A.IDALUMNO,
+a.IDSEMESTRE,a.IDGRUPO,a.IDturno,c.IDMATERIA,(c.CALIFICACION + c.calificacion2)/2 as expre1,
+m.NOMBRE,A.IDCAMPUS
+ from alumno as a
+ inner join calificaciones as c on a.MATRICULA = c.Matricula 
+ inner join materias as m on m.IDMATERIA = c.IDMATERIA
+ where a.idsemestre &gt; '1' and a.idsemestre - 1 = c.idsemestre and a.idstatus not like '%ba%' and a.IDSTATUS not like '%egre%'
+ and a.IDLICENCIATURA not like '%centr%' and ((c.CALIFICACION + c.calificacion2)/2) &lt; 6 and 
+ c.IDMATERIA &lt;&gt; 1232 and c.IDMATERIA &lt;&gt; 1233 and  c.IDMATERIA &lt;&gt; 1279 and c.IDMATERIA &lt;&gt; 1278 AND C.IDCICLOESCOLAR NOT LIKE '%0000-0000%'
+order by A.IDCAMPUS,a.IDLICENCIATURA,a.IDESPECIALIDAD,A.IDSEMESTRE,a.IDGRUPO,a.IDturno,c.IDMATERIA,A.IDALUMNO</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="NOMBRE" DataSetColumn="NOMBRE" />
+              <Mapping SourceColumn="APELLIDO_PATERNO" DataSetColumn="APELLIDO_PATERNO" />
+              <Mapping SourceColumn="APELLIDO_MATERNO" DataSetColumn="APELLIDO_MATERNO" />
+              <Mapping SourceColumn="IDLICENCIATURA" DataSetColumn="IDLICENCIATURA" />
+              <Mapping SourceColumn="IDESPECIALIDAD" DataSetColumn="IDESPECIALIDAD" />
+              <Mapping SourceColumn="IDSEMESTRE" DataSetColumn="IDSEMESTRE" />
+              <Mapping SourceColumn="IDGRUPO" DataSetColumn="IDGRUPO" />
+              <Mapping SourceColumn="IDturno" DataSetColumn="IDturno" />
+              <Mapping SourceColumn="IDMATERIA" DataSetColumn="IDMATERIA" />
+              <Mapping SourceColumn="expre1" DataSetColumn="expre1" />
+              <Mapping SourceColumn="NOMBRE1" DataSetColumn="NOMBRE1" />
+              <Mapping SourceColumn="IDCAMPUS" DataSetColumn="IDCAMPUS" />
+              <Mapping SourceColumn="IDALUMNO" DataSetColumn="IDALUMNO" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Reporte_EspecificoTableAdapter" GeneratorDataComponentClassName="Reporte_EspecificoTableAdapter" Name="Reporte_Especifico" UserDataComponentName="Reporte_EspecificoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ISENCOConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT a.NOMBRE, a.APELLIDO_PATERNO, a.APELLIDO_MATERNO, a.IDLICENCIATURA, a.IDESPECIALIDAD, a.IDSEMESTRE, a.IDGRUPO, a.IDturno, c.IDMATERIA, 
+                  (c.CALIFICACION + c.calificacion2) / 2 AS expre1, m.NOMBRE AS Expr1, a.IDCAMPUS, a.IDALUMNO
+FROM     alumno AS a INNER JOIN
+                  calificaciones AS c ON a.MATRICULA = c.Matricula AND c.IDSEMESTRE = a.IDSEMESTRE INNER JOIN
+                  materias AS m ON m.IDMATERIA = c.IDMATERIA
+WHERE  (a.IDSEMESTRE = @semestre) AND (a.IDSTATUS NOT LIKE '%ba%') AND (a.IDSTATUS NOT LIKE '%egre%') AND (a.IDLICENCIATURA LIKE '%' + @LICENCIATURA + '%') AND 
+                  ((c.CALIFICACION + c.calificacion2) / 2 &lt; 6) AND (a.IDCAMPUS = @IDCAMPUS) AND (a.IDESPECIALIDAD LIKE '%' + @IDESPECIALIDAD + '%') AND (a.IDGRUPO = @IDGRUPO) 
+                  AND (a.IDturno = @IDTURNO) AND (c.IDMATERIA &lt;&gt; 1232) AND (c.IDMATERIA &lt;&gt; 1233) AND (c.IDMATERIA &lt;&gt; 1279) AND (c.IDMATERIA &lt;&gt; 1278) AND 
+                  (c.IDCICLOESCOLAR NOT LIKE '%0000-0000%')
+ORDER BY a.IDCAMPUS, a.IDLICENCIATURA, a.IDESPECIALIDAD, a.IDSEMESTRE, a.IDGRUPO, a.IDturno, c.IDMATERIA, a.IDALUMNO</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="semestre" ColumnName="IDSEMESTRE" DataSourceName="ISENCO.dbo.alumno" DataTypeServer="varchar(150)" DbType="AnsiString" Direction="Input" ParameterName="@semestre" Precision="0" ProviderType="VarChar" Scale="0" Size="150" SourceColumn="IDSEMESTRE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="LICENCIATURA" ColumnName="IDLICENCIATURA" DataSourceName="ISENCO.dbo.alumno" DataTypeServer="varchar(150)" DbType="AnsiString" Direction="Input" ParameterName="@LICENCIATURA" Precision="0" ProviderType="VarChar" Scale="0" Size="150" SourceColumn="IDLICENCIATURA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="IDCAMPUS" ColumnName="IDCAMPUS" DataSourceName="ISENCO.dbo.alumno" DataTypeServer="varchar(50)" DbType="AnsiString" Direction="Input" ParameterName="@IDCAMPUS" Precision="0" ProviderType="VarChar" Scale="0" Size="50" SourceColumn="IDCAMPUS" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="IDESPECIALIDAD" ColumnName="IDESPECIALIDAD" DataSourceName="ISENCO.dbo.alumno" DataTypeServer="varchar(150)" DbType="AnsiString" Direction="Input" ParameterName="@IDESPECIALIDAD" Precision="0" ProviderType="VarChar" Scale="0" Size="150" SourceColumn="IDESPECIALIDAD" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="IDGRUPO" ColumnName="IDGRUPO" DataSourceName="ISENCO.dbo.alumno" DataTypeServer="varchar(50)" DbType="AnsiString" Direction="Input" ParameterName="@IDGRUPO" Precision="0" ProviderType="VarChar" Scale="0" Size="50" SourceColumn="IDGRUPO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="IDTURNO" ColumnName="IDturno" DataSourceName="ISENCO.dbo.alumno" DataTypeServer="varchar(50)" DbType="AnsiString" Direction="Input" ParameterName="@IDTURNO" Precision="0" ProviderType="VarChar" Scale="0" Size="50" SourceColumn="IDturno" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="NOMBRE" DataSetColumn="NOMBRE" />
+              <Mapping SourceColumn="APELLIDO_PATERNO" DataSetColumn="APELLIDO_PATERNO" />
+              <Mapping SourceColumn="APELLIDO_MATERNO" DataSetColumn="APELLIDO_MATERNO" />
+              <Mapping SourceColumn="IDLICENCIATURA" DataSetColumn="IDLICENCIATURA" />
+              <Mapping SourceColumn="IDESPECIALIDAD" DataSetColumn="IDESPECIALIDAD" />
+              <Mapping SourceColumn="IDSEMESTRE" DataSetColumn="IDSEMESTRE" />
+              <Mapping SourceColumn="IDGRUPO" DataSetColumn="IDGRUPO" />
+              <Mapping SourceColumn="IDturno" DataSetColumn="IDturno" />
+              <Mapping SourceColumn="IDMATERIA" DataSetColumn="IDMATERIA" />
+              <Mapping SourceColumn="expre1" DataSetColumn="expre1" />
+              <Mapping SourceColumn="IDCAMPUS" DataSetColumn="IDCAMPUS" />
+              <Mapping SourceColumn="IDALUMNO" DataSetColumn="IDALUMNO" />
+              <Mapping SourceColumn="Expr1" DataSetColumn="Expr1" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Reporte_General" msprop:Generator_TableClassName="Reporte_GeneralDataTable" msprop:Generator_TableVarName="tableReporte_General" msprop:Generator_TablePropName="Reporte_General" msprop:Generator_RowDeletingName="Reporte_GeneralRowDeleting" msprop:Generator_UserTableName="Reporte_General" msprop:Generator_RowChangingName="Reporte_GeneralRowChanging" msprop:Generator_RowEvHandlerName="Reporte_GeneralRowChangeEventHandler" msprop:Generator_RowDeletedName="Reporte_GeneralRowDeleted" msprop:Generator_RowEvArgName="Reporte_GeneralRowChangeEvent" msprop:Generator_RowChangedName="Reporte_GeneralRowChanged" msprop:Generator_RowClassName="Reporte_GeneralRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NOMBRE" msprop:Generator_ColumnVarNameInTable="columnNOMBRE" msprop:Generator_ColumnPropNameInRow="NOMBRE" msprop:Generator_ColumnPropNameInTable="NOMBREColumn" msprop:Generator_UserColumnName="NOMBRE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="APELLIDO_PATERNO" msprop:Generator_ColumnVarNameInTable="columnAPELLIDO_PATERNO" msprop:Generator_ColumnPropNameInRow="APELLIDO_PATERNO" msprop:Generator_ColumnPropNameInTable="APELLIDO_PATERNOColumn" msprop:Generator_UserColumnName="APELLIDO_PATERNO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="APELLIDO_MATERNO" msprop:Generator_ColumnVarNameInTable="columnAPELLIDO_MATERNO" msprop:Generator_ColumnPropNameInRow="APELLIDO_MATERNO" msprop:Generator_ColumnPropNameInTable="APELLIDO_MATERNOColumn" msprop:Generator_UserColumnName="APELLIDO_MATERNO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IDLICENCIATURA" msprop:Generator_ColumnVarNameInTable="columnIDLICENCIATURA" msprop:Generator_ColumnPropNameInRow="IDLICENCIATURA" msprop:Generator_ColumnPropNameInTable="IDLICENCIATURAColumn" msprop:Generator_UserColumnName="IDLICENCIATURA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IDESPECIALIDAD" msprop:Generator_ColumnVarNameInTable="columnIDESPECIALIDAD" msprop:Generator_ColumnPropNameInRow="IDESPECIALIDAD" msprop:Generator_ColumnPropNameInTable="IDESPECIALIDADColumn" msprop:Generator_UserColumnName="IDESPECIALIDAD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IDSEMESTRE" msprop:Generator_ColumnVarNameInTable="columnIDSEMESTRE" msprop:Generator_ColumnPropNameInRow="IDSEMESTRE" msprop:Generator_ColumnPropNameInTable="IDSEMESTREColumn" msprop:Generator_UserColumnName="IDSEMESTRE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IDGRUPO" msprop:Generator_ColumnVarNameInTable="columnIDGRUPO" msprop:Generator_ColumnPropNameInRow="IDGRUPO" msprop:Generator_ColumnPropNameInTable="IDGRUPOColumn" msprop:Generator_UserColumnName="IDGRUPO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IDturno" msprop:Generator_ColumnVarNameInTable="columnIDturno" msprop:Generator_ColumnPropNameInRow="IDturno" msprop:Generator_ColumnPropNameInTable="IDturnoColumn" msprop:Generator_UserColumnName="IDturno" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IDMATERIA" msprop:Generator_ColumnVarNameInTable="columnIDMATERIA" msprop:Generator_ColumnPropNameInRow="IDMATERIA" msprop:Generator_ColumnPropNameInTable="IDMATERIAColumn" msprop:Generator_UserColumnName="IDMATERIA" type="xs:long" />
+              <xs:element name="expre1" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnexpre1" msprop:Generator_ColumnPropNameInRow="expre1" msprop:Generator_ColumnPropNameInTable="expre1Column" msprop:Generator_UserColumnName="expre1" type="xs:double" minOccurs="0" />
+              <xs:element name="NOMBRE1" msprop:Generator_ColumnVarNameInTable="columnNOMBRE1" msprop:Generator_ColumnPropNameInRow="NOMBRE1" msprop:Generator_ColumnPropNameInTable="NOMBRE1Column" msprop:Generator_UserColumnName="NOMBRE1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IDCAMPUS" msprop:Generator_ColumnVarNameInTable="columnIDCAMPUS" msprop:Generator_ColumnPropNameInRow="IDCAMPUS" msprop:Generator_ColumnPropNameInTable="IDCAMPUSColumn" msprop:Generator_UserColumnName="IDCAMPUS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IDALUMNO" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnIDALUMNO" msprop:Generator_ColumnPropNameInRow="IDALUMNO" msprop:Generator_ColumnPropNameInTable="IDALUMNOColumn" msprop:Generator_UserColumnName="IDALUMNO" type="xs:long" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Reporte_Especifico" msprop:Generator_TableClassName="Reporte_EspecificoDataTable" msprop:Generator_TableVarName="tableReporte_Especifico" msprop:Generator_TablePropName="Reporte_Especifico" msprop:Generator_RowDeletingName="Reporte_EspecificoRowDeleting" msprop:Generator_UserTableName="Reporte_Especifico" msprop:Generator_RowChangingName="Reporte_EspecificoRowChanging" msprop:Generator_RowEvHandlerName="Reporte_EspecificoRowChangeEventHandler" msprop:Generator_RowDeletedName="Reporte_EspecificoRowDeleted" msprop:Generator_RowEvArgName="Reporte_EspecificoRowChangeEvent" msprop:Generator_RowChangedName="Reporte_EspecificoRowChanged" msprop:Generator_RowClassName="Reporte_EspecificoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NOMBRE" msprop:Generator_ColumnVarNameInTable="columnNOMBRE" msprop:Generator_ColumnPropNameInRow="NOMBRE" msprop:Generator_ColumnPropNameInTable="NOMBREColumn" msprop:Generator_UserColumnName="NOMBRE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="APELLIDO_PATERNO" msprop:Generator_ColumnVarNameInTable="columnAPELLIDO_PATERNO" msprop:Generator_ColumnPropNameInRow="APELLIDO_PATERNO" msprop:Generator_ColumnPropNameInTable="APELLIDO_PATERNOColumn" msprop:Generator_UserColumnName="APELLIDO_PATERNO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="APELLIDO_MATERNO" msprop:Generator_ColumnVarNameInTable="columnAPELLIDO_MATERNO" msprop:Generator_ColumnPropNameInRow="APELLIDO_MATERNO" msprop:Generator_ColumnPropNameInTable="APELLIDO_MATERNOColumn" msprop:Generator_UserColumnName="APELLIDO_MATERNO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IDLICENCIATURA" msprop:Generator_ColumnVarNameInTable="columnIDLICENCIATURA" msprop:Generator_ColumnPropNameInRow="IDLICENCIATURA" msprop:Generator_ColumnPropNameInTable="IDLICENCIATURAColumn" msprop:Generator_UserColumnName="IDLICENCIATURA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IDESPECIALIDAD" msprop:Generator_ColumnVarNameInTable="columnIDESPECIALIDAD" msprop:Generator_ColumnPropNameInRow="IDESPECIALIDAD" msprop:Generator_ColumnPropNameInTable="IDESPECIALIDADColumn" msprop:Generator_UserColumnName="IDESPECIALIDAD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IDSEMESTRE" msprop:Generator_ColumnVarNameInTable="columnIDSEMESTRE" msprop:Generator_ColumnPropNameInRow="IDSEMESTRE" msprop:Generator_ColumnPropNameInTable="IDSEMESTREColumn" msprop:Generator_UserColumnName="IDSEMESTRE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IDGRUPO" msprop:Generator_ColumnVarNameInTable="columnIDGRUPO" msprop:Generator_ColumnPropNameInRow="IDGRUPO" msprop:Generator_ColumnPropNameInTable="IDGRUPOColumn" msprop:Generator_UserColumnName="IDGRUPO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IDturno" msprop:Generator_ColumnVarNameInTable="columnIDturno" msprop:Generator_ColumnPropNameInRow="IDturno" msprop:Generator_ColumnPropNameInTable="IDturnoColumn" msprop:Generator_UserColumnName="IDturno" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IDMATERIA" msprop:Generator_ColumnVarNameInTable="columnIDMATERIA" msprop:Generator_ColumnPropNameInRow="IDMATERIA" msprop:Generator_ColumnPropNameInTable="IDMATERIAColumn" msprop:Generator_UserColumnName="IDMATERIA" type="xs:long" />
+              <xs:element name="expre1" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnexpre1" msprop:Generator_ColumnPropNameInRow="expre1" msprop:Generator_ColumnPropNameInTable="expre1Column" msprop:Generator_UserColumnName="expre1" type="xs:double" minOccurs="0" />
+              <xs:element name="IDCAMPUS" msprop:Generator_ColumnVarNameInTable="columnIDCAMPUS" msprop:Generator_ColumnPropNameInRow="IDCAMPUS" msprop:Generator_ColumnPropNameInTable="IDCAMPUSColumn" msprop:Generator_UserColumnName="IDCAMPUS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IDALUMNO" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnIDALUMNO" msprop:Generator_ColumnPropNameInRow="IDALUMNO" msprop:Generator_ColumnPropNameInTable="IDALUMNOColumn" msprop:Generator_UserColumnName="IDALUMNO" type="xs:long" />
+              <xs:element name="Expr1" msprop:Generator_ColumnVarNameInTable="columnExpr1" msprop:Generator_ColumnPropNameInRow="Expr1" msprop:Generator_ColumnPropNameInTable="Expr1Column" msprop:Generator_UserColumnName="Expr1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

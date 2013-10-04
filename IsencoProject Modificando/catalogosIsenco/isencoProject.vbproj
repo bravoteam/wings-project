@@ -1,0 +1,935 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{46D805C7-B4BC-4A4A-9938-F928AD1EB48B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>catalogosIsenco.My.MyApplication</StartupObject>
+    <RootNamespace>catalogosIsenco</RootNamespace>
+    <AssemblyName>catalogosIsenco</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>catalogosIsenco.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>catalogosIsenco.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\Logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="becados\becadoImprFrm.Designer.vb">
+      <DependentUpon>becadoImprFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="becados\becadoImprFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="becados\becados.Designer.vb">
+      <DependentUpon>becados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="becados\becados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="buscar\clsBuscar.vb" />
+    <Compile Include="Calificaciones\Calificacion.Designer.vb">
+      <DependentUpon>Calificacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Calificaciones\Calificacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calificaciones\calificacionAlumnoFrm.Designer.vb">
+      <DependentUpon>calificacionAlumnoFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Calificaciones\calificacionAlumnoFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calificaciones\calificacionMaestroFrm.Designer.vb">
+      <DependentUpon>calificacionMaestroFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Calificaciones\calificacionMaestroFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calificaciones\imprimirBoleta.Designer.vb">
+      <DependentUpon>imprimirBoleta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Calificaciones\imprimirBoleta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="calificaciones_extras\ExtrasFrm.Designer.vb">
+      <DependentUpon>ExtrasFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="calificaciones_extras\ExtrasFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\administrativosFrm.Designer.vb">
+      <DependentUpon>administrativosFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\administrativosFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\alumnosFrm.Designer.vb">
+      <DependentUpon>alumnosFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\alumnosFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\cambiosGruposFrm.Designer.vb">
+      <DependentUpon>cambiosGruposFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\cambiosGruposFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\campusFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\campusFrm.Designer.vb">
+      <DependentUpon>campusFrm.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\cicloEscolarFrm.Designer.vb">
+      <DependentUpon>cicloEscolarFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\cicloEscolarFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\configuracionFrm.Designer.vb">
+      <DependentUpon>configuracionFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\configuracionFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\impresionFicha.Designer.vb">
+      <DependentUpon>impresionFicha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\impresionFicha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\inscripcionFrm.Designer.vb">
+      <DependentUpon>inscripcionFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\inscripcionFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="configuracion\materiaMaestroFrm.Designer.vb">
+      <DependentUpon>materiaMaestroFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="configuracion\materiaMaestroFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estadisticas\estadisticasFrm.Designer.vb">
+      <DependentUpon>estadisticasFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Estadisticas\estadisticasFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\frmBuscar.designer.vb">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\frmBuscar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\generarMatriculas.Designer.vb">
+      <DependentUpon>generarMatriculas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\generarMatriculas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\importacionAlumnos.Designer.vb">
+      <DependentUpon>importacionAlumnos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\importacionAlumnos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\maestrosFrm.Designer.vb">
+      <DependentUpon>maestrosFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\maestrosFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\materiasFrm.Designer.vb">
+      <DependentUpon>materiasFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\materiasFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calificaciones\modificacionCalifFrm.Designer.vb">
+      <DependentUpon>modificacionCalifFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Calificaciones\modificacionCalifFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\promocionAlumnosFrm.Designer.vb">
+      <DependentUpon>promocionAlumnosFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\promocionAlumnosFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inscripcion.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>inscripcion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="inscripciones\impresionInscripcionFrm.Designer.vb">
+      <DependentUpon>impresionInscripcionFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="inscripciones\impresionInscripcionFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inscripciones\procesoInscripcionFrm.Designer.vb">
+      <DependentUpon>procesoInscripcionFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="inscripciones\procesoInscripcionFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inscripciones\tomarFotoFrm.Designer.vb">
+      <DependentUpon>tomarFotoFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="inscripciones\tomarFotoFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login\LoginForm1.designer.vb">
+      <DependentUpon>LoginForm1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="login\LoginForm1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="configuracion\PlanEstudiosCicloFrm.Designer.vb">
+      <DependentUpon>PlanEstudiosCicloFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="configuracion\PlanEstudiosCicloFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuAlumnos.Designer.vb">
+      <DependentUpon>menuAlumnos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="menuAlumnos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="preregistro\asignarAulasFrm.Designer.vb">
+      <DependentUpon>asignarAulasFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="preregistro\asignarAulasFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="preregistro\consultaPreregFrm.Designer.vb">
+      <DependentUpon>consultaPreregFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="preregistro\consultaPreregFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="preregistro\ImprimirListasFrm.Designer.vb">
+      <DependentUpon>ImprimirListasFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="preregistro\ImprimirListasFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="preregistro\preregistroFrm.Designer.vb">
+      <DependentUpon>preregistroFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="preregistro\preregistroFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="preregistro\validarPreFrm.Designer.vb">
+      <DependentUpon>validarPreFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="preregistro\validarPreFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registroEscolaridad.vb">
+      <DependentUpon>registroEscolaridad.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="registro_escolaridad\FrmConfiguration.Designer.vb">
+      <DependentUpon>FrmConfiguration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="registro_escolaridad\FrmConfiguration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registro_escolaridad\FRmRep_Registro.Designer.vb">
+      <DependentUpon>FRmRep_Registro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="registro_escolaridad\FRmRep_Registro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registro_escolaridad_especial\FrmRegistroEsp.Designer.vb">
+      <DependentUpon>FrmRegistroEsp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="registro_escolaridad_especial\FrmRegistroEsp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registro_escolaridad_especial\FRmRep_RegistroEsp.Designer.vb">
+      <DependentUpon>FRmRep_RegistroEsp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="registro_escolaridad_especial\FRmRep_RegistroEsp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reportesFrm\Rep_ReprobadasFrm.Designer.vb">
+      <DependentUpon>Rep_ReprobadasFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="reportesFrm\Rep_ReprobadasFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="titulosActas\certificadosFrm.Designer.vb">
+      <DependentUpon>certificadosFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="titulosActas\certificadosFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="titulosActas\imprimeCertificadoFrm.Designer.vb">
+      <DependentUpon>imprimeCertificadoFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="titulosActas\imprimeCertificadoFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\exportacionAlumnosFrm.Designer.vb">
+      <DependentUpon>exportacionAlumnosFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\exportacionAlumnosFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estadisticas\estadisticasImprFrm.Designer.vb">
+      <DependentUpon>estadisticasImprFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Estadisticas\estadisticasImprFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="isencoDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>isencoDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="isencoDataSet.vb">
+      <DependentUpon>isencoDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="kardex\frmdocente.Designer.vb">
+      <DependentUpon>frmdocente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="kardex\frmdocente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kardex\imprimirKardexFrm.Designer.vb">
+      <DependentUpon>imprimirKardexFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="kardex\imprimirKardexFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="listas\impresionListas.Designer.vb">
+      <DependentUpon>impresionListas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="listas\impresionListas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuPrincipalFrm.Designer.vb">
+      <DependentUpon>menuPrincipalFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="menuPrincipalFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modelos\Configuracion.vb" />
+    <Compile Include="modelos\funcionesLocales.vb" />
+    <Compile Include="modelos\modelos.vb" />
+    <Compile Include="modelos\procedimientos.vb" />
+    <Compile Include="modelos\variables.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="pruebaFrm.Designer.vb">
+      <DependentUpon>pruebaFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pruebaFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registroEscolaridad.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>registroEscolaridad.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="registro_escolaridad\FrmRegistro.Designer.vb">
+      <DependentUpon>FrmRegistro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="registro_escolaridad\FrmRegistro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reportesDT.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>reportesDT.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="reportesFrm\culturalesNoACFrm.Designer.vb">
+      <DependentUpon>culturalesNoACFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="reportesFrm\culturalesNoACFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reportesFrm\primeraSegundaFrm.Designer.vb">
+      <DependentUpon>primeraSegundaFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="reportesFrm\primeraSegundaFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reportesFrm\principalOtrosRpt.Designer.vb">
+      <DependentUpon>principalOtrosRpt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="reportesFrm\principalOtrosRpt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reportesFrm\reportePagosFrm.Designer.vb">
+      <DependentUpon>reportePagosFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="reportesFrm\reportePagosFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="titulosActas\imprimirActaExamen.Designer.vb">
+      <DependentUpon>imprimirActaExamen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="titulosActas\imprimirActaExamen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="titulosActas\imprimirTitulo.Designer.vb">
+      <DependentUpon>imprimirTitulo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="titulosActas\imprimirTitulo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="titulosActas\llenarActaExamen.Designer.vb">
+      <DependentUpon>llenarActaExamen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="titulosActas\llenarActaExamen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="titulosActas\llenarTituloFrm.Designer.vb">
+      <DependentUpon>llenarTituloFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="titulosActas\llenarTituloFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="titulosActas\titulosActasFrm.Designer.vb">
+      <DependentUpon>titulosActasFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="titulosActas\titulosActasFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="variables.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="becados\becadoImprFrm.resx">
+      <DependentUpon>becadoImprFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="becados\becados.rdlc" />
+    <EmbeddedResource Include="becados\becados.resx">
+      <DependentUpon>becados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calificaciones\Boleta.rdlc" />
+    <EmbeddedResource Include="Calificaciones\Calificacion.resx">
+      <DependentUpon>Calificacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calificaciones\calificacionAlumnoFrm.resx">
+      <DependentUpon>calificacionAlumnoFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calificaciones\calificacionMaestroFrm.resx">
+      <DependentUpon>calificacionMaestroFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calificaciones\Copy of Boleta.rdlc" />
+    <EmbeddedResource Include="Calificaciones\imprimirBoleta.resx">
+      <DependentUpon>imprimirBoleta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="calificaciones_extras\ExtrasFrm.resx">
+      <DependentUpon>ExtrasFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\administrativosFrm.resx">
+      <DependentUpon>administrativosFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\alumnosFrm.resx">
+      <DependentUpon>alumnosFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\cambiosGruposFrm.resx">
+      <DependentUpon>cambiosGruposFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\campusFrm.resx">
+      <DependentUpon>campusFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\cicloEscolarFrm.resx">
+      <DependentUpon>cicloEscolarFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\configuracionFrm.resx">
+      <DependentUpon>configuracionFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\impresionFicha.resx">
+      <DependentUpon>impresionFicha.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\inscripcionFrm.resx">
+      <DependentUpon>inscripcionFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="configuracion\materiaMaestroFrm.resx">
+      <DependentUpon>materiaMaestroFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estadisticas\estadisticasFrm.resx">
+      <DependentUpon>estadisticasFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\frmBuscar.resx">
+      <DependentUpon>frmBuscar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\generarMatriculas.resx">
+      <DependentUpon>generarMatriculas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\importacionAlumnos.resx">
+      <DependentUpon>importacionAlumnos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\maestrosFrm.resx">
+      <DependentUpon>maestrosFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\materiasFrm.resx">
+      <DependentUpon>materiasFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calificaciones\modificacionCalifFrm.resx">
+      <DependentUpon>modificacionCalifFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\promocionAlumnosFrm.resx">
+      <DependentUpon>promocionAlumnosFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inscripciones\bienvenida.rdlc" />
+    <EmbeddedResource Include="inscripciones\carta_compromiso_promedio.rdlc" />
+    <EmbeddedResource Include="inscripciones\Carta_Compromiso_tem.rdlc" />
+    <EmbeddedResource Include="inscripciones\documentos_lic.rdlc" />
+    <EmbeddedResource Include="inscripciones\FICHA DE BACHILLERATO.rdlc" />
+    <EmbeddedResource Include="inscripciones\FICHA DE LICENCIATURA.rdlc" />
+    <EmbeddedResource Include="inscripciones\impresionInscripcionFrm.resx">
+      <DependentUpon>impresionInscripcionFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inscripciones\imss.rdlc" />
+    <EmbeddedResource Include="inscripciones\procesoInscripcionFrm.resx">
+      <DependentUpon>procesoInscripcionFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inscripciones\tomarFotoFrm.resx">
+      <DependentUpon>tomarFotoFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login\LoginForm1.resx">
+      <DependentUpon>LoginForm1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="configuracion\PlanEstudiosCicloFrm.resx">
+      <DependentUpon>PlanEstudiosCicloFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuAlumnos.resx">
+      <DependentUpon>menuAlumnos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="preregistro\asignarAulasFrm.resx">
+      <DependentUpon>asignarAulasFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="preregistro\consultaPreregFrm.resx">
+      <DependentUpon>consultaPreregFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="preregistro\ListasPreregistroCen3.rdlc" />
+    <EmbeddedResource Include="preregistro\ListasPreregistroCen.rdlc" />
+    <EmbeddedResource Include="preregistro\ImprimirListasFrm.resx">
+      <DependentUpon>ImprimirListasFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="preregistro\ListasPreregistro.rdlc" />
+    <EmbeddedResource Include="preregistro\preregistroFrm.resx">
+      <DependentUpon>preregistroFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="preregistro\validarPreFrm.resx">
+      <DependentUpon>validarPreFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="registro_escolaridad\Reporte_registro_escolaridad1.rdlc" />
+    <EmbeddedResource Include="registro_escolaridad\Reporte_registro_escolaridad9.rdlc" />
+    <EmbeddedResource Include="registro_escolaridad\Reporte_registro_escolaridad8.rdlc" />
+    <EmbeddedResource Include="registro_escolaridad\Reporte_registro_escolaridad7.rdlc" />
+    <EmbeddedResource Include="registro_escolaridad\Reporte_registro_escolaridad6.rdlc" />
+    <EmbeddedResource Include="registro_escolaridad\Reporte_registro_escolaridad5.rdlc" />
+    <EmbeddedResource Include="registro_escolaridad\FRmRep_Registro.resx">
+      <DependentUpon>FRmRep_Registro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="registro_escolaridad\Reporte_registro_escolaridad4.rdlc" />
+    <EmbeddedResource Include="registro_escolaridad\FrmConfiguration.resx">
+      <DependentUpon>FrmConfiguration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="registro_escolaridad_especial\FrmRegistroEsp.resx">
+      <DependentUpon>FrmRegistroEsp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="registro_escolaridad_especial\FRmRep_RegistroEsp.resx">
+      <DependentUpon>FRmRep_RegistroEsp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="registro_escolaridad_especial\Reporte_registro_escolaridad1Esp.rdlc" />
+    <EmbeddedResource Include="registro_escolaridad_especial\Reporte_registro_escolaridad2Esp.rdlc" />
+    <EmbeddedResource Include="registro_escolaridad_especial\Reporte_registro_escolaridad4Esp.rdlc" />
+    <EmbeddedResource Include="registro_escolaridad_especial\Reporte_registro_escolaridad5Esp.rdlc" />
+    <EmbeddedResource Include="registro_escolaridad_especial\Reporte_registro_escolaridad6Esp.rdlc" />
+    <EmbeddedResource Include="registro_escolaridad_especial\Reporte_registro_escolaridad7Esp.rdlc" />
+    <EmbeddedResource Include="registro_escolaridad_especial\Reporte_registro_escolaridad8Esp.rdlc" />
+    <EmbeddedResource Include="registro_escolaridad_especial\Reporte_registro_escolaridad9Esp.rdlc" />
+    <EmbeddedResource Include="reportesFrm\Rep_ReprobadasFrm.resx">
+      <DependentUpon>Rep_ReprobadasFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reportes\reporteCalificacionesMaestro.rdlc" />
+    <EmbeddedResource Include="reportes\ReporteReprobadas_espec.rdlc" />
+    <EmbeddedResource Include="reportes\ReporteReprobadas_gral.rdlc" />
+    <EmbeddedResource Include="titulosActas\certificadosFrm.resx">
+      <DependentUpon>certificadosFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="titulosActas\imprimeCertificadoFrm.resx">
+      <DependentUpon>imprimeCertificadoFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\exportacionAlumnosFrm.resx">
+      <DependentUpon>exportacionAlumnosFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estadisticas\estadisticasImprFrm.resx">
+      <DependentUpon>estadisticasImprFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estadisticas\Impr_HyM.rdlc" />
+    <EmbeddedResource Include="kardex\frmdocente.resx">
+      <DependentUpon>frmdocente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kardex\imprimirKardexFrm.resx">
+      <DependentUpon>imprimirKardexFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kardex\Kardex_alumno.rdlc" />
+    <EmbeddedResource Include="kardex\Kardex_alumno_contra.rdlc" />
+    <EmbeddedResource Include="listas\impresionListas.resx">
+      <DependentUpon>impresionListas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listas\Lista_de_Asistencia.rdlc" />
+    <EmbeddedResource Include="listas\Lista_de_Asistencia2.rdlc" />
+    <EmbeddedResource Include="listas\Lista_de_AsistenciaSD.rdlc" />
+    <EmbeddedResource Include="listas\Lista_de_AsistenciaSD2.rdlc" />
+    <EmbeddedResource Include="menuPrincipalFrm.resx">
+      <DependentUpon>menuPrincipalFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pruebaFrm.resx">
+      <DependentUpon>pruebaFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="registro_escolaridad\FrmRegistro.resx">
+      <DependentUpon>FrmRegistro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="registro_escolaridad\Reporte_registro_escolaridad2.rdlc" />
+    <EmbeddedResource Include="reportesFrm\culturalesNoACFrm.resx">
+      <DependentUpon>culturalesNoACFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reportesFrm\primeraSegundaFrm.resx">
+      <DependentUpon>primeraSegundaFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reportesFrm\principalOtrosRpt.resx">
+      <DependentUpon>principalOtrosRpt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reportesFrm\reportePagosFrm.resx">
+      <DependentUpon>reportePagosFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reportes\Certificado_cara.rdlc" />
+    <EmbeddedResource Include="reportes\Certificado_contra.rdlc" />
+    <EmbeddedResource Include="reportes\reportePagos.rdlc" />
+    <EmbeddedResource Include="reportes\Reporte_Actividades_cult_deport.rdlc" />
+    <EmbeddedResource Include="reportes\Reporte_Oportunidades_Regularizacion.rdlc" />
+    <EmbeddedResource Include="reportes\Reporte_Primera_Oportunidad.rdlc" />
+    <EmbeddedResource Include="reportes\Reporte_Primera_Parcial.rdlc" />
+    <EmbeddedResource Include="reportes\Reporte_Primera_Segunda_Parcial.rdlc" />
+    <EmbeddedResource Include="reportes\Reporte_Promedio_x_materia.rdlc" />
+    <EmbeddedResource Include="reportes\Reporte_Reprobadas.rdlc" />
+    <EmbeddedResource Include="reportes\Reporte_Segunda_Oportunidad.rdlc" />
+    <EmbeddedResource Include="reportes\Reporte_Segunda_Parcial.rdlc" />
+    <EmbeddedResource Include="reportes\Reporte_Tercera_Oportunidad.rdlc" />
+    <EmbeddedResource Include="titulosActas\acta_cara.rdlc" />
+    <EmbeddedResource Include="titulosActas\acta_contra.rdlc" />
+    <EmbeddedResource Include="titulosActas\imprimirActaExamen.resx">
+      <DependentUpon>imprimirActaExamen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="titulosActas\imprimirTitulo.resx">
+      <DependentUpon>imprimirTitulo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="titulosActas\llenarActaExamen.resx">
+      <DependentUpon>llenarActaExamen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="titulosActas\llenarTituloFrm.resx">
+      <DependentUpon>llenarTituloFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="titulosActas\titulocara.rdlc" />
+    <EmbeddedResource Include="titulosActas\titulocontra.rdlc" />
+    <EmbeddedResource Include="titulosActas\titulosActasFrm.resx">
+      <DependentUpon>titulosActasFrm.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bin\Debug\Acreditacion\ignition.dat" />
+    <None Include="bin\Debug\Acreditacion\Isenco Acreditacion.exe.config" />
+    <None Include="bin\Debug\Acreditacion\Isenco Acreditacion.vshost.exe.config" />
+    <None Include="bin\Debug\Acreditacion\Isenco Acreditacion.vshost.exe.manifest" />
+    <None Include="bin\Debug\catalogosIsenco.vshost.exe.manifest" />
+    <None Include="bin\Debug\Certificados\Calificacion_Extra.vshost.exe.manifest" />
+    <None Include="bin\Debug\Certificados\Copia de ignition.dat" />
+    <None Include="bin\Debug\Certificados\ignition.dat" />
+    <None Include="bin\Debug\Certificados\isencoCertificados.exe.config" />
+    <None Include="bin\Debug\Certificados\isencoCertificados.vshost.exe.config" />
+    <None Include="bin\Debug\Certificados\isencoCertificados.vshost.exe.manifest" />
+    <None Include="bin\Debug\ignition.dat" />
+    <None Include="bin\Debug\ignition2.dat" />
+    <None Include="bin\Debug\ListaAsistencias\ignition.dat" />
+    <None Include="bin\Debug\ListaAsistencias\Lista_de_asistencia.exe.config" />
+    <None Include="bin\Debug\ListaAsistencias\Lista_de_asistencia.vshost.exe.config" />
+    <None Include="bin\Debug\ListaAsistencias\Lista_de_asistencia.vshost.exe.manifest" />
+    <None Include="inscripcion.xsc">
+      <DependentUpon>inscripcion.xsd</DependentUpon>
+    </None>
+    <None Include="inscripcion.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>inscripcion.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="inscripcion.xss">
+      <DependentUpon>inscripcion.xsd</DependentUpon>
+    </None>
+    <None Include="isencoDataSet.xsc">
+      <DependentUpon>isencoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="isencoDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>isencoDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="isencoDataSet.xss">
+      <DependentUpon>isencoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\datosCompartidos\datosCompartidos.vbproj">
+      <Project>{706CCABE-14F4-46DB-A5FB-AB347B814559}</Project>
+      <Name>datosCompartidos</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="001_37.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="registroEscolaridad.xsc">
+      <DependentUpon>registroEscolaridad.xsd</DependentUpon>
+    </None>
+    <None Include="registroEscolaridad.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>registroEscolaridad.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="registroEscolaridad.xss">
+      <DependentUpon>registroEscolaridad.xsd</DependentUpon>
+    </None>
+    <None Include="reportesDT.xsc">
+      <DependentUpon>reportesDT.xsd</DependentUpon>
+    </None>
+    <None Include="reportesDT.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>reportesDT.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="reportesDT.xss">
+      <DependentUpon>reportesDT.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\lupa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nuevo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guardar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salir.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salir2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Acreditacion\Isenco Acreditacion.exe" />
+    <Content Include="bin\Debug\Acreditacion\Isenco Acreditacion.pdb" />
+    <Content Include="bin\Debug\Acreditacion\Isenco Acreditacion.vshost.exe" />
+    <Content Include="bin\Debug\Acreditacion\Isenco Acreditacion.xml" />
+    <Content Include="bin\Debug\catalogosIsenco.exe" />
+    <Content Include="bin\Debug\catalogosIsenco.pdb" />
+    <Content Include="bin\Debug\catalogosIsenco.vshost.exe" />
+    <Content Include="bin\Debug\catalogosIsenco.xml" />
+    <Content Include="bin\Debug\Certificados\isencoCertificados.exe" />
+    <Content Include="bin\Debug\Certificados\isencoCertificados.pdb" />
+    <Content Include="bin\Debug\Certificados\isencoCertificados.vshost.exe" />
+    <Content Include="bin\Debug\Certificados\isencoCertificados.xml" />
+    <Content Include="bin\Debug\datosCompartidos.exe" />
+    <Content Include="bin\Debug\datosCompartidos.pdb" />
+    <Content Include="bin\Debug\datosCompartidos.xml" />
+    <Content Include="bin\Debug\ListaAsistencias\Lista_de_asistencia.exe" />
+    <Content Include="bin\Debug\ListaAsistencias\Lista_de_asistencia.pdb" />
+    <Content Include="bin\Debug\ListaAsistencias\Lista_de_asistencia.vshost.exe" />
+    <Content Include="bin\Debug\ListaAsistencias\Lista_de_asistencia.xml" />
+    <Content Include="bin\Debug\nf.jpg" />
+    <Content Include="bin\Debug\Resources\Logo ISENCO.jpg" />
+    <Content Include="bin\Debug\Resources\LOGO SE a colores.jpg" />
+    <Content Include="bin\Debug\configuracion.xml" />
+    <Content Include="Calificaciones\FIRMA blue.png" />
+    <Content Include="Calificaciones\firmaAngelica.png" />
+    <Content Include="Resources\001_06.png" />
+    <Content Include="Resources\001_35.png" />
+    <Content Include="Resources\001_37.png" />
+    <Content Include="Resources\001_59.png" />
+    <None Include="Resources\pagina para esteban1.jpg" />
+    <None Include="Resources\pagina para esteban.jpg" />
+    <None Include="Resources\16 %28Binoculars next%29.ico" />
+    <None Include="Resources\16 %28Save%29.ico" />
+    <None Include="Resources\16 %28Spelling%29.ico" />
+    <None Include="Resources\16 %28Clear%29.ico" />
+    <None Include="Resources\16 %28Exit%29.ico" />
+    <None Include="Resources\16 %28Db delete%29.ico" />
+    <None Include="Resources\16 %28File add%29.ico" />
+    <None Include="Resources\16 %28Print%29.ico" />
+    <None Include="Resources\16 %28Report%29.ico" />
+    <None Include="Resources\login1.jpg" />
+    <Content Include="Resources\Logo ISENCO.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\print.ico" />
+    <None Include="Resources\Logo.ico" />
+    <None Include="Resources\LOGO SE a colores1.jpg" />
+    <None Include="Resources\Logo ISENCO1.jpg" />
+    <Content Include="Resources\LOGO SE a colores.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

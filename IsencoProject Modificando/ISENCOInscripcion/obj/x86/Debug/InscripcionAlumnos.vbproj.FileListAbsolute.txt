@@ -1,0 +1,48 @@
+C:\Users\Public\ISENCOInscripcion\bin\Debug\ISENCOInscripcion.exe
+C:\Users\Public\ISENCOInscripcion\bin\Debug\ISENCOInscripcion.pdb
+C:\Users\Public\ISENCOInscripcion\bin\Debug\ISENCOInscripcion.xml
+C:\Users\Public\ISENCOInscripcion\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Public\ISENCOInscripcion\obj\x86\Debug\ISENCOInscripcion.frmAlumnos.resources
+C:\Users\Public\ISENCOInscripcion\obj\x86\Debug\ISENCOInscripcion.frmBuscar.resources
+C:\Users\Public\ISENCOInscripcion\obj\x86\Debug\ISENCOInscripcion.Resources.resources
+C:\Users\Public\ISENCOInscripcion\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Public\ISENCOInscripcion\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Public\ISENCOInscripcion\obj\x86\Debug\ISENCOInscripcion.exe
+C:\Users\Public\ISENCOInscripcion\obj\x86\Debug\ISENCOInscripcion.xml
+C:\Users\Public\ISENCOInscripcion\obj\x86\Debug\ISENCOInscripcion.pdb
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\ISENCOInscripcion\bin\Debug\ISENCOInscripcion.exe
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\ISENCOInscripcion\bin\Debug\ISENCOInscripcion.pdb
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\ISENCOInscripcion\bin\Debug\ISENCOInscripcion.xml
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\ISENCOInscripcion\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\ISENCOInscripcion\obj\x86\Debug\ISENCOInscripcion.frmAlumnos.resources
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\ISENCOInscripcion\obj\x86\Debug\ISENCOInscripcion.frmBuscar.resources
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\ISENCOInscripcion\obj\x86\Debug\ISENCOInscripcion.Resources.resources
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\ISENCOInscripcion\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\ISENCOInscripcion\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\ISENCOInscripcion\obj\x86\Debug\ISENCOInscripcion.exe
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\ISENCOInscripcion\obj\x86\Debug\ISENCOInscripcion.xml
+D:\Documents\Visual Studio 2010\Projects\IsencoProject\ISENCOInscripcion\obj\x86\Debug\ISENCOInscripcion.pdb
+F:\VB PROJECTS\IsencoProject\ISENCOInscripcion\bin\Debug\ISENCOInscripcion.exe
+F:\VB PROJECTS\IsencoProject\ISENCOInscripcion\bin\Debug\ISENCOInscripcion.pdb
+F:\VB PROJECTS\IsencoProject\ISENCOInscripcion\bin\Debug\ISENCOInscripcion.xml
+F:\VB PROJECTS\IsencoProject\ISENCOInscripcion\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\VB PROJECTS\IsencoProject\ISENCOInscripcion\obj\x86\Debug\ISENCOInscripcion.frmAlumnos.resources
+F:\VB PROJECTS\IsencoProject\ISENCOInscripcion\obj\x86\Debug\ISENCOInscripcion.frmBuscar.resources
+F:\VB PROJECTS\IsencoProject\ISENCOInscripcion\obj\x86\Debug\ISENCOInscripcion.Resources.resources
+F:\VB PROJECTS\IsencoProject\ISENCOInscripcion\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\VB PROJECTS\IsencoProject\ISENCOInscripcion\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\VB PROJECTS\IsencoProject\ISENCOInscripcion\obj\x86\Debug\ISENCOInscripcion.exe
+F:\VB PROJECTS\IsencoProject\ISENCOInscripcion\obj\x86\Debug\ISENCOInscripcion.xml
+F:\VB PROJECTS\IsencoProject\ISENCOInscripcion\obj\x86\Debug\ISENCOInscripcion.pdb
+D:\Desktop\VB PROJECTS\IsencoProject\ISENCOInscripcion\bin\Debug\ISENCOInscripcion.exe
+D:\Desktop\VB PROJECTS\IsencoProject\ISENCOInscripcion\bin\Debug\ISENCOInscripcion.pdb
+D:\Desktop\VB PROJECTS\IsencoProject\ISENCOInscripcion\bin\Debug\ISENCOInscripcion.xml
+D:\Desktop\VB PROJECTS\IsencoProject\ISENCOInscripcion\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Desktop\VB PROJECTS\IsencoProject\ISENCOInscripcion\obj\x86\Debug\ISENCOInscripcion.frmAlumnos.resources
+D:\Desktop\VB PROJECTS\IsencoProject\ISENCOInscripcion\obj\x86\Debug\ISENCOInscripcion.frmBuscar.resources
+D:\Desktop\VB PROJECTS\IsencoProject\ISENCOInscripcion\obj\x86\Debug\ISENCOInscripcion.Resources.resources
+D:\Desktop\VB PROJECTS\IsencoProject\ISENCOInscripcion\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Desktop\VB PROJECTS\IsencoProject\ISENCOInscripcion\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Desktop\VB PROJECTS\IsencoProject\ISENCOInscripcion\obj\x86\Debug\ISENCOInscripcion.exe
+D:\Desktop\VB PROJECTS\IsencoProject\ISENCOInscripcion\obj\x86\Debug\ISENCOInscripcion.xml
+D:\Desktop\VB PROJECTS\IsencoProject\ISENCOInscripcion\obj\x86\Debug\ISENCOInscripcion.pdb

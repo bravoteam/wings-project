@@ -1,0 +1,220 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Kardex_Alumno
+</name>
+</assembly>
+<members>
+<member name="P:Kardex_Alumno.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Kardex_Alumno.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Kardex_Alumno.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDT.Primer_SemestreDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDT.Segundo_semestreDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDT.Tercer_semestreDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDT.Cuarto_semestreDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDT.Quinto_semestreDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDT.Sexto_semestreDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDT.Septimo_semestreDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDT.Octavo_semestreDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDT.alumnoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDT.promedioDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDT.Primer_SemestreRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDT.Segundo_semestreRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDT.Tercer_semestreRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDT.Cuarto_semestreRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDT.Quinto_semestreRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDT.Sexto_semestreRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDT.Septimo_semestreRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDT.Octavo_semestreRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDT.alumnoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDT.promedioRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDT.Primer_SemestreRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDT.Segundo_semestreRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDT.Tercer_semestreRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDT.Cuarto_semestreRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDT.Quinto_semestreRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDT.Sexto_semestreRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDT.Septimo_semestreRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDT.Octavo_semestreRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDT.alumnoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDT.promedioRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDT">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDTTableAdapters.Primer_SemestreTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDTTableAdapters.Segundo_semestreTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDTTableAdapters.Tercer_semestreTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDTTableAdapters.Cuarto_semestreTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDTTableAdapters.Quinto_semestreTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDTTableAdapters.Sexto_semestreTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDTTableAdapters.Septimo_semestreTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDTTableAdapters.Octavo_semestreTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDTTableAdapters.alumnoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDTTableAdapters.promedioTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Kardex_Alumno.KardexAlumnoDTTableAdapters.TableAdapterManager.UpdateUpdatedRows(Kardex_Alumno.KardexAlumnoDT,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Kardex_Alumno.KardexAlumnoDTTableAdapters.TableAdapterManager.UpdateInsertedRows(Kardex_Alumno.KardexAlumnoDT,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Kardex_Alumno.KardexAlumnoDTTableAdapters.TableAdapterManager.UpdateDeletedRows(Kardex_Alumno.KardexAlumnoDT,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Kardex_Alumno.KardexAlumnoDTTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Kardex_Alumno.KardexAlumnoDTTableAdapters.TableAdapterManager.UpdateAll(Kardex_Alumno.KardexAlumnoDT)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDTTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDTTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Kardex_Alumno.KardexAlumnoDTTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

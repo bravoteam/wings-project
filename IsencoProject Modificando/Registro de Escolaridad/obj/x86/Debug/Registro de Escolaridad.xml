@@ -1,0 +1,172 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+RegistrodeEscolaridad
+</name>
+</assembly>
+<members>
+<member name="T:Registro_de_Escolaridad.RegistroDt.ciclo_escolarDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Registro_de_Escolaridad.RegistroDt.directivosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Registro_de_Escolaridad.RegistroDt.REGISTROESCOLARIDADDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Registro_de_Escolaridad.RegistroDt.mujeresDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Registro_de_Escolaridad.RegistroDt.hombresDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Registro_de_Escolaridad.RegistroDt.REGISTROESCOLARIDAD_REPETIDORDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Registro_de_Escolaridad.RegistroDt.REGISTRO_ESCOLARIDAD_ANTERIORDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Registro_de_Escolaridad.RegistroDt.ciclo_escolarRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Registro_de_Escolaridad.RegistroDt.directivosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Registro_de_Escolaridad.RegistroDt.REGISTROESCOLARIDADRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Registro_de_Escolaridad.RegistroDt.mujeresRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Registro_de_Escolaridad.RegistroDt.hombresRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Registro_de_Escolaridad.RegistroDt.REGISTROESCOLARIDAD_REPETIDORRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Registro_de_Escolaridad.RegistroDt.REGISTRO_ESCOLARIDAD_ANTERIORRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Registro_de_Escolaridad.RegistroDt.ciclo_escolarRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Registro_de_Escolaridad.RegistroDt.directivosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Registro_de_Escolaridad.RegistroDt.REGISTROESCOLARIDADRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Registro_de_Escolaridad.RegistroDt.mujeresRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Registro_de_Escolaridad.RegistroDt.hombresRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Registro_de_Escolaridad.RegistroDt.REGISTROESCOLARIDAD_REPETIDORRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Registro_de_Escolaridad.RegistroDt.REGISTRO_ESCOLARIDAD_ANTERIORRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Registro_de_Escolaridad.RegistroDt">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Registro_de_Escolaridad.RegistroDtTableAdapters.ciclo_escolarTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Registro_de_Escolaridad.RegistroDtTableAdapters.directivosTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Registro_de_Escolaridad.RegistroDtTableAdapters.REGISTROESCOLARIDADTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Registro_de_Escolaridad.RegistroDtTableAdapters.mujeresTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Registro_de_Escolaridad.RegistroDtTableAdapters.hombresTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Registro_de_Escolaridad.RegistroDtTableAdapters.REGISTROESCOLARIDAD_REPETIDORTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Registro_de_Escolaridad.RegistroDtTableAdapters.REGISTRO_ESCOLARIDAD_ANTERIORTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Registro_de_Escolaridad.RegistroDtTableAdapters.TableAdapterManager.UpdateUpdatedRows(Registro_de_Escolaridad.RegistroDt,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Registro_de_Escolaridad.RegistroDtTableAdapters.TableAdapterManager.UpdateInsertedRows(Registro_de_Escolaridad.RegistroDt,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Registro_de_Escolaridad.RegistroDtTableAdapters.TableAdapterManager.UpdateDeletedRows(Registro_de_Escolaridad.RegistroDt,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Registro_de_Escolaridad.RegistroDtTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Registro_de_Escolaridad.RegistroDtTableAdapters.TableAdapterManager.UpdateAll(Registro_de_Escolaridad.RegistroDt)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Registro_de_Escolaridad.RegistroDtTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Registro_de_Escolaridad.RegistroDtTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Registro_de_Escolaridad.RegistroDtTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:Registro_de_Escolaridad.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Registro_de_Escolaridad.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Registro_de_Escolaridad.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
