@@ -251,4 +251,16 @@ Public Class menuPrincipalFrm
     Private Sub ModuloDeCalificacionesParaAlumnosToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles ModuloDeCalificacionesParaAlumnosToolStripMenuItem.Click
         calificacionAlumnoFrm.Show()
     End Sub
+
+    Private Sub ImrpresionDeCredencialToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ImrpresionDeCredencialToolStripMenuItem.Click
+        credencialFrm.Show()
+    End Sub
+
+    Private Sub EstadisticasGeneralesDeGruposToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles EstadisticasGeneralesDeGruposToolStripMenuItem.Click
+        estadisticasFinalFrm.Show()
+    End Sub
+
+    Private Sub AsignarMaestroAlumnoToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AsignarMaestroAlumnoToolStripMenuItem.Click
+        FrmAlumnoMaestro.Show()
+    End Sub
 End Class

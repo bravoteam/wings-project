@@ -115,7 +115,7 @@ Partial Class calificacionAlumnoFrm
         Me.oFotografia.BackColor = System.Drawing.Color.White
         Me.oFotografia.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.oFotografia.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.oFotografia.Location = New System.Drawing.Point(45, 92)
+        Me.oFotografia.Location = New System.Drawing.Point(30, 92)
         Me.oFotografia.Name = "oFotografia"
         Me.oFotografia.Size = New System.Drawing.Size(204, 182)
         Me.oFotografia.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage

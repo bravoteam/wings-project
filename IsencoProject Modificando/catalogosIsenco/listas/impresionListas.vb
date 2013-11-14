@@ -136,4 +136,8 @@ Public Class impresionListas
     Private Sub ImprimirToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles ImprimirToolStripMenuItem.Click
         PDF()
     End Sub
+
+    Private Sub ActualizarToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ActualizarToolStripMenuItem.Click
+
+    End Sub
 End Class

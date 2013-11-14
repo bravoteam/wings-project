@@ -243,7 +243,7 @@
           <Paragraph>
             <TextRuns>
               <TextRun>
-                <Value> SUDIRECCIÓN DE EDUCACIÓN SUPERIOR </Value>
+                <Value> SUBDIRECCIÓN DE EDUCACIÓN SUPERIOR </Value>
                 <Style>
                   <FontSize>9pt</FontSize>
                 </Style>
@@ -255,10 +255,10 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
-        <Top>7.57301cm</Top>
+        <Top>7.76351cm</Top>
         <Left>1.39584cm</Left>
         <Height>0.54708cm</Height>
-        <Width>6.89208cm</Width>
+        <Width>7.86902cm</Width>
         <ZIndex>2</ZIndex>
         <Style>
           <Border>

@@ -5,7 +5,7 @@ Public Class becadoImprFrm
 
     Private Sub becadoImprFrm_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
         'TODO: This line of code loads data into the 'reportesDT.becadosDt' table. You can move, or remove it, as needed.
-        Me.becadosDtTableAdapter.Fill(Me.reportesDT.becadosDt, TextBox1.Text, TextBox2.Text, TextBox3.Text, TextBox4.Text, TextBox5.Text, TextBox6.Text)
+        Me.becadosDtTableAdapter.Fill(Me.reportesDT.becadosDt, variables.campus, variables.licenciatura, variables.especialidad, variables.turno, variables.semestre, variables.grupo, variables.beca)
 
         Me.ReportViewer1.RefreshReport()
     End Sub
@@ -36,7 +36,7 @@ Public Class becadoImprFrm
             'ReportViewer1.LocalReport.ReportPath = "becados.rdlc"
             Me.ReportViewer1.RefreshReport()
 
-            Dim fs As New FileStream("C:\ISENCO\" & becados.cmbCampus.Text & ".pdf", FileMode.Create)
+            Dim fs As New FileStream("C:\ISENCO\" & variables.campus & ".pdf", FileMode.Create)
             fs.Write(bytes, 0, bytes.Length)
             fs.Close()
             Process.Start("C:\ISENCO\" & becados.cmbCampus.Text & ".pdf")

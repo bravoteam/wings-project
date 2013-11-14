@@ -1,10 +1,27 @@
 ﻿Imports System.Data.SqlClient
-
+Imports datosCompartidos.Datos
+Imports datosCompartidos.funciones
+Imports Microsoft.Reporting.WinForms
+Imports System.IO
 Public Class LoginForm1
     Private Sub OK_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles OK.Click
         Dim valor As Boolean = False
+        Dim b As New BaseDatos
+        Dim ds As New DataSet
+
         valor = validarUsuario(UsernameTextBox.Text, PasswordTextBox.Text)
         If valor = True Then
+            'codigo para extraer variables de parcial
+            variables.tipoAcceso = 1
+            variables.conexion.abrirConexion()
+            variables.sql = "select * from candado where tipoAcceso =" & variables.tipoAcceso & ""
+            Dim cmd As New SqlCommand(variables.sql, variables.conexion.Conexion)
+            variables.SQLdr = cmd.ExecuteReader()
+            While (variables.SQLdr.Read())
+                variables.parcial = Val(variables.SQLdr("parcial"))
+            End While
+            variables.conexion.cerrarConexion()
+            '-----------------------------------------
             traerDatosUsuario(variables.idLocalizado, variables.descripcionTipoUsuario)
             If variables.tipoUsuario = 10 Then 'Usuario Coordinaciones
                 For Each miitem As ToolStripMenuItem In menuPrincipalFrm.MenuStrip1.Items
@@ -26,10 +43,14 @@ Public Class LoginForm1
                 menuPrincipalFrm.EstadisticosHYMToolStripMenuItem.Visible = False
                 menuPrincipalFrm.RegistroDeEscolaridadToolStripMenuItem.Visible = False
                 menuPrincipalFrm.ReinscripcionDeAlumnosToolStripMenuItem.Visible = False
-                menuPrincipalFrm.AlumnosBecadosToolStripMenuItem.Visible = False
+                menuPrincipalFrm.AlumnosBecadosToolStripMenuItem.Visible = True
+                menuPrincipalFrm.ToolStripMenuItem1.Visible = False
                 menuPrincipalFrm.GenerarCalificacionesToolStripMenuItem.Visible = False
                 menuPrincipalFrm.CalificacionesExtrasToolStripMenuItem.Visible = False
                 menuPrincipalFrm.SalirToolStripMenuItem.Visible = True
+                menuPrincipalFrm.ReporteDeReprobadosGeneralToolStripMenuItem.Visible = False
+                menuPrincipalFrm.CalificacionesParaMaestrosToolStripMenuItem.Visible = False
+                menuPrincipalFrm.ModuloDeCalificacionesParaAlumnosToolStripMenuItem.Visible = False
             End If
             If variables.tipoUsuario = 3 Then 'Usuario Preinscripcion
                 For Each miitem As ToolStripMenuItem In menuPrincipalFrm.MenuStrip1.Items

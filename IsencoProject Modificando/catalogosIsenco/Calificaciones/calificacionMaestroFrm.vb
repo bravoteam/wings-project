@@ -5,13 +5,14 @@ Imports Microsoft.Reporting.WinForms
 Imports System.IO
 
 Public Class calificacionMaestroFrm
-
+    Dim columna As Integer = 0
+    Dim celda As Integer = 0
     Private Sub calificacionMaestroFrm_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
         Dim b As New BaseDatos
         Dim ds As New DataSet
         Dim fechaAbierta, fechaCierre, fechaServer As Date
         variables.conexion.abrirConexion()
-        variables.sql = "select * from candado where tipoAcceso =" & variables.tipoAcceso & ""
+        variables.sql = "select fecha,cierre,parcial, GETDATE() as fechaServer from candado where tipoAcceso =" & variables.tipoAcceso & ""
         Dim cmd As New SqlCommand(variables.sql, variables.conexion.Conexion)
         variables.SQLdr = cmd.ExecuteReader()
 
@@ -19,17 +20,8 @@ Public Class calificacionMaestroFrm
             fechaAbierta = variables.SQLdr("fecha")
             fechaCierre = variables.SQLdr("cierre")
             variables.parcial = Val(variables.SQLdr("parcial"))
-        End While
-        variables.conexion.cerrarConexion()
-
-        'Se obtiene la fecha del SERVER
-        variables.conexion.abrirConexion()
-        variables.sql = "select GETDATE() as fecha"
-        cmd = New SqlCommand(variables.sql, variables.conexion.Conexion)
-        variables.SQLdr = cmd.ExecuteReader()
-
-        While (variables.SQLdr.Read())
-            fechaServer = variables.SQLdr("fecha")
+            'Se obtiene la fecha del SERVER
+            fechaServer = variables.SQLdr("fechaServer")
         End While
         variables.conexion.cerrarConexion()
 
@@ -40,7 +32,8 @@ Public Class calificacionMaestroFrm
         End If
 
         'Se obtiene las materias
-        variables.sql = "select pm.id, m.idmateria,m.nombre + '-' + cast(cl.semestre as varchar) + '°' + pm.grupo + '-' + pm.campus + ' ' + l.nombre as nombrestodos from personal_materia pm inner join personal p on p.id=pm.idpersonal inner join " & _
+        variables.sql = "select pm.id, m.idmateria,m.nombre + '-' + cast(cl.semestre as varchar) + '°' + pm.grupo + '-' + pm.campus + ' ' + l.nombre as nombrestodos " & _
+            "from personal_materia pm inner join personal p on p.id=pm.idpersonal inner join " & _
             "cicloescolar_licenciatura cl on cl.id=pm.idciclolicenciatura inner join materias m on m.idmateria=cl.idmateria inner join licenciaturas l on l.idlicenciatura=cl.idlicenciatura " & _
             "where pm.idpersonal=" & variables.personalUser & ""
         b.abrirConexion()
@@ -149,12 +142,13 @@ Public Class calificacionMaestroFrm
                 DG.Columns.Add("NOMBRE", "NOMBRES") '4
                 DG.Columns.Add("IDMATERIA", "IDMATERIA") '5
                 DG.Columns.Add("MATERIA", "MATERIA") '6
-                DG.Columns.Add("CALIFICACION1P", "CALIFICACION1P") '7
-                DG.Columns.Add("CALIFICACION2P", "CALIFICACION2P") '8
-                DG.Columns.Add("CALIFICACION3P", "CALIFICACION3P") '9
-                DG.Columns.Add("PORCENTAJE1P", "PORCENTAJE1P") '10
-                DG.Columns.Add("PORCENTAJE2P", "PORCENTAJE2P") '11
-                DG.Columns.Add("PORCENTAJE3P", "PORCENTAJE3P") '12
+             
+                DG.Columns.Add("PORCENTAJE1P", "PORCENTAJE1P") '7
+                DG.Columns.Add("PORCENTAJE2P", "PORCENTAJE2P") '8
+                DG.Columns.Add("PORCENTAJE3P", "PORCENTAJE3P") '9
+                DG.Columns.Add("CALIFICACION1P", "CALIFICACION1P") '10
+                DG.Columns.Add("CALIFICACION2P", "CALIFICACION2P") '11
+                DG.Columns.Add("CALIFICACION3P", "CALIFICACION3P") '12
                 DG.Columns.Add("IDALUMNO", "IDALUMNO") '13
                 DG.Columns.Add("IDMAESTRO", "IDMAESTRO") '14
 
@@ -205,12 +199,15 @@ Public Class calificacionMaestroFrm
                 DG.Columns.Add("NOMBRE", "NOMBRES") '4
                 DG.Columns.Add("IDMATERIA", "IDMATERIA") '5
                 DG.Columns.Add("MATERIA", "MATERIA") '6
-                DG.Columns.Add("CALIFICACION1P", "CALIFICACION1P") '7
-                DG.Columns.Add("CALIFICACION2P", "CALIFICACION2P") '8
-                DG.Columns.Add("CALIFICACION3P", "CALIFICACION3P") '9
-                DG.Columns.Add("PORCENTAJE1P", "PORCENTAJE1P") '10
-                DG.Columns.Add("PORCENTAJE2P", "PORCENTAJE2P") '11
-                DG.Columns.Add("PORCENTAJE3P", "PORCENTAJE3P") '12
+               
+                DG.Columns.Add("PORCENTAJE1P", "PORCENTAJE1P") '7
+                DG.Columns.Add("PORCENTAJE2P", "PORCENTAJE2P") '8
+                DG.Columns.Add("PORCENTAJE3P", "PORCENTAJE3P") '9
+
+                DG.Columns.Add("CALIFICACION1P", "CALIFICACION1P") '10
+                DG.Columns.Add("CALIFICACION2P", "CALIFICACION2P") '11
+                DG.Columns.Add("CALIFICACION3P", "CALIFICACION3P") '12
+
                 DG.Columns.Add("IDALUMNO", "IDALUMNO") '13
                 DG.Columns.Add("IDMAESTRO", "IDMAESTRO") '14
                 'DG.Columns.Item("IDCALIFICACION").Width = 40
@@ -254,22 +251,28 @@ Public Class calificacionMaestroFrm
             End If
 
             If variables.parcial = 1 Then
+                DG.Columns(7).Visible = True
                 DG.Columns(8).Visible = False
                 DG.Columns(9).Visible = False
+                DG.Columns(10).Visible = True
                 DG.Columns(11).Visible = False
                 DG.Columns(12).Visible = False
             End If
             If variables.parcial = 2 Then
                 DG.Columns(7).Visible = False
+                DG.Columns(8).Visible = True
                 DG.Columns(9).Visible = False
                 DG.Columns(10).Visible = False
+                DG.Columns(11).Visible = True
                 DG.Columns(12).Visible = False
             End If
             If variables.parcial = 3 Then
                 DG.Columns(7).Visible = False
                 DG.Columns(8).Visible = False
+                DG.Columns(9).Visible = True
                 DG.Columns(10).Visible = False
                 DG.Columns(11).Visible = False
+                DG.Columns(12).Visible = True
             End If
             DG.Columns(6).Visible = False
             DG.Columns(5).Visible = False
@@ -285,6 +288,73 @@ Public Class calificacionMaestroFrm
         End Try
     End Sub
 
+    Private Sub DG_CellEnter(ByVal sender As Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles DG.CellEnter
+        habilitar_deshabilitar_celdas()
+    End Sub
+
+    Private Sub DG_CellLeave(ByVal sender As Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles DG.CellLeave
+        Dim columna_actual As Integer = DG.CurrentCell.ColumnIndex
+        If columna_actual = 10 Or columna_actual = 11 Or columna_actual = 12 Or columna_actual = 7 Or columna_actual = 8 Or columna_actual = 9 Then 'columna de calificaciones 10,11,12
+            columna = DG.CurrentCell.ColumnIndex
+            celda = DG.CurrentCell.RowIndex
+        End If
+       
+    End Sub
+
+    Private Sub DG_CellMouseClick(ByVal sender As Object, ByVal e As System.Windows.Forms.DataGridViewCellMouseEventArgs) Handles DG.CellMouseClick
+        habilitar_deshabilitar_celdas()
+    End Sub
+    Private Sub habilitar_deshabilitar_celdas()
+        Dim msg_error As String = ""
+        Dim existe_error As Boolean = False
+        If columna = 10 Or columna = 11 Or columna = 12 Then 'columna de calificaciones 10,11,12
+            'SI LAS CALIFICACIONES SON MAYORES A 10
+            If DG.Item(columna, celda).Value > 10 Then
+                msg_error = "LAS CALIFICACIONES NO DEBEN SER MAYORES A 10"
+                DG.Item(columna, celda).Value = 0
+                existe_error = True
+            End If
+            'SI LOS PORCENTAJES SON MAYORES A 100
+            If DG.Item(columna - 3, celda).Value > 100 Then
+                msg_error = "LOS PORCENTAJES NO DEBEN SER MAYORES A 100"
+                DG.Item(columna - 3, celda).Value = 0
+                existe_error = True
+            End If
+
+            If Val(DG(columna - 3, celda).Value) < 85 Then
+                DG.Item(columna, celda).ReadOnly = True
+                DG.Item(columna, celda).Value = 0
+            Else
+                DG.Item(columna, celda).ReadOnly = False
+            End If
+            ' SI EXISTE UN ERROR ENTONCES MANDAR MENSAJE DE ALERTA
+            If existe_error Then MsgBox(msg_error, MsgBoxStyle.Critical, "ERROR")
+            '---------------------
+        Else ' sino, si la columna es igual a la de porcentaje 7,8,9
+            If columna = 7 Or columna = 8 Or columna = 9 Then
+
+                'verificar que la calificacion no sea mayor a 10
+                If DG.Item(columna + 3, celda).Value > 10 Then
+                    DG.Item(columna + 3, celda).Value = 0
+                    msg_error = "LAS CALIFICACIONES NO DEBEN SER MAYORES A 10"
+                    existe_error = True
+                End If
+                If DG.Item(columna, celda).Value > 100 Then
+                    DG.Item(columna, celda).Value = 0
+                    msg_error = "LOS PORCENTAJES NO DEBEN SER MAYORES A 100"
+                    existe_error = True
+                End If
+                If Val(DG(columna, celda).Value) < 85 Then
+                    DG.Item(columna + 3, celda).ReadOnly = True
+                    DG.Item(columna + 3, celda).Value = 0
+                Else
+                    DG.Item(columna + 3, celda).ReadOnly = False
+                End If
+                If existe_error Then MsgBox(msg_error, MsgBoxStyle.Critical, "ERROR")
+            End If
+        End If
+
+    End Sub
     Private Sub DG_EditingControlShowing(sender As System.Object, e As System.Windows.Forms.DataGridViewEditingControlShowingEventArgs) Handles DG.EditingControlShowing
         ' referencia a la celda  
         Dim validar As TextBox = CType(e.Control, TextBox)
@@ -298,19 +368,16 @@ Public Class calificacionMaestroFrm
 
         ' obtener indice de la columna  
         Dim columna As Integer = DG.CurrentCell.ColumnIndex
-
+        Dim caracter As Char = e.KeyChar
         ' comprobar si la celda en edición corresponde a la columna 1 o 3  
         If columna = 7 Or columna = 8 Or columna = 9 Or columna = 10 Or columna = 11 Or columna = 12 Then
-
-            ' Obtener caracter  
-            Dim caracter As Char = e.KeyChar
-
             ' comprobar si el caracter es un número o el retroceso  
             If Not Char.IsNumber(caracter) And (caracter = ChrW(Keys.Back)) = False Then
-                'Me.Text = e.KeyChar  
                 e.KeyChar = Chr(0)
             End If
         End If
+   
+
     End Sub
 
     Private Sub cmdGuardar_Click(sender As System.Object, e As System.EventArgs) Handles cmdGuardar.Click
@@ -455,7 +522,6 @@ Public Class calificacionMaestroFrm
         parameters.Add(New ReportParameter("parcial", variables.parcial))
         parameters.Add(New ReportParameter("LICENCIATURA", txtLicenciatura.Text & " " & txtEspecialidad.Text))
         parameters.Add(New ReportParameter("MAESTRO", variables.nombreUsuario.ToUpper))
-
         ReportViewer1.LocalReport.SetParameters(parameters)
 
         ReportViewer1.RefreshReport()

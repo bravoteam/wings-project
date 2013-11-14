@@ -2475,7 +2475,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
                                           <TextRun>
                                             <Value>=ucase(Fields!APELLIDO_PATERNO.Value)</Value>
                                             <Style>
-                                              <FontSize>6pt</FontSize>
+                                              <FontSize>5.5pt</FontSize>
                                               <FontWeight>Bold</FontWeight>
                                             </Style>
                                           </TextRun>
@@ -2495,6 +2495,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
                                       <PaddingBottom>2pt</PaddingBottom>
                                     </Style>
                                   </Textbox>
+                                  <rd:Selected>true</rd:Selected>
                                 </CellContents>
                               </TablixHeader>
                               <TablixMembers>
@@ -2511,7 +2512,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
                                               <TextRun>
                                                 <Value>=ucase(Fields!APELLIDO_MATERNO.Value)</Value>
                                                 <Style>
-                                                  <FontSize>6pt</FontSize>
+                                                  <FontSize>5.5pt</FontSize>
                                                   <FontWeight>Bold</FontWeight>
                                                 </Style>
                                               </TextRun>
@@ -2531,6 +2532,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
                                           <PaddingBottom>2pt</PaddingBottom>
                                         </Style>
                                       </Textbox>
+                                      <rd:Selected>true</rd:Selected>
                                     </CellContents>
                                   </TablixHeader>
                                   <TablixMembers>
@@ -2547,7 +2549,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
                                                   <TextRun>
                                                     <Value>=ucase(Fields!NOMBRE.Value)</Value>
                                                     <Style>
-                                                      <FontSize>6pt</FontSize>
+                                                      <FontSize>5.5pt</FontSize>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
                                                   </TextRun>
@@ -2567,6 +2569,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
                                               <PaddingBottom>2pt</PaddingBottom>
                                             </Style>
                                           </Textbox>
+                                          <rd:Selected>true</rd:Selected>
                                         </CellContents>
                                       </TablixHeader>
                                       <TablixMembers>
@@ -4948,7 +4951,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
                                           <TextRun>
                                             <Value>=ucase(Fields!APELLIDO_PATERNO.Value)</Value>
                                             <Style>
-                                              <FontSize>6pt</FontSize>
+                                              <FontSize>5.5pt</FontSize>
                                               <FontWeight>Bold</FontWeight>
                                             </Style>
                                           </TextRun>
@@ -4968,6 +4971,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
                                       <PaddingBottom>2pt</PaddingBottom>
                                     </Style>
                                   </Textbox>
+                                  <rd:Selected>true</rd:Selected>
                                 </CellContents>
                               </TablixHeader>
                               <TablixMembers>
@@ -4984,7 +4988,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
                                               <TextRun>
                                                 <Value>=ucase(Fields!APELLIDO_MATERNO.Value)</Value>
                                                 <Style>
-                                                  <FontSize>6pt</FontSize>
+                                                  <FontSize>5.5pt</FontSize>
                                                   <FontWeight>Bold</FontWeight>
                                                 </Style>
                                               </TextRun>
@@ -5004,6 +5008,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
                                           <PaddingBottom>2pt</PaddingBottom>
                                         </Style>
                                       </Textbox>
+                                      <rd:Selected>true</rd:Selected>
                                     </CellContents>
                                   </TablixHeader>
                                   <TablixMembers>
@@ -5020,7 +5025,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
                                                   <TextRun>
                                                     <Value>=ucase(Fields!NOMBRE.Value)</Value>
                                                     <Style>
-                                                      <FontSize>6pt</FontSize>
+                                                      <FontSize>5.5pt</FontSize>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
                                                   </TextRun>
@@ -5040,6 +5045,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
                                               <PaddingBottom>2pt</PaddingBottom>
                                             </Style>
                                           </Textbox>
+                                          <rd:Selected>true</rd:Selected>
                                         </CellContents>
                                       </TablixHeader>
                                       <TablixMembers>

@@ -89,13 +89,17 @@ Public Class principalOtrosRpt
                 CmbParcial.Text = ""
                 CmbDocentes.Text = ""
                 CmbMaterias.Text = ""
+            Case "LISTA DE CONCENTRADO DE CALIFICACIONES"
+                panelLista.Visible = False
+                CmbParcial.Text = ""
+                CmbDocentes.Text = ""
+                CmbMaterias.Text = ""
+                ImpresionConcentradoCalif.actualizar_reporte()
+                ImpresionConcentradoCalif.Show()
         End Select
 
     End Sub
 
-    Private Sub cmbCampus_SelectedIndexChanged(sender As System.Object, e As System.EventArgs) Handles cmbCampus.SelectedIndexChanged
-
-    End Sub
 
     Private Sub principalOtrosRpt_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
         cargarCombos()

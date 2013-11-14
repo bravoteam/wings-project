@@ -206,6 +206,7 @@ Public Class FrmRegistro2
 
         matriculainicial = dg(25, 0).Value.ToString
         IDalumnoinicial = dg(28, 0).Value.ToString
+
         For i = 0 To dg.Rows.Count - 1
             If matriculainicial <> dg(25, i).Value Then 'cambia de matricula
                 'aqui actualizar los registros o crearlos de acuerdo al total de materias reprobadas
@@ -392,6 +393,7 @@ fuera:
         Try
             validar_datos()
             b.abrirConexion()
+            validar_numeros_enteros()
             Dim sql As String = "update reporte_registro_escolar set reg_oport1=@REG_OPORT1,reg_oport2=@REG_OPORT2,reg_oport3=@REG_OPORT3,reg_oport4=@REG_OPORT4," & _
                             "reg_materia1=@REG_MATERIA1,reg_materia2=@REG_MATERIA2,reg_materia3=@REG_MATERIA3,reg_materia4=@REG_MATERIA4," & _
                             "acred_act=@ACREDITADAS,acred_no =@NOACREDITADAS,IDGRUPO = @IDGRUPO " & _
@@ -410,9 +412,10 @@ fuera:
                 .Parameters.AddWithValue("@ACREDITADAS", cont_aprobadas_normal)
                 .Parameters.AddWithValue("@NOACREDITADAS", cont_reprobadas_normal)
                 .Parameters.AddWithValue("@IDALUMNO", IDalumnoinicial)
-                .Parameters.AddWithValue("@IDSEMESTRE", dg(8, i - 1).Value)
+                ' .Parameters.AddWithValue("@IDSEMESTRE", dg(8, i - 1).Value)
+                .Parameters.AddWithValue("@IDSEMESTRE", cmbSemestre.Text)
                 .Parameters.AddWithValue("@IDGRUPO", cmbGrupo.Text)
-                .Parameters.AddWithValue("@IDCICLOESCOLAR", dg(29, i - 1).Value)
+                .Parameters.AddWithValue("@IDCICLOESCOLAR", cmbcicloescolar.Text)
             End With
             cmd.ExecuteNonQuery()
             b.cerrarConexion()
@@ -420,6 +423,12 @@ fuera:
         Catch ex As Exception
             Throw ex
         End Try
+        cont_aprobadas_normal = 0
+        cont_reprobadas_normal = 0
+        'matriculainicial = dg(25, i).Value
+        'IDalumnoinicial = dg(28, i).Value
+        'i = i - 1
+        limpiar_variables()
         '==========================
     End Sub
     Private Sub limpiar_combos()
@@ -460,7 +469,7 @@ fuera:
             variables.existe_registro = False
             variables.conexion.abrirConexion()
             variables.sql = "select count(distinct(c.idmateria)) as total from calificaciones as c " & _
-                            "INNER JOIN materias as m on (m.IDMATERIA= c.IDMATERIA and c.idespecialidad = m.idespecialidad) " & _
+                            "INNER JOIN materias as m on (m.IDMATERIA= c.IDMATERIA and c.idlicenciatura = m.idcarrera and c.idespecialidad = m.idespecialidad) " & _
                             " where c.idsemestre = '" & cmbSemestre.Text & "' and c.idgrupo = '" & cmbGrupo.Text & "'" & _
                             " and c.idcicloescolar = '" & cmbcicloescolar.Text & "' and c.idlicenciatura = '" & cmbLicenciatura.SelectedValue & "' and c.idmateria <> 0 and c.idespecialidad = '" & variables.idesp & "'"
             Dim cmd As New SqlCommand(variables.sql, variables.conexion.Conexion)
@@ -509,4 +518,5 @@ fuera:
             Exit Sub
         End If
     End Sub
+
 End Class

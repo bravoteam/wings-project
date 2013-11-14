@@ -36,7 +36,7 @@ Public Class FRmRep_RegistroEsp
 
         Me.REPORTE_REGISTRO_FUERATableAdapter.Fill(Me.registroEscolaridad.REPORTE_REGISTRO_FUERA, FrmRegistroEsp.cmbCampus.Text, FrmRegistroEsp.cmbLicenciatura.Text, FrmRegistroEsp.cmbEspecialidad.Text, FrmRegistroEsp.cmbSemestre.Text, FrmRegistroEsp.cmbGrupo.Text, FrmRegistroEsp.cmbcicloescolar.Text)
         Select Case Integer.Parse(FrmRegistroEsp.Label8.Text)
-            Case 4
+            Case 2
                 Me.ReportViewer4.LocalReport.SetParameters(parameters)
                 Me.ReportViewer4.ZoomMode = ZoomMode.FullPage
                 Me.ReportViewer4.RefreshReport()
@@ -163,7 +163,7 @@ Public Class FRmRep_RegistroEsp
                "alumno AS A ON A.IDALUMNO = R.idalumno INNER JOIN " & _
                "materias AS m ON m.IDMATERIA = R.idmateria " & _
                "WHERE  (R.idcampus = @IDCAMPUS) AND (R.idlicenciatura = @IDLICENCIATURA) AND (R.idespecialidad = @IDESPECIALIDAD) AND (R.idsemestre =  @IDSEMESTRE) AND " & _
-               "(R.idgrupo =  @IDGRUPO) AND (R.idcicloescolar = @CICLOESCOLAR) and (r.status ='NORMAL') AND A.GENERO=@GENERO " & _
+               "(R.idgrupo =  @IDGRUPO) AND (R.idcicloescolar = @CICLOESCOLAR) AND A.GENERO=@GENERO " & _
                "GROUP BY R.idalumno, A.NOMBRE, A.APELLIDO_PATERNO, A.APELLIDO_MATERNO, A.CURP, A.GENERO, A.IDSTATUS," & _
                "R.idmateria, R.calificacion, R.calificacion2, R.reg_oport1," & _
                "R.reg_oport2, R.reg_oport3, R.reg_oport4, R.reg_oport5, R.acred_act, R.acred_no, R.acred_ant, R.idcampus, " & _
@@ -256,7 +256,7 @@ Public Class FRmRep_RegistroEsp
                 Case 10
                     bytes = ReportViewer2.LocalReport.Render("PDF", deviceInfo, mimeType, encoding, extension, streamids, warnings)
                     ReportViewer2.LocalReport.ReportPath = "Reporte_registro_escolaridad4Esp.rdl"
-                    Dim fs As New FileStream("C:\ISENCO\" & "Registro_Escolaridad4" & "test" & ".pdf", FileMode.Create)
+                    Dim fs As New FileStream("C:\ISENCO\" & "Registro_Escolaridad4Esp" & "test" & ".pdf", FileMode.Create)
                     fs.Write(bytes, 0, bytes.Length)
                     fs.Close()
                     Process.Start("C:\ISENCO\" & "Registro_Escolaridad4Esp" & "test" & ".pdf")

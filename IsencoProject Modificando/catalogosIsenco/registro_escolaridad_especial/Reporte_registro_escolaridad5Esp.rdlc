@@ -994,6 +994,7 @@
                       <WritingMode>Horizontal</WritingMode>
                     </Style>
                   </Textbox>
+                  <rd:Selected>true</rd:Selected>
                 </CellContents>
               </TablixCornerCell>
               <TablixCornerCell>
@@ -1203,13 +1204,13 @@
               <Width>0.23468in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.34304in</Width>
+              <Width>0.2643in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.42726in</Width>
+              <Width>0.31544in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.39077in</Width>
+              <Width>0.23715in</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
@@ -2316,7 +2317,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
                 </GroupExpressions>
               </Group>
               <TablixHeader>
-                <Size>0.40202in</Size>
+                <Size>0.23744in</Size>
                 <CellContents>
                   <Textbox Name="materianombre">
                     <CanGrow>true</CanGrow>
@@ -2353,7 +2354,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
               <TablixMembers>
                 <TablixMember>
                   <TablixHeader>
-                    <Size>0.40202in</Size>
+                    <Size>0.30956in</Size>
                     <CellContents>
                       <Textbox Name="noacreditadas1">
                         <CanShrink>true</CanShrink>
@@ -2392,7 +2393,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
                   <TablixMembers>
                     <TablixMember>
                       <TablixHeader>
-                        <Size>0.40202in</Size>
+                        <Size>0.26966in</Size>
                         <CellContents>
                           <Textbox Name="IDGRUPO">
                             <CanShrink>true</CanShrink>
@@ -2479,7 +2480,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
                                           <TextRun>
                                             <Value>=ucase(Fields!APELLIDO_PATERNO.Value)</Value>
                                             <Style>
-                                              <FontSize>6pt</FontSize>
+                                              <FontSize>5.5pt</FontSize>
                                               <FontWeight>Bold</FontWeight>
                                             </Style>
                                           </TextRun>
@@ -2515,7 +2516,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
                                               <TextRun>
                                                 <Value>=ucase(Fields!APELLIDO_MATERNO.Value)</Value>
                                                 <Style>
-                                                  <FontSize>6pt</FontSize>
+                                                  <FontSize>5.5pt</FontSize>
                                                   <FontWeight>Bold</FontWeight>
                                                 </Style>
                                               </TextRun>
@@ -2551,7 +2552,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
                                                   <TextRun>
                                                     <Value>=ucase(Fields!NOMBRE.Value)</Value>
                                                     <Style>
-                                                      <FontSize>6pt</FontSize>
+                                                      <FontSize>5.5pt</FontSize>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
                                                   </TextRun>
@@ -2650,7 +2651,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
         <Top>5.07354cm</Top>
         <Left>0.81488cm</Left>
         <Height>4.5038cm</Height>
-        <Width>27.44318cm</Width>
+        <Width>25.57989cm</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -3711,13 +3712,13 @@ First(Fields!IDCAMPUS.Value, "DataSet1")="TECOMAN","06ENL0003V")</Value>
               <Width>0.23468in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.33518in</Width>
+              <Width>0.2643in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.43243in</Width>
+              <Width>0.31544in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.39291in</Width>
+              <Width>0.23715in</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
@@ -4269,7 +4270,6 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
                         <PaddingBottom>2pt</PaddingBottom>
                       </Style>
                     </Textbox>
-                    <rd:Selected>true</rd:Selected>
                   </CellContents>
                 </TablixCell>
                 <TablixCell>
@@ -4790,7 +4790,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
                 </GroupExpressions>
               </Group>
               <TablixHeader>
-                <Size>0.39239in</Size>
+                <Size>0.21861in</Size>
                 <CellContents>
                   <Textbox Name="materianombre2">
                     <CanGrow>true</CanGrow>
@@ -4827,7 +4827,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
               <TablixMembers>
                 <TablixMember>
                   <TablixHeader>
-                    <Size>0.39861in</Size>
+                    <Size>0.3148in</Size>
                     <CellContents>
                       <Textbox Name="noacreditadas4">
                         <CanShrink>true</CanShrink>
@@ -4866,7 +4866,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
                   <TablixMembers>
                     <TablixMember>
                       <TablixHeader>
-                        <Size>0.40536in</Size>
+                        <Size>0.273in</Size>
                         <CellContents>
                           <Textbox Name="IDGRUPO2">
                             <CanShrink>true</CanShrink>
@@ -4953,7 +4953,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
                                           <TextRun>
                                             <Value>=ucase(Fields!APELLIDO_PATERNO.Value)</Value>
                                             <Style>
-                                              <FontSize>6pt</FontSize>
+                                              <FontSize>5.5pt</FontSize>
                                               <FontWeight>Bold</FontWeight>
                                             </Style>
                                           </TextRun>
@@ -4989,7 +4989,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
                                               <TextRun>
                                                 <Value>=ucase(Fields!APELLIDO_MATERNO.Value)</Value>
                                                 <Style>
-                                                  <FontSize>6pt</FontSize>
+                                                  <FontSize>5.5pt</FontSize>
                                                   <FontWeight>Bold</FontWeight>
                                                 </Style>
                                               </TextRun>
@@ -5025,7 +5025,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
                                                   <TextRun>
                                                     <Value>=ucase(Fields!NOMBRE.Value)</Value>
                                                     <Style>
-                                                      <FontSize>6pt</FontSize>
+                                                      <FontSize>5.5pt</FontSize>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
                                                   </TextRun>
@@ -5106,7 +5106,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
             </TablixMember>
             <TablixMember>
               <TablixHeader>
-                <Size>0.39239in</Size>
+                <Size>0.21861in</Size>
                 <CellContents>
                   <Textbox Name="Textbox171">
                     <CanGrow>true</CanGrow>
@@ -5142,7 +5142,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
               <TablixMembers>
                 <TablixMember>
                   <TablixHeader>
-                    <Size>0.39861in</Size>
+                    <Size>0.3148in</Size>
                     <CellContents>
                       <Textbox Name="Textbox172">
                         <CanGrow>true</CanGrow>
@@ -5181,7 +5181,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
                   <TablixMembers>
                     <TablixMember>
                       <TablixHeader>
-                        <Size>0.40536in</Size>
+                        <Size>0.273in</Size>
                         <CellContents>
                           <Textbox Name="Textbox173">
                             <CanGrow>true</CanGrow>
@@ -5433,7 +5433,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
         <Top>10.29597cm</Top>
         <Left>0.84092cm</Left>
         <Height>0.77178cm</Height>
-        <Width>27.41714cm</Width>
+        <Width>25.55385cm</Width>
         <ZIndex>19</ZIndex>
         <Style>
           <Border>

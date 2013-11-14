@@ -31,6 +31,7 @@ Public Class variables
     Public Shared especialidad As String
     Public Shared turno As String
     Public Shared semestre As String
+    Public Shared beca As String
     Public Shared ciclo As String
     Public Shared matricula As String
     Public Shared grupo As String
@@ -68,6 +69,7 @@ Public Class variables
     Public Shared personalUser As Integer
     Public Shared idMaestro As Integer
     Public Shared parcial As Integer
+    Public Shared parcialdescripcion As String
     Public Shared foto As Array
 End Class
 

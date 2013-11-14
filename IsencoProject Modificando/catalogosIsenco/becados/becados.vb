@@ -5,73 +5,28 @@ Imports datosCompartidos.funciones
 
 
 Public Class becados
-
-    Public CAMPUS, LICENCIATURA, ESPECIALIDAD, TURNO, SEMESTRE, GRUPO As String
-
     Private Sub consultarcmd_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles consultarcmd.Click
-        CAMPUS = cmbCampus.Text
-        LICENCIATURA = cmbLicenciatura.Text
-        ESPECIALIDAD = cmbEspecialidad.Text
-        TURNO = cmbTurno.Text
-        SEMESTRE = cmbSemestre.Text
-        GRUPO = cmbGrupo.Text
+        variables.campus = cmbCampus.Text
+        variables.licenciatura = cmbLicenciatura.Text
+        variables.especialidad = cmbEspecialidad.Text
+        variables.turno = cmbTurno.Text
+        variables.semestre = cmbSemestre.Text
+        variables.grupo = cmbGrupo.Text
+        variables.beca = cmbTipoBeca.Text
 
-        If cmbCampus.Text = "" Then
-            MsgBox("SELECCIONAR CAMPUS")
-        Else
-            If cmbLicenciatura.Text = "" Then
-                MsgBox("SELECCIONAR LICENCIATURA")
-            Else
-                If cmbTurno.Text = "" Then
-                    MsgBox("SELECCIONAR TURNO")
-                Else
-                    If cmbSemestre.Text = "" Then
-                        MsgBox("SELECCIONAR SEMESTRE")
-                    Else
-                        If cmbGrupo.Text = "" Then
-                            MsgBox("SELECCIONAR GRUPO")
-                        Else
-                            If cmbLicenciatura.Text = "EDUCACIÓN SECUNDARIA" Or cmbLicenciatura.Text = "EDUCACIÓN ESPECIAL" Then
-                                If cmbEspecialidad.Text = "" Or cmbEspecialidad.Text = "null" Then
-                                    MsgBox("SELECCIONAR ESPECIALIDAD")
-                                Else
-                                    'MsgBox("CON ESPECIALIDAD")
-                                    Dim b As New BaseDatos
-                                    Dim ds As New DataSet
-                                    Dim sql As String = ""
-                                    sql = "SELECT MATRICULA, IDCAMPUS, APELLIDO_PATERNO,APELLIDO_MATERNO,NOMBRE, IDLICENCIATURA,IDESPECIALIDAD,IDTURNO, IDSEMESTRE, IDGRUPO, BECA FROM ALUMNO where (beca <> 'null') and (beca <> ' ') and (IDCAMPUS = '" & CAMPUS & "' ) and (IDLICENCIATURA = '" & LICENCIATURA & "' ) and (IDESPECIALIDAD = '" & ESPECIALIDAD & "' ) and (IDTURNO = '" & TURNO & "' ) and (IDSEMESTRE = '" & SEMESTRE & "' ) and (IDGRUPO = '" & GRUPO & "' ) order by apellido_paterno"
-                                    b.abrirConexion()
-                                    ds = b.getDataSet(sql)
-                                    b.cerrarConexion()
-                                    Grid.DataSource = ds.Tables(0)
-                                End If
-                            Else
-                                'MsgBox("SIN ESPECIALIDAD")
-                                cmbEspecialidad.Text = " "
-                                Dim b As New BaseDatos
-                                Dim ds As New DataSet
-                                Dim sql As String = ""
-                                'Dim cnn As New SqlConnection("Data Source=localhost;Initial Catalog=isenco;Integrated Security=SSPI;")
-                                'Dim da As New SqlDataAdapter("SELECT MATRICULA, IDCAMPUS, APELLIDO_PATERNO,APELLIDO_MATERNO,NOMBRE, IDLICENCIATURA,IDESPECIALIDAD,IDTURNO, IDSEMESTRE, IDGRUPO, BECA FROM ALUMNO where (beca <> 'null') and (beca <> ' ') and (IDCAMPUS = '" & CAMPUS & "' ) and (IDLICENCIATURA = '" & LICENCIATURA & "' ) and (IDTURNO = '" & TURNO & "' ) and (IDSEMESTRE = '" & SEMESTRE & "' ) and (IDGRUPO = '" & GRUPO & "' )", cnn)
-                                'Dim ds As New DataSet
-                                sql = "SELECT MATRICULA, IDCAMPUS, APELLIDO_PATERNO,APELLIDO_MATERNO,NOMBRE, IDLICENCIATURA,IDESPECIALIDAD,IDTURNO, IDSEMESTRE, IDGRUPO, BECA FROM ALUMNO where (beca <> 'null') and (beca <> ' ') and (IDCAMPUS = '" & CAMPUS & "' ) and (IDLICENCIATURA = '" & LICENCIATURA & "' ) and (IDTURNO = '" & TURNO & "' ) and (IDSEMESTRE = '" & SEMESTRE & "' ) and (IDGRUPO = '" & GRUPO & "' ) order by apellido_paterno"
-                                b.abrirConexion()
-                                ds = b.getDataSet(sql)
-                                b.cerrarConexion()
-                                Grid.DataSource = ds.Tables(0)
-                            End If
-                        End If
-                    End If
-                End If
-                End If
-            End If
-     
-
-
-
-
-
-        'generarListado()
+        Dim b As New BaseDatos
+        Dim ds As New DataSet
+        Dim sql As String = ""
+        sql = "SELECT MATRICULA, IDCAMPUS, APELLIDO_PATERNO,APELLIDO_MATERNO,NOMBRE, IDLICENCIATURA,IDESPECIALIDAD,IDTURNO, IDSEMESTRE, " & _
+        "IDGRUPO, BECA FROM ALUMNO where (beca <> 'null') and (beca <> ' ') and (IDCAMPUS LIKE '%" & variables.campus & "%' ) and (IDLICENCIATURA LIKE '%" & variables.licenciatura & "%' ) " & _
+        "and (IDESPECIALIDAD LIKE '%" & variables.especialidad & "%' ) and (IDTURNO LIKE '%" & variables.turno & "%' ) and (IDSEMESTRE LIKE '%" & variables.semestre & "%' ) " & _
+        "and (IDGRUPO LIKE '%" & variables.grupo & "%' ) and (BECA LIKE '%" & variables.beca & "%') AND IDSTATUS NOT LIKE '%BAJA%' AND IDSTATUS NOT LIKE '%EGR%' " & _
+        "order by IDCAMPUS,IDLICENCIATURA,IDESPECIALIDAD,IDSEMESTRE,IDGRUPO,APELLIDO_PATERNO,APELLIDO_MATERNO,NOMBRE"
+        b.abrirConexion()
+        ds = b.getDataSet(sql)
+        b.cerrarConexion()
+        Grid.DataSource = ds.Tables(0)
+        ToolStripStatusLabel3.Text = Grid.RowCount - 1
     End Sub
 
     Private Sub generarListado()
@@ -126,9 +81,6 @@ Public Class becados
             Grid.Columns.Item("BECA").Width = 200
             Grid.Columns.Item("BECA").ReadOnly = True
 
-
-         
-           
             variables.conexion.cerrarConexion()
         Catch ex As Exception
             MsgBox(ex.ToString)
@@ -159,7 +111,6 @@ Public Class becados
     End Sub
 
     Private Sub cmbCampus_DropDown(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbCampus.DropDown
-
         Dim ds As New DataSet
         ds = getCampus()
         loadComboBox(ds, cmbCampus, "IDCAMPUS", "campus")
@@ -192,14 +143,14 @@ Public Class becados
 
     Private Sub guardarCmd_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles guardarCmd.Click
         becadoImprFrm.Text = "BECADOS"
-        becadoImprFrm.TextBox1.Text = cmbCampus.Text
-        becadoImprFrm.TextBox2.Text = cmbLicenciatura.Text
-        becadoImprFrm.TextBox3.Text = cmbEspecialidad.Text
-        becadoImprFrm.TextBox4.Text = cmbTurno.Text
-        becadoImprFrm.TextBox5.Text = cmbSemestre.Text
-        becadoImprFrm.TextBox6.Text = cmbGrupo.Text
 
         becadoImprFrm.ShowDialog()
         becadoImprFrm.ReportViewer1.Refresh()
+    End Sub
+
+    Private Sub cmbTipoBeca_DropDown(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbTipoBeca.DropDown
+        Dim ds As New DataSet
+        ds = getTiposBecas()
+        loadComboBox(ds, cmbTipoBeca, "id", "descripcion")
     End Sub
 End Class

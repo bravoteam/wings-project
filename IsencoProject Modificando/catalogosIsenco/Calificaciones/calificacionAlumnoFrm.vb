@@ -127,7 +127,7 @@ Public Class calificacionAlumnoFrm
     End Sub
 
     Private Sub cmdGuardar_Click(sender As System.Object, e As System.EventArgs) Handles cmdGuardar.Click
-
+        MsgBox("ACEPTO CALIFICACIONES", MsgBoxStyle.Information)
     End Sub
 
     Private Sub regresarCmd_Click(sender As System.Object, e As System.EventArgs) Handles regresarCmd.Click

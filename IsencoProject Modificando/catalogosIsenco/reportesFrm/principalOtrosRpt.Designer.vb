@@ -131,7 +131,7 @@ Partial Class principalOtrosRpt
         Me.CmbtipoReporte.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.CmbtipoReporte.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CmbtipoReporte.FormattingEnabled = True
-        Me.CmbtipoReporte.Items.AddRange(New Object() {"PRIMERA PARCIAL", "SEGUNDA PARCIAL", "PRIMERA Y SEGUNDA PARCIAL", "PRIMERA OPORTUNIDAD REGULARIZACIÓN", "SEGUNDA OPORTUNIDAD REGULARIZACIÓN", "TERCERA OPORTUNIDAD REGULARIZACIÓN", "ACREDITADOS X OPORTUNIDAD", "NO ACREDITADOS - ACT. CULT. Y DEP.", "PROMEDIO X MATERIAS", "LISTA DE ASISTENCIA"})
+        Me.CmbtipoReporte.Items.AddRange(New Object() {"PRIMERA PARCIAL", "SEGUNDA PARCIAL", "PRIMERA Y SEGUNDA PARCIAL", "PRIMERA OPORTUNIDAD REGULARIZACIÓN", "SEGUNDA OPORTUNIDAD REGULARIZACIÓN", "TERCERA OPORTUNIDAD REGULARIZACIÓN", "ACREDITADOS X OPORTUNIDAD", "NO ACREDITADOS - ACT. CULT. Y DEP.", "PROMEDIO X MATERIAS", "LISTA DE ASISTENCIA", "LISTA DE CONCENTRADO DE CALIFICACIONES"})
         Me.CmbtipoReporte.Location = New System.Drawing.Point(20, 132)
         Me.CmbtipoReporte.Name = "CmbtipoReporte"
         Me.CmbtipoReporte.Size = New System.Drawing.Size(564, 28)

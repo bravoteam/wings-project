@@ -2478,7 +2478,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
                                           <TextRun>
                                             <Value>=ucase(Fields!APELLIDO_PATERNO.Value)</Value>
                                             <Style>
-                                              <FontSize>6pt</FontSize>
+                                              <FontSize>5.5pt</FontSize>
                                               <FontWeight>Bold</FontWeight>
                                             </Style>
                                           </TextRun>
@@ -2514,7 +2514,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
                                               <TextRun>
                                                 <Value>=ucase(Fields!APELLIDO_MATERNO.Value)</Value>
                                                 <Style>
-                                                  <FontSize>6pt</FontSize>
+                                                  <FontSize>5.5pt</FontSize>
                                                   <FontWeight>Bold</FontWeight>
                                                 </Style>
                                               </TextRun>
@@ -2550,7 +2550,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
                                                   <TextRun>
                                                     <Value>=ucase(Fields!NOMBRE.Value)</Value>
                                                     <Style>
-                                                      <FontSize>6pt</FontSize>
+                                                      <FontSize>5.5pt</FontSize>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
                                                   </TextRun>
@@ -2649,7 +2649,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
         <Top>5.13704cm</Top>
         <Left>0.84663cm</Left>
         <Height>4.5038cm</Height>
-        <Width>24.16385cm</Width>
+        <Width>24.16386cm</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -6231,7 +6231,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
                                           <TextRun>
                                             <Value>=ucase(Fields!APELLIDO_PATERNO.Value)</Value>
                                             <Style>
-                                              <FontSize>6pt</FontSize>
+                                              <FontSize>5.5pt</FontSize>
                                               <FontWeight>Bold</FontWeight>
                                             </Style>
                                           </TextRun>
@@ -6267,7 +6267,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
                                               <TextRun>
                                                 <Value>=ucase(Fields!APELLIDO_MATERNO.Value)</Value>
                                                 <Style>
-                                                  <FontSize>6pt</FontSize>
+                                                  <FontSize>5.5pt</FontSize>
                                                   <FontWeight>Bold</FontWeight>
                                                 </Style>
                                               </TextRun>
@@ -6303,7 +6303,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
                                                   <TextRun>
                                                     <Value>=ucase(Fields!NOMBRE.Value)</Value>
                                                     <Style>
-                                                      <FontSize>6pt</FontSize>
+                                                      <FontSize>5.5pt</FontSize>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
                                                   </TextRun>
@@ -6323,6 +6323,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
                                               <PaddingBottom>2pt</PaddingBottom>
                                             </Style>
                                           </Textbox>
+                                          <rd:Selected>true</rd:Selected>
                                         </CellContents>
                                       </TablixHeader>
                                       <TablixMembers>
@@ -6454,7 +6455,6 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
                           <PaddingBottom>2pt</PaddingBottom>
                         </Style>
                       </Textbox>
-                      <rd:Selected>true</rd:Selected>
                     </CellContents>
                   </TablixHeader>
                   <TablixMembers>
@@ -6712,7 +6712,7 @@ Round(((Fields!calificacion.Value + Fields!calificacion2.Value)/2),2))))</Value>
         <Top>10.42297cm</Top>
         <Left>0.87631cm</Left>
         <Height>0.70056cm</Height>
-        <Width>24.16192cm</Width>
+        <Width>24.16193cm</Width>
         <ZIndex>20</ZIndex>
         <Style>
           <Border>

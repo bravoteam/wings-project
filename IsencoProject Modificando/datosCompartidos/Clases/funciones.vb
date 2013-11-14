@@ -108,6 +108,24 @@ Public Class funciones
         Return ds
 
     End Function
+    Public Shared Function getTiposBecas() As DataSet
+
+        Dim b As New BaseDatos
+        Dim ds As New DataSet
+        Dim sql As String
+
+        sql = "select distinct(BECA)as descripcion,0 as id from alumno " & _
+        "where LEN(BECA)>2 and BECA not like '%guna%' " & _
+        "and BECA not like '%nin%' " & _
+        "order by BECA"
+
+        b.abrirConexion()
+        ds = b.getDataSet(sql)
+        b.cerrarConexion()
+
+        Return ds
+
+    End Function
     Public Shared Function getCampus() As DataSet
 
         Dim b As New BaseDatos

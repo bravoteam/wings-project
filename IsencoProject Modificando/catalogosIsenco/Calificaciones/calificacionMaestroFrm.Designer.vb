@@ -262,6 +262,7 @@ Partial Class calificacionMaestroFrm
         Me.DG.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Matricula, Me.APELLIDO_PATERNO, Me.APELLIDO_MATERNO, Me.NOMBRE})
         Me.DG.Location = New System.Drawing.Point(8, 199)
         Me.DG.Name = "DG"
+        Me.DG.RowTemplate.Height = 24
         Me.DG.Size = New System.Drawing.Size(1300, 628)
         Me.DG.TabIndex = 44
         '
@@ -301,7 +302,7 @@ Partial Class calificacionMaestroFrm
         'StatusStrip1
         '
         Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1, Me.ToolStripStatusLabel2, Me.ToolStripStatusLabel3})
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 875)
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 837)
         Me.StatusStrip1.Name = "StatusStrip1"
         Me.StatusStrip1.Size = New System.Drawing.Size(1334, 22)
         Me.StatusStrip1.TabIndex = 45
@@ -340,7 +341,7 @@ Partial Class calificacionMaestroFrm
         Me.TabPage1.Controls.Add(Me.DG)
         Me.TabPage1.Location = New System.Drawing.Point(4, 22)
         Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3, 3, 3, 3)
         Me.TabPage1.Size = New System.Drawing.Size(1322, 844)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Captura de Calificaciones"
@@ -351,7 +352,7 @@ Partial Class calificacionMaestroFrm
         Me.TabPage2.Controls.Add(Me.ReportViewer1)
         Me.TabPage2.Location = New System.Drawing.Point(4, 22)
         Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3, 3, 3, 3)
         Me.TabPage2.Size = New System.Drawing.Size(1322, 844)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Impresion de Calificaciones"
@@ -377,7 +378,7 @@ Partial Class calificacionMaestroFrm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1334, 897)
+        Me.ClientSize = New System.Drawing.Size(1334, 859)
         Me.Controls.Add(Me.TabControl1)
         Me.Controls.Add(Me.StatusStrip1)
         Me.Name = "calificacionMaestroFrm"

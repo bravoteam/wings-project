@@ -35,7 +35,7 @@ Public Class FRmRep_Registro2
         End If
         Me.REPORTE_REGISTRO_FUERATableAdapter.Fill(Me.registroEscolaridad.REPORTE_REGISTRO_FUERA, FrmRegistro2.cmbCampus.Text, FrmRegistro2.cmbLicenciatura.Text, FrmRegistro2.cmbEspecialidad.Text, FrmRegistro2.cmbSemestre.Text, FrmRegistro2.cmbGrupo.Text, FrmRegistro2.cmbcicloescolar.Text)
         Select Case Integer.Parse(FrmRegistro2.Label8.Text)
-            Case 4
+            Case 2
                 Me.ReportViewer4.LocalReport.SetParameters(parameters)
                 Me.ReportViewer4.ZoomMode = ZoomMode.FullPage
                 Me.ReportViewer4.RefreshReport()
@@ -162,7 +162,7 @@ Public Class FRmRep_Registro2
                "alumno AS A ON A.IDALUMNO = R.idalumno INNER JOIN " & _
                "materias AS m ON m.IDMATERIA = R.idmateria " & _
                "WHERE  (R.idcampus = @IDCAMPUS) AND (R.idlicenciatura = @IDLICENCIATURA) AND (R.idespecialidad = @IDESPECIALIDAD) AND (R.idsemestre =  @IDSEMESTRE) AND " & _
-               "(R.idgrupo =  @IDGRUPO) AND (R.idcicloescolar = @CICLOESCOLAR) and (r.status ='NORMAL') AND A.GENERO=@GENERO " & _
+               "(R.idgrupo =  @IDGRUPO) AND (R.idcicloescolar = @CICLOESCOLAR)  AND A.GENERO=@GENERO " & _
                "GROUP BY R.idalumno, A.NOMBRE, A.APELLIDO_PATERNO, A.APELLIDO_MATERNO, A.CURP, A.GENERO, A.IDSTATUS," & _
                "R.idmateria, R.calificacion, R.calificacion2, R.reg_oport1," & _
                "R.reg_oport2, R.reg_oport3, R.reg_oport4, R.reg_oport5, R.acred_act, R.acred_no, R.acred_ant, R.idcampus, " & _

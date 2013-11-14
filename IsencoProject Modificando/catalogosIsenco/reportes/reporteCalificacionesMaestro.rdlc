@@ -347,8 +347,8 @@
         </TablixRowHierarchy>
         <Top>0.12239cm</Top>
         <Left>0.50588cm</Left>
-        <Height>2.80458cm</Height>
-        <Width>19.25296cm</Width>
+        <Height>2.80459cm</Height>
+        <Width>19.25297cm</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -356,8 +356,68 @@
           <FontSize>9pt</FontSize>
         </Style>
       </Tablix>
+      <Textbox Name="Textbox13">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>FIRMA DEL DOCENTE:____________________________</Value>
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox13</rd:DefaultName>
+        <Top>3.08105cm</Top>
+        <Left>0.52549cm</Left>
+        <Height>0.6cm</Height>
+        <Width>9.36087cm</Width>
+        <ZIndex>1</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox14">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>FIRMA COORDINACIÓN:___________________________</Value>
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox13</rd:DefaultName>
+        <Top>3.06809cm</Top>
+        <Left>10.33086cm</Left>
+        <Height>0.6cm</Height>
+        <Width>9.36087cm</Width>
+        <ZIndex>2</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
     </ReportItems>
-    <Height>1.24558in</Height>
+    <Height>1.48725in</Height>
     <Style />
   </Body>
   <ReportParameters>
