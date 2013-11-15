@@ -98,21 +98,21 @@ Partial Class impresionInscripcionFrm
         Me.TabControl1.Controls.Add(Me.TabPage5)
         Me.TabControl1.Controls.Add(Me.TabPage6)
         Me.TabControl1.Controls.Add(Me.TabPage7)
-        Me.TabControl1.Location = New System.Drawing.Point(15, 30)
-        Me.TabControl1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TabControl1.Location = New System.Drawing.Point(11, 24)
+        Me.TabControl1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(1623, 873)
+        Me.TabControl1.Size = New System.Drawing.Size(1217, 709)
         Me.TabControl1.TabIndex = 1
         '
         'TabPage1
         '
         Me.TabPage1.Controls.Add(Me.ReportViewer3)
-        Me.TabPage1.Location = New System.Drawing.Point(4, 25)
-        Me.TabPage1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TabPage1.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TabPage1.Size = New System.Drawing.Size(1615, 844)
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TabPage1.Size = New System.Drawing.Size(1209, 683)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Ficha de Inscripcion Bachillerato"
         Me.TabPage1.UseVisualStyleBackColor = True
@@ -125,20 +125,20 @@ Partial Class impresionInscripcionFrm
         ReportDataSource1.Value = Me.Documentos_alumnosBindingSource
         Me.ReportViewer3.LocalReport.DataSources.Add(ReportDataSource1)
         Me.ReportViewer3.LocalReport.ReportEmbeddedResource = "catalogosIsenco.FICHA DE BACHILLERATO.rdlc"
-        Me.ReportViewer3.Location = New System.Drawing.Point(3, 2)
-        Me.ReportViewer3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.ReportViewer3.Location = New System.Drawing.Point(2, 2)
+        Me.ReportViewer3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ReportViewer3.Name = "ReportViewer3"
-        Me.ReportViewer3.Size = New System.Drawing.Size(1609, 840)
+        Me.ReportViewer3.Size = New System.Drawing.Size(1205, 679)
         Me.ReportViewer3.TabIndex = 0
         '
         'TabPage2
         '
         Me.TabPage2.Controls.Add(Me.ReportViewer4)
-        Me.TabPage2.Location = New System.Drawing.Point(4, 25)
-        Me.TabPage2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.TabPage2.Size = New System.Drawing.Size(1615, 844)
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TabPage2.Size = New System.Drawing.Size(1209, 683)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Ficha de Inscripcion Licenciatura"
         Me.TabPage2.UseVisualStyleBackColor = True
@@ -150,19 +150,19 @@ Partial Class impresionInscripcionFrm
         ReportDataSource2.Value = Me.Documentos_alumnosBindingSource
         Me.ReportViewer4.LocalReport.DataSources.Add(ReportDataSource2)
         Me.ReportViewer4.LocalReport.ReportEmbeddedResource = "catalogosIsenco.FICHA DE LICENCIATURA.rdlc"
-        Me.ReportViewer4.Location = New System.Drawing.Point(3, 2)
-        Me.ReportViewer4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.ReportViewer4.Location = New System.Drawing.Point(2, 2)
+        Me.ReportViewer4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ReportViewer4.Name = "ReportViewer4"
-        Me.ReportViewer4.Size = New System.Drawing.Size(1606, 835)
+        Me.ReportViewer4.Size = New System.Drawing.Size(1205, 679)
         Me.ReportViewer4.TabIndex = 0
         '
         'TabPage3
         '
         Me.TabPage3.Controls.Add(Me.ReportViewer1)
-        Me.TabPage3.Location = New System.Drawing.Point(4, 25)
-        Me.TabPage3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TabPage3.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Size = New System.Drawing.Size(1615, 844)
+        Me.TabPage3.Size = New System.Drawing.Size(1209, 683)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "Bienvenida"
         Me.TabPage3.UseVisualStyleBackColor = True
@@ -175,18 +175,18 @@ Partial Class impresionInscripcionFrm
         Me.ReportViewer1.LocalReport.DataSources.Add(ReportDataSource3)
         Me.ReportViewer1.LocalReport.ReportEmbeddedResource = "catalogosIsenco.bienvenida.rdlc"
         Me.ReportViewer1.Location = New System.Drawing.Point(0, 0)
-        Me.ReportViewer1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.ReportViewer1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ReportViewer1.Name = "ReportViewer1"
-        Me.ReportViewer1.Size = New System.Drawing.Size(1611, 840)
+        Me.ReportViewer1.Size = New System.Drawing.Size(1209, 683)
         Me.ReportViewer1.TabIndex = 0
         '
         'TabPage4
         '
         Me.TabPage4.Controls.Add(Me.ReportViewer2)
-        Me.TabPage4.Location = New System.Drawing.Point(4, 25)
-        Me.TabPage4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TabPage4.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TabPage4.Name = "TabPage4"
-        Me.TabPage4.Size = New System.Drawing.Size(1615, 844)
+        Me.TabPage4.Size = New System.Drawing.Size(1209, 683)
         Me.TabPage4.TabIndex = 3
         Me.TabPage4.Text = "Carta Compromiso Promedio"
         Me.TabPage4.UseVisualStyleBackColor = True
@@ -199,18 +199,18 @@ Partial Class impresionInscripcionFrm
         Me.ReportViewer2.LocalReport.DataSources.Add(ReportDataSource4)
         Me.ReportViewer2.LocalReport.ReportEmbeddedResource = "catalogosIsenco.carta_compromiso_promedio.rdlc"
         Me.ReportViewer2.Location = New System.Drawing.Point(0, 0)
-        Me.ReportViewer2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.ReportViewer2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ReportViewer2.Name = "ReportViewer2"
-        Me.ReportViewer2.Size = New System.Drawing.Size(1611, 840)
+        Me.ReportViewer2.Size = New System.Drawing.Size(1209, 683)
         Me.ReportViewer2.TabIndex = 0
         '
         'TabPage5
         '
         Me.TabPage5.Controls.Add(Me.ReportViewer5)
-        Me.TabPage5.Location = New System.Drawing.Point(4, 25)
-        Me.TabPage5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TabPage5.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TabPage5.Name = "TabPage5"
-        Me.TabPage5.Size = New System.Drawing.Size(1615, 844)
+        Me.TabPage5.Size = New System.Drawing.Size(1209, 683)
         Me.TabPage5.TabIndex = 4
         Me.TabPage5.Text = "Carta Compromiso Temporal"
         Me.TabPage5.UseVisualStyleBackColor = True
@@ -223,18 +223,18 @@ Partial Class impresionInscripcionFrm
         Me.ReportViewer5.LocalReport.DataSources.Add(ReportDataSource5)
         Me.ReportViewer5.LocalReport.ReportEmbeddedResource = "catalogosIsenco.Carta_Compromiso_tem.rdlc"
         Me.ReportViewer5.Location = New System.Drawing.Point(0, 0)
-        Me.ReportViewer5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.ReportViewer5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ReportViewer5.Name = "ReportViewer5"
-        Me.ReportViewer5.Size = New System.Drawing.Size(1611, 840)
+        Me.ReportViewer5.Size = New System.Drawing.Size(1209, 683)
         Me.ReportViewer5.TabIndex = 0
         '
         'TabPage6
         '
         Me.TabPage6.Controls.Add(Me.ReportViewer6)
-        Me.TabPage6.Location = New System.Drawing.Point(4, 25)
-        Me.TabPage6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TabPage6.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TabPage6.Name = "TabPage6"
-        Me.TabPage6.Size = New System.Drawing.Size(1615, 844)
+        Me.TabPage6.Size = New System.Drawing.Size(1209, 683)
         Me.TabPage6.TabIndex = 5
         Me.TabPage6.Text = "Recepcion de Documentos Bachillerato"
         Me.TabPage6.UseVisualStyleBackColor = True
@@ -247,19 +247,18 @@ Partial Class impresionInscripcionFrm
         Me.ReportViewer6.LocalReport.DataSources.Add(ReportDataSource6)
         Me.ReportViewer6.LocalReport.ReportEmbeddedResource = "catalogosIsenco.documentos_lic.rdlc"
         Me.ReportViewer6.Location = New System.Drawing.Point(0, 0)
-        Me.ReportViewer6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.ReportViewer6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ReportViewer6.Name = "ReportViewer6"
-        Me.ReportViewer6.Size = New System.Drawing.Size(1611, 840)
+        Me.ReportViewer6.Size = New System.Drawing.Size(1209, 683)
         Me.ReportViewer6.TabIndex = 0
         '
         'TabPage7
         '
         Me.TabPage7.Controls.Add(Me.ReportViewer7)
-        Me.TabPage7.Location = New System.Drawing.Point(4, 25)
-        Me.TabPage7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage7.Location = New System.Drawing.Point(4, 22)
         Me.TabPage7.Name = "TabPage7"
-        Me.TabPage7.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.TabPage7.Size = New System.Drawing.Size(1615, 844)
+        Me.TabPage7.Padding = New System.Windows.Forms.Padding(3, 3, 3, 3)
+        Me.TabPage7.Size = New System.Drawing.Size(1209, 683)
         Me.TabPage7.TabIndex = 6
         Me.TabPage7.Text = "Formato IMSS"
         Me.TabPage7.UseVisualStyleBackColor = True
@@ -271,10 +270,10 @@ Partial Class impresionInscripcionFrm
         ReportDataSource7.Value = Me.imssBindingSource
         Me.ReportViewer7.LocalReport.DataSources.Add(ReportDataSource7)
         Me.ReportViewer7.LocalReport.ReportEmbeddedResource = "catalogosIsenco.imss.rdlc"
-        Me.ReportViewer7.Location = New System.Drawing.Point(4, 4)
-        Me.ReportViewer7.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.ReportViewer7.Location = New System.Drawing.Point(3, 3)
+        Me.ReportViewer7.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ReportViewer7.Name = "ReportViewer7"
-        Me.ReportViewer7.Size = New System.Drawing.Size(1603, 833)
+        Me.ReportViewer7.Size = New System.Drawing.Size(1203, 677)
         Me.ReportViewer7.TabIndex = 1
         '
         'MenuStrip1
@@ -282,15 +281,14 @@ Partial Class impresionInscripcionFrm
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ReimprimirToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(8, 2, 0, 2)
-        Me.MenuStrip1.Size = New System.Drawing.Size(1652, 28)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1239, 24)
         Me.MenuStrip1.TabIndex = 2
         Me.MenuStrip1.Text = "MenuStrip1"
         '
         'ReimprimirToolStripMenuItem
         '
         Me.ReimprimirToolStripMenuItem.Name = "ReimprimirToolStripMenuItem"
-        Me.ReimprimirToolStripMenuItem.Size = New System.Drawing.Size(95, 24)
+        Me.ReimprimirToolStripMenuItem.Size = New System.Drawing.Size(78, 20)
         Me.ReimprimirToolStripMenuItem.Text = "Reimprimir"
         '
         'Documentos_alumnosTableAdapter
@@ -307,13 +305,12 @@ Partial Class impresionInscripcionFrm
         '
         'impresionInscripcionFrm
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1652, 900)
+        Me.ClientSize = New System.Drawing.Size(1239, 731)
         Me.Controls.Add(Me.TabControl1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "impresionInscripcionFrm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Impresion de Documentos para Inscripcion"

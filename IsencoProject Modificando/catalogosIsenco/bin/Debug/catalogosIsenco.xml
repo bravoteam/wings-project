@@ -819,7 +819,35 @@ Represents the strongly named DataTable class.
 	<summary>
 Represents the strongly named DataTable class.
 </summary>
-</member><member name="T:catalogosIsenco.reportesDT.estadisticasfinalDataTable">
+</member><member name="T:catalogosIsenco.reportesDT.estadisticasfinal_1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:catalogosIsenco.reportesDT.estadisticasfinal_2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:catalogosIsenco.reportesDT.estadisticasfinal_3DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:catalogosIsenco.reportesDT.estadisticasfinal_4DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:catalogosIsenco.reportesDT.estadisticasfinal_5DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:catalogosIsenco.reportesDT.estadisticasfinal_6DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:catalogosIsenco.reportesDT.estadisticasfinal_7DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:catalogosIsenco.reportesDT.estadisticasfinal_8DataTable">
 	<summary>
 Represents the strongly named DataTable class.
 </summary>
@@ -843,7 +871,35 @@ Represents strongly named DataRow class.
 	<summary>
 Represents strongly named DataRow class.
 </summary>
-</member><member name="T:catalogosIsenco.reportesDT.estadisticasfinalRow">
+</member><member name="T:catalogosIsenco.reportesDT.estadisticasfinal_1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:catalogosIsenco.reportesDT.estadisticasfinal_2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:catalogosIsenco.reportesDT.estadisticasfinal_3Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:catalogosIsenco.reportesDT.estadisticasfinal_4Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:catalogosIsenco.reportesDT.estadisticasfinal_5Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:catalogosIsenco.reportesDT.estadisticasfinal_6Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:catalogosIsenco.reportesDT.estadisticasfinal_7Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:catalogosIsenco.reportesDT.estadisticasfinal_8Row">
 	<summary>
 Represents strongly named DataRow class.
 </summary>
@@ -867,7 +923,35 @@ Row event argument class
 	<summary>
 Row event argument class
 </summary>
-</member><member name="T:catalogosIsenco.reportesDT.estadisticasfinalRowChangeEvent">
+</member><member name="T:catalogosIsenco.reportesDT.estadisticasfinal_1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:catalogosIsenco.reportesDT.estadisticasfinal_2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:catalogosIsenco.reportesDT.estadisticasfinal_3RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:catalogosIsenco.reportesDT.estadisticasfinal_4RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:catalogosIsenco.reportesDT.estadisticasfinal_5RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:catalogosIsenco.reportesDT.estadisticasfinal_6RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:catalogosIsenco.reportesDT.estadisticasfinal_7RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:catalogosIsenco.reportesDT.estadisticasfinal_8RowChangeEvent">
 	<summary>
 Row event argument class
 </summary>
@@ -895,7 +979,35 @@ Represents the connection and commands used to retrieve and save data.
 	<summary>
 Represents the connection and commands used to retrieve and save data.
 </summary>
-</member><member name="T:catalogosIsenco.reportesDTTableAdapters.estadisticasfinalTableAdapter">
+</member><member name="T:catalogosIsenco.reportesDTTableAdapters.estadisticasfinal_1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:catalogosIsenco.reportesDTTableAdapters.estadisticasfinal_2TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:catalogosIsenco.reportesDTTableAdapters.estadisticasfinal_3TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:catalogosIsenco.reportesDTTableAdapters.estadisticasfinal_4TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:catalogosIsenco.reportesDTTableAdapters.estadisticasfinal_5TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:catalogosIsenco.reportesDTTableAdapters.estadisticasfinal_6TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:catalogosIsenco.reportesDTTableAdapters.estadisticasfinal_7TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:catalogosIsenco.reportesDTTableAdapters.estadisticasfinal_8TableAdapter">
 	<summary>
 Represents the connection and commands used to retrieve and save data.
 </summary>

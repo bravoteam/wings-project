@@ -4,8 +4,23 @@ Imports System.IO
 Public Class estadisticasFinalFrm
 
     Private Sub estadisticasFinalFrm_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        'TODO: This line of code loads data into the 'reportesDT.estadisticasfinal_2' table. You can move, or remove it, as needed.
+        Me.estadisticasfinal_2TableAdapter.Fill(Me.reportesDT.estadisticasfinal_2, variables.licenciatura)
+        'TODO: This line of code loads data into the 'reportesDT.estadisticasfinal_4' table. You can move, or remove it, as needed.
+        Me.estadisticasfinal_4TableAdapter.Fill(Me.reportesDT.estadisticasfinal_4, variables.licenciatura)
+        'TODO: This line of code loads data into the 'reportesDT.estadisticasfinal_6' table. You can move, or remove it, as needed.
+        Me.estadisticasfinal_6TableAdapter.Fill(Me.reportesDT.estadisticasfinal_6, variables.licenciatura)
+        'TODO: This line of code loads data into the 'reportesDT.estadisticasfinal_7' table. You can move, or remove it, as needed.
+        Me.estadisticasfinal_7TableAdapter.Fill(Me.reportesDT.estadisticasfinal_7, variables.licenciatura)
+        'TODO: This line of code loads data into the 'reportesDT.estadisticasfinal_8' table. You can move, or remove it, as needed.
+        Me.estadisticasfinal_8TableAdapter.Fill(Me.reportesDT.estadisticasfinal_8, variables.licenciatura)
+        'TODO: This line of code loads data into the 'reportesDT.estadisticasfinal_5' table. You can move, or remove it, as needed.
+        Me.estadisticasfinal_5TableAdapter.Fill(Me.reportesDT.estadisticasfinal_5, variables.licenciatura)
+        'TODO: This line of code loads data into the 'reportesDT.estadisticasfinal_3' table. You can move, or remove it, as needed.
+        Me.estadisticasfinal_3TableAdapter.Fill(Me.reportesDT.estadisticasfinal_3, variables.licenciatura)
+        'TODO: This line of code loads data into the 'reportesDT.estadisticasfinal_1' table. You can move, or remove it, as needed.
+        Me.estadisticasfinal_1TableAdapter.Fill(Me.reportesDT.estadisticasfinal_1, variables.licenciatura)
         'TODO: This line of code loads data into the 'reportesDT.estadisticasfinal' table. You can move, or remove it, as needed.
-        Me.estadisticasfinalTableAdapter.Fill(Me.reportesDT.estadisticasfinal)
 
     End Sub
 
