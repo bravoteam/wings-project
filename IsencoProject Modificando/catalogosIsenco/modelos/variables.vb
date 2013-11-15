@@ -28,6 +28,7 @@ Public Class variables
     Public Shared nombreAlumno As String
     Public Shared campus As String
     Public Shared licenciatura As String
+    Public Shared campus_L(4) As String
     Public Shared especialidad As String
     Public Shared turno As String
     Public Shared semestre As String

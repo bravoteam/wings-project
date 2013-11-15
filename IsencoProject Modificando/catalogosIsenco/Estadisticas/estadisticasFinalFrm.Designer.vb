@@ -33,53 +33,53 @@ Partial Class estadisticasFinalFrm
         Dim ReportDataSource16 As Microsoft.Reporting.WinForms.ReportDataSource = New Microsoft.Reporting.WinForms.ReportDataSource()
         Me.estadisticasfinal_1BindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.reportesDT = New catalogosIsenco.reportesDT()
+        Me.estadisticasfinal_2BindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.estadisticasfinal_3BindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.estadisticasfinal_4BindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.estadisticasfinal_5BindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.estadisticasfinal_6BindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.estadisticasfinal_7BindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.estadisticasfinal_8BindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.ReportViewer1 = New Microsoft.Reporting.WinForms.ReportViewer()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.OpcionesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ImprimirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.estadisticasfinal_1TableAdapter = New catalogosIsenco.reportesDTTableAdapters.estadisticasfinal_1TableAdapter()
         Me.estadisticasfinal_3TableAdapter = New catalogosIsenco.reportesDTTableAdapters.estadisticasfinal_3TableAdapter()
-        Me.estadisticasfinal_5BindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.estadisticasfinal_5TableAdapter = New catalogosIsenco.reportesDTTableAdapters.estadisticasfinal_5TableAdapter()
-        Me.estadisticasfinal_2BindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.estadisticasfinal_2TableAdapter = New catalogosIsenco.reportesDTTableAdapters.estadisticasfinal_2TableAdapter()
-        Me.estadisticasfinal_4BindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.estadisticasfinal_4TableAdapter = New catalogosIsenco.reportesDTTableAdapters.estadisticasfinal_4TableAdapter()
-        Me.estadisticasfinal_6BindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.estadisticasfinal_6TableAdapter = New catalogosIsenco.reportesDTTableAdapters.estadisticasfinal_6TableAdapter()
-        Me.estadisticasfinal_7BindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.estadisticasfinal_7TableAdapter = New catalogosIsenco.reportesDTTableAdapters.estadisticasfinal_7TableAdapter()
-        Me.estadisticasfinal_8BindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.estadisticasfinal_8TableAdapter = New catalogosIsenco.reportesDTTableAdapters.estadisticasfinal_8TableAdapter()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
-        Me.TabPage2 = New System.Windows.Forms.TabPage()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.ListBox1 = New System.Windows.Forms.ListBox()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.ListBox2 = New System.Windows.Forms.ListBox()
+        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.cmdGenerar = New System.Windows.Forms.Button()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.ListBox3 = New System.Windows.Forms.ListBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.ListBox2 = New System.Windows.Forms.ListBox()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.ListBox1 = New System.Windows.Forms.ListBox()
+        Me.TabPage2 = New System.Windows.Forms.TabPage()
         CType(Me.estadisticasfinal_1BindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.reportesDT, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.estadisticasfinal_3BindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.MenuStrip1.SuspendLayout()
-        CType(Me.estadisticasfinal_5BindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.estadisticasfinal_2BindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.estadisticasfinal_3BindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.estadisticasfinal_4BindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.estadisticasfinal_5BindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.estadisticasfinal_6BindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.estadisticasfinal_7BindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.estadisticasfinal_8BindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.MenuStrip1.SuspendLayout()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
-        Me.TabPage2.SuspendLayout()
-        Me.GroupBox1.SuspendLayout()
-        Me.GroupBox2.SuspendLayout()
-        Me.GroupBox3.SuspendLayout()
         Me.GroupBox4.SuspendLayout()
+        Me.GroupBox3.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
+        Me.GroupBox1.SuspendLayout()
+        Me.TabPage2.SuspendLayout()
         Me.SuspendLayout()
         '
         'estadisticasfinal_1BindingSource
@@ -92,10 +92,40 @@ Partial Class estadisticasFinalFrm
         Me.reportesDT.DataSetName = "reportesDT"
         Me.reportesDT.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
+        'estadisticasfinal_2BindingSource
+        '
+        Me.estadisticasfinal_2BindingSource.DataMember = "estadisticasfinal_2"
+        Me.estadisticasfinal_2BindingSource.DataSource = Me.reportesDT
+        '
         'estadisticasfinal_3BindingSource
         '
         Me.estadisticasfinal_3BindingSource.DataMember = "estadisticasfinal_3"
         Me.estadisticasfinal_3BindingSource.DataSource = Me.reportesDT
+        '
+        'estadisticasfinal_4BindingSource
+        '
+        Me.estadisticasfinal_4BindingSource.DataMember = "estadisticasfinal_4"
+        Me.estadisticasfinal_4BindingSource.DataSource = Me.reportesDT
+        '
+        'estadisticasfinal_5BindingSource
+        '
+        Me.estadisticasfinal_5BindingSource.DataMember = "estadisticasfinal_5"
+        Me.estadisticasfinal_5BindingSource.DataSource = Me.reportesDT
+        '
+        'estadisticasfinal_6BindingSource
+        '
+        Me.estadisticasfinal_6BindingSource.DataMember = "estadisticasfinal_6"
+        Me.estadisticasfinal_6BindingSource.DataSource = Me.reportesDT
+        '
+        'estadisticasfinal_7BindingSource
+        '
+        Me.estadisticasfinal_7BindingSource.DataMember = "estadisticasfinal_7"
+        Me.estadisticasfinal_7BindingSource.DataSource = Me.reportesDT
+        '
+        'estadisticasfinal_8BindingSource
+        '
+        Me.estadisticasfinal_8BindingSource.DataMember = "estadisticasfinal_8"
+        Me.estadisticasfinal_8BindingSource.DataSource = Me.reportesDT
         '
         'ReportViewer1
         '
@@ -127,7 +157,7 @@ Partial Class estadisticasFinalFrm
         Me.ReportViewer1.LocalReport.ReportEmbeddedResource = "catalogosIsenco.estadisticasgrupales.rdlc"
         Me.ReportViewer1.Location = New System.Drawing.Point(3, 3)
         Me.ReportViewer1.Name = "ReportViewer1"
-        Me.ReportViewer1.Size = New System.Drawing.Size(1119, 503)
+        Me.ReportViewer1.Size = New System.Drawing.Size(1097, 503)
         Me.ReportViewer1.TabIndex = 1
         '
         'MenuStrip1
@@ -149,7 +179,7 @@ Partial Class estadisticasFinalFrm
         'ImprimirToolStripMenuItem
         '
         Me.ImprimirToolStripMenuItem.Name = "ImprimirToolStripMenuItem"
-        Me.ImprimirToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ImprimirToolStripMenuItem.Size = New System.Drawing.Size(120, 22)
         Me.ImprimirToolStripMenuItem.Text = "Imprimir"
         '
         'estadisticasfinal_1TableAdapter
@@ -160,55 +190,25 @@ Partial Class estadisticasFinalFrm
         '
         Me.estadisticasfinal_3TableAdapter.ClearBeforeFill = True
         '
-        'estadisticasfinal_5BindingSource
-        '
-        Me.estadisticasfinal_5BindingSource.DataMember = "estadisticasfinal_5"
-        Me.estadisticasfinal_5BindingSource.DataSource = Me.reportesDT
-        '
         'estadisticasfinal_5TableAdapter
         '
         Me.estadisticasfinal_5TableAdapter.ClearBeforeFill = True
-        '
-        'estadisticasfinal_2BindingSource
-        '
-        Me.estadisticasfinal_2BindingSource.DataMember = "estadisticasfinal_2"
-        Me.estadisticasfinal_2BindingSource.DataSource = Me.reportesDT
         '
         'estadisticasfinal_2TableAdapter
         '
         Me.estadisticasfinal_2TableAdapter.ClearBeforeFill = True
         '
-        'estadisticasfinal_4BindingSource
-        '
-        Me.estadisticasfinal_4BindingSource.DataMember = "estadisticasfinal_4"
-        Me.estadisticasfinal_4BindingSource.DataSource = Me.reportesDT
-        '
         'estadisticasfinal_4TableAdapter
         '
         Me.estadisticasfinal_4TableAdapter.ClearBeforeFill = True
-        '
-        'estadisticasfinal_6BindingSource
-        '
-        Me.estadisticasfinal_6BindingSource.DataMember = "estadisticasfinal_6"
-        Me.estadisticasfinal_6BindingSource.DataSource = Me.reportesDT
         '
         'estadisticasfinal_6TableAdapter
         '
         Me.estadisticasfinal_6TableAdapter.ClearBeforeFill = True
         '
-        'estadisticasfinal_7BindingSource
-        '
-        Me.estadisticasfinal_7BindingSource.DataMember = "estadisticasfinal_7"
-        Me.estadisticasfinal_7BindingSource.DataSource = Me.reportesDT
-        '
         'estadisticasfinal_7TableAdapter
         '
         Me.estadisticasfinal_7TableAdapter.ClearBeforeFill = True
-        '
-        'estadisticasfinal_8BindingSource
-        '
-        Me.estadisticasfinal_8BindingSource.DataMember = "estadisticasfinal_8"
-        Me.estadisticasfinal_8BindingSource.DataSource = Me.reportesDT
         '
         'estadisticasfinal_8TableAdapter
         '
@@ -241,40 +241,52 @@ Partial Class estadisticasFinalFrm
         Me.TabPage1.Text = "Opciones para Reporte"
         Me.TabPage1.UseVisualStyleBackColor = True
         '
-        'TabPage2
+        'GroupBox4
         '
-        Me.TabPage2.Controls.Add(Me.ReportViewer1)
-        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(1125, 509)
-        Me.TabPage2.TabIndex = 1
-        Me.TabPage2.Text = "Vista Previa"
-        Me.TabPage2.UseVisualStyleBackColor = True
+        Me.GroupBox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.GroupBox4.Controls.Add(Me.cmdGenerar)
+        Me.GroupBox4.Location = New System.Drawing.Point(566, 235)
+        Me.GroupBox4.Name = "GroupBox4"
+        Me.GroupBox4.Size = New System.Drawing.Size(522, 236)
+        Me.GroupBox4.TabIndex = 4
+        Me.GroupBox4.TabStop = False
         '
-        'GroupBox1
+        'cmdGenerar
         '
-        Me.GroupBox1.Controls.Add(Me.ListBox1)
-        Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox1.Location = New System.Drawing.Point(6, 6)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(522, 209)
-        Me.GroupBox1.TabIndex = 0
-        Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Elige si necesitas Licenciatura o Bachillerato"
+        Me.cmdGenerar.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmdGenerar.Location = New System.Drawing.Point(16, 38)
+        Me.cmdGenerar.Name = "cmdGenerar"
+        Me.cmdGenerar.Size = New System.Drawing.Size(452, 184)
+        Me.cmdGenerar.TabIndex = 3
+        Me.cmdGenerar.Text = "GENERAR REPORTE"
+        Me.cmdGenerar.UseVisualStyleBackColor = True
         '
-        'ListBox1
+        'GroupBox3
         '
-        Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.ItemHeight = 20
-        Me.ListBox1.Items.AddRange(New Object() {"BACHILLERATO", "LICENCIATURA"})
-        Me.ListBox1.Location = New System.Drawing.Point(6, 38)
-        Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(462, 84)
-        Me.ListBox1.TabIndex = 0
+        Me.GroupBox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.GroupBox3.Controls.Add(Me.ListBox3)
+        Me.GroupBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox3.Location = New System.Drawing.Point(6, 235)
+        Me.GroupBox3.Name = "GroupBox3"
+        Me.GroupBox3.Size = New System.Drawing.Size(522, 236)
+        Me.GroupBox3.TabIndex = 2
+        Me.GroupBox3.TabStop = False
+        Me.GroupBox3.Text = "Elige el Semestre"
+        '
+        'ListBox3
+        '
+        Me.ListBox3.FormattingEnabled = True
+        Me.ListBox3.ItemHeight = 20
+        Me.ListBox3.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8"})
+        Me.ListBox3.Location = New System.Drawing.Point(6, 38)
+        Me.ListBox3.Name = "ListBox3"
+        Me.ListBox3.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple
+        Me.ListBox3.Size = New System.Drawing.Size(462, 184)
+        Me.ListBox3.TabIndex = 0
         '
         'GroupBox2
         '
+        Me.GroupBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.GroupBox2.Controls.Add(Me.ListBox2)
         Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox2.Location = New System.Drawing.Point(566, 6)
@@ -295,45 +307,38 @@ Partial Class estadisticasFinalFrm
         Me.ListBox2.Size = New System.Drawing.Size(462, 164)
         Me.ListBox2.TabIndex = 0
         '
-        'GroupBox3
+        'GroupBox1
         '
-        Me.GroupBox3.Controls.Add(Me.ListBox3)
-        Me.GroupBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox3.Location = New System.Drawing.Point(6, 235)
-        Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(522, 236)
-        Me.GroupBox3.TabIndex = 2
-        Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "Elige el Semestre"
+        Me.GroupBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.GroupBox1.Controls.Add(Me.ListBox1)
+        Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox1.Location = New System.Drawing.Point(6, 6)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(522, 209)
+        Me.GroupBox1.TabIndex = 0
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Elige si necesitas Licenciatura o Bachillerato"
         '
-        'ListBox3
+        'ListBox1
         '
-        Me.ListBox3.FormattingEnabled = True
-        Me.ListBox3.ItemHeight = 20
-        Me.ListBox3.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8"})
-        Me.ListBox3.Location = New System.Drawing.Point(6, 38)
-        Me.ListBox3.Name = "ListBox3"
-        Me.ListBox3.Size = New System.Drawing.Size(462, 184)
-        Me.ListBox3.TabIndex = 0
+        Me.ListBox1.FormattingEnabled = True
+        Me.ListBox1.ItemHeight = 20
+        Me.ListBox1.Items.AddRange(New Object() {"BACHILLERATO", "LICENCIATURA"})
+        Me.ListBox1.Location = New System.Drawing.Point(6, 38)
+        Me.ListBox1.Name = "ListBox1"
+        Me.ListBox1.Size = New System.Drawing.Size(462, 84)
+        Me.ListBox1.TabIndex = 0
         '
-        'Button1
+        'TabPage2
         '
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(16, 38)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(452, 184)
-        Me.Button1.TabIndex = 3
-        Me.Button1.Text = "GENERAR REPORTE"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'GroupBox4
-        '
-        Me.GroupBox4.Controls.Add(Me.Button1)
-        Me.GroupBox4.Location = New System.Drawing.Point(566, 235)
-        Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(522, 236)
-        Me.GroupBox4.TabIndex = 4
-        Me.GroupBox4.TabStop = False
+        Me.TabPage2.Controls.Add(Me.ReportViewer1)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage2.Name = "TabPage2"
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage2.Size = New System.Drawing.Size(1103, 509)
+        Me.TabPage2.TabIndex = 1
+        Me.TabPage2.Text = "Vista Previa"
+        Me.TabPage2.UseVisualStyleBackColor = True
         '
         'estadisticasFinalFrm
         '
@@ -347,22 +352,22 @@ Partial Class estadisticasFinalFrm
         Me.Text = "Estadisticas Finales"
         CType(Me.estadisticasfinal_1BindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.reportesDT, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.estadisticasfinal_3BindingSource, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.MenuStrip1.ResumeLayout(False)
-        Me.MenuStrip1.PerformLayout()
-        CType(Me.estadisticasfinal_5BindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.estadisticasfinal_2BindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.estadisticasfinal_3BindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.estadisticasfinal_4BindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.estadisticasfinal_5BindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.estadisticasfinal_6BindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.estadisticasfinal_7BindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.estadisticasfinal_8BindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.MenuStrip1.ResumeLayout(False)
+        Me.MenuStrip1.PerformLayout()
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
-        Me.TabPage2.ResumeLayout(False)
-        Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox2.ResumeLayout(False)
-        Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox4.ResumeLayout(False)
+        Me.GroupBox3.ResumeLayout(False)
+        Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox1.ResumeLayout(False)
+        Me.TabPage2.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -398,5 +403,5 @@ Partial Class estadisticasFinalFrm
     Friend WithEvents GroupBox3 As System.Windows.Forms.GroupBox
     Friend WithEvents ListBox3 As System.Windows.Forms.ListBox
     Friend WithEvents GroupBox4 As System.Windows.Forms.GroupBox
-    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents cmdGenerar As System.Windows.Forms.Button
 End Class
