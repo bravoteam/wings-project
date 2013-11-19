@@ -59,7 +59,7 @@ Public Class calificacionMaestroFrm
         Dim b As New BaseDatos
         Dim ds As New DataSet
         'Se obtiene las materias
-        If Len(comboMaterias.Text) >= 0 Then
+        If Len(comboMaterias.Text) <= 0 Then
             variables.sql = "select pm.id, m.idmateria,m.nombre + '-' + cast(cl.semestre as varchar) + '°' + pm.grupo + '-' + pm.campus + ' ' + l.nombre as nombrestodos " & _
                         "from personal_materia pm inner join personal p on p.id=pm.idpersonal inner join " & _
                         "cicloescolar_licenciatura cl on cl.id=pm.idciclolicenciatura inner join materias m on m.idmateria=cl.idmateria inner join licenciaturas l on l.idlicenciatura=cl.idlicenciatura " & _
