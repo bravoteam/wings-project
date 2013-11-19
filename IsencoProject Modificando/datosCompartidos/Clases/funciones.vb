@@ -322,6 +322,16 @@ Public Class funciones
 
         Return ds
     End Function
+    Public Shared Function getplanestudios()
+        Dim b As New BaseDatos
+        Dim ds As New DataSet
+        Dim sql As String = ""
+        sql = "select id,planEstudios from plan_estudios order by planEstudios desc"
+        b.abrirConexion()
+        ds = b.getDataSet(sql)
+        b.cerrarConexion()
+        Return ds
+    End Function
 
     Private Shared Function variables() As Object
         Throw New NotImplementedException

@@ -183,3 +183,13 @@ D:\Documents\IsencoProject\IsencoProject Modificando\datosCompartidos\obj\x86\De
 D:\Documents\IsencoProject\IsencoProject Modificando\datosCompartidos\obj\x86\Debug\datosCompartidos.exe
 D:\Documents\IsencoProject\IsencoProject Modificando\datosCompartidos\obj\x86\Debug\datosCompartidos.xml
 D:\Documents\IsencoProject\IsencoProject Modificando\datosCompartidos\obj\x86\Debug\datosCompartidos.pdb
+C:\proyectos\wings-project\IsencoProject Modificando\datosCompartidos\bin\Debug\datosCompartidos.exe
+C:\proyectos\wings-project\IsencoProject Modificando\datosCompartidos\bin\Debug\datosCompartidos.pdb
+C:\proyectos\wings-project\IsencoProject Modificando\datosCompartidos\bin\Debug\datosCompartidos.xml
+C:\proyectos\wings-project\IsencoProject Modificando\datosCompartidos\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\proyectos\wings-project\IsencoProject Modificando\datosCompartidos\obj\x86\Debug\datosCompartidos.Resources.resources
+C:\proyectos\wings-project\IsencoProject Modificando\datosCompartidos\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\proyectos\wings-project\IsencoProject Modificando\datosCompartidos\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\proyectos\wings-project\IsencoProject Modificando\datosCompartidos\obj\x86\Debug\datosCompartidos.exe
+C:\proyectos\wings-project\IsencoProject Modificando\datosCompartidos\obj\x86\Debug\datosCompartidos.xml
+C:\proyectos\wings-project\IsencoProject Modificando\datosCompartidos\obj\x86\Debug\datosCompartidos.pdb

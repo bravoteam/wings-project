@@ -2,7 +2,10 @@
 Imports datosCompartidos.Datos
 Imports datosCompartidos
 Imports datosCompartidos.funciones
+
 Public Class FrmAlumnoMaestro
+    Dim actualizar_cmbmaestro As Boolean = False
+    Dim actualizar_cmbmateria As Boolean = False
     Private Sub FrmAlumnoMaestro_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         inicializar_formulario()
     End Sub
@@ -35,6 +38,8 @@ Public Class FrmAlumnoMaestro
         cmbLicenciatura.Text = ""
         cmbSemestre.Text = ""
         cmbTurno.Text = ""
+        CmbPlanEst.Text = ""
+        Cmbplan.Text = ""
     End Sub
     Private Sub inicializar_formulario()
         Dim ds As New DataSet
@@ -46,6 +51,8 @@ Public Class FrmAlumnoMaestro
         loadComboBox(ds, cmbEspecialidad, "IDESPECIALIDAD", "especialidad")
         ds = getGrupos()
         loadComboBox(ds, cmbGrupo, "nombre", "nombre")
+        ds = getplanestudios()
+        loadComboBox(ds, CmbPlanEst, "id", "planEstudios")
         inicializar_combos()
         GbxDocentes.Enabled = False
         BtnAsignar.Enabled = False
@@ -70,6 +77,8 @@ Public Class FrmAlumnoMaestro
         DG.Rows.Clear()
         DG.Columns.Clear()
         GeneraGrid()
+        actualizar_cmbmaestro = False
+        actualizar_cmbmateria = False
         variables.conexion.abrirConexion()
         Try
             variables.sql = "select " & _
@@ -119,7 +128,28 @@ Public Class FrmAlumnoMaestro
     Private Sub cmbCampus_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbCampus.SelectedIndexChanged, cmbEspecialidad.SelectedIndexChanged, cmbGrupo.SelectedIndexChanged, cmbLicenciatura.SelectedIndexChanged, cmbTurno.SelectedIndexChanged
         GbxDocentes.Enabled = False
     End Sub
-
+    Private Sub extraer_id_maestro()
+        Dim str As String
+        Dim strArr() As String
+        ' Dim count As Integer
+        str = cmbmaestro.Text
+        If str <> "" Then
+            strArr = str.Split("-")
+            lblidmaestro.TextAlign = ContentAlignment.BottomLeft
+            lblidmaestro.Text = strArr(1)
+        End If
+    End Sub
+    Private Sub extraer_id_materia()
+        Dim str As String
+        Dim strArr() As String
+        ' Dim count As Integer
+        str = Cmbplan.Text
+        If str <> "" Then
+            strArr = str.Split("-")
+            lblidmateria.TextAlign = ContentAlignment.BottomLeft
+            lblidmateria.Text = strArr(1)
+        End If
+    End Sub
     Private Sub cmbmaestro_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles cmbmaestro.KeyPress
         If e.KeyChar = Chr(13) Then
             Dim b As New BaseDatos
@@ -133,14 +163,9 @@ Public Class FrmAlumnoMaestro
             b.cerrarConexion()
             loadComboBox(ds, cmbmaestro, "id", "nombreCompleto")
             BtnAsignar.Enabled = True
-            Dim str As String
-            Dim strArr() As String
-            ' Dim count As Integer
-            str = cmbmaestro.Text
-            If str <> "" Then
-                strArr = str.Split("-")
-                lblidmaestro.TextAlign = ContentAlignment.BottomLeft
-                lblidmaestro.Text = strArr(1)
+            extraer_id_maestro()
+            If lblidmaestro.Text <> "" Then
+                actualizar_cmbmaestro = True
             End If
         End If
     End Sub
@@ -218,5 +243,41 @@ Public Class FrmAlumnoMaestro
         Finally
             variables.conexion.cerrarConexion()
         End Try
+    End Sub
+    Private Sub cmbmaestro_SelectedIndexChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles cmbmaestro.SelectedIndexChanged
+        If actualizar_cmbmaestro Then
+            extraer_id_maestro()
+        End If
+    End Sub
+
+    Private Sub Cmbplan_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles Cmbplan.KeyPress
+        If e.KeyChar = Chr(13) Then
+            Dim b As New BaseDatos
+            Dim ds As New DataSet
+            Dim sql As String = ""
+            Dim aux As String = ""
+            If cmbEspecialidad.Text <> "" Then
+                aux = " and e.descripcion = '" & cmbEspecialidad.Text & "'"
+            End If
+            sql = "select m.idmateria,m.nombre + ' - ' + str(m.idmateria) as nombreCompleto from materias as m" & _
+                  " inner join licenciaturas as l on l.IDLICENCIATURA = m.IDCARRERA" & _
+                  " left join especialidades as e on e.IDESPECIALIDAD = m.IDESPECIALIDAD" & _
+                  " where m.activa=1 and m.nombre like '%" + Cmbplan.Text + "%' and l.NOMBRE = '" & cmbLicenciatura.Text & "'" & _
+                  " and m.planDEestudios = '" & CmbPlanEst.Text & "'" & aux
+            b.abrirConexion()
+            ds = b.getDataSet(sql)
+            b.cerrarConexion()
+            loadComboBox(ds, Cmbplan, "idmateria", "nombreCompleto")
+            BtnAsignar.Enabled = True
+            extraer_id_materia()
+            If lblidmateria.Text <> "" Then
+                actualizar_cmbmateria = True
+            End If
+        End If
+    End Sub
+    Private Sub Cmbplan_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Cmbplan.SelectedIndexChanged
+        If actualizar_cmbmateria Then
+            extraer_id_materia()
+        End If
     End Sub
 End Class

@@ -27,7 +27,6 @@ Public Class PlanEstudiosCicloFrm
         ejecutarConsulta()
     End Sub
     Private Sub generaGrid()
-
         gridListado.Columns.Add("ID", "ID")
         gridListado.Columns.Add("CICLO", "CICLO ESCOLAR")
         gridListado.Columns.Add("IDLICE", "IDLICE")
@@ -36,7 +35,6 @@ Public Class PlanEstudiosCicloFrm
         gridListado.Columns.Add("SEMESTRE", "SEMESTRE")
         gridListado.Columns.Add("IDMATERIA", "IDMATERIA")
         gridListado.Columns.Add("MATERIA", "MATERIA")
-
         gridListado.Columns.Item("ID").Width = 0
         gridListado.Columns.Item("ID").ReadOnly = True
         gridListado.Columns.Item("ID").Visible = False
@@ -236,7 +234,7 @@ Public Class PlanEstudiosCicloFrm
             If mensaje = vbYes Then
                 variables.conexion.abrirConexion()
                 Dim sql As String
-                sql = " DELETE FROM cicloescolar_licenciatura where (id=" & CDbl(gridListado.Item(0, gridListado.CurrentRow.Index).Value.ToString) & ") "
+                sql = "DELETE FROM cicloescolar_licenciatura where (id=" & CDbl(gridListado.Item(0, gridListado.CurrentRow.Index).Value.ToString) & ") "
                 Dim cmd As New SqlCommand(sql, variables.conexion.Conexion)
                 cmd.ExecuteNonQuery()
                 variables.conexion.cerrarConexion()
@@ -255,9 +253,7 @@ Public Class PlanEstudiosCicloFrm
         Dim b As New BaseDatos
         Dim ds As New DataSet
         Dim sql As String = ""
-
         sql = "select id,planEstudios from plan_estudios order by planEstudios desc"
-
         b.abrirConexion()
         ds = b.getDataSet(sql)
         b.cerrarConexion()
@@ -270,7 +266,6 @@ Public Class PlanEstudiosCicloFrm
         Dim sql As String = ""
 
         sql = "select id,planEstudios from plan_estudios order by planEstudios desc"
-
         b.abrirConexion()
         ds = b.getDataSet(sql)
         b.cerrarConexion()
