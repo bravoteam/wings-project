@@ -15,8 +15,26 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_21011BBF78F0762548EDB8CEBBAEFF03"
+        "OwnerKey" = "8:_21961E03F7A34967985761C72D74030C"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_21961E03F7A34967985761C72D74030C"
         "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_314D216326C45BF5B67BAD061A9F69B8"
+        "OwnerKey" = "8:_21961E03F7A34967985761C72D74030C"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_32BFD39501154E16E26110278A6D96BF"
+        "OwnerKey" = "8:_21961E03F7A34967985761C72D74030C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -39,7 +57,19 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_813DABBE9D162B35557D7B62F615D7C0"
+        "MsmKey" = "8:_84CFC9078E5E4CBC09D5689B74309018"
+        "OwnerKey" = "8:_21961E03F7A34967985761C72D74030C"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A9DA5FF474F24FB157EA6A5BAD5F31E2"
+        "OwnerKey" = "8:_21961E03F7A34967985761C72D74030C"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B22E8D6F752BC21D0B998D4E2EA47211"
         "OwnerKey" = "8:_21961E03F7A34967985761C72D74030C"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -51,7 +81,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_B22E8D6F752BC21D0B998D4E2EA47211"
+        "MsmKey" = "8:_D1C0F5DC51B7F9429AE1D7659CED1A2B"
+        "OwnerKey" = "8:_21961E03F7A34967985761C72D74030C"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_FED46BA6CB54040814E73D7DA72D7B28"
         "OwnerKey" = "8:_21961E03F7A34967985761C72D74030C"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -59,12 +95,6 @@
         {
         "MsmKey" = "8:_FED46BA6CB54040814E73D7DA72D7B28"
         "OwnerKey" = "8:_6276596ED202DC0BEF6E5AC442B7D90B"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_FED46BA6CB54040814E73D7DA72D7B28"
-        "OwnerKey" = "8:_21961E03F7A34967985761C72D74030C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -76,13 +106,49 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_B22E8D6F752BC21D0B998D4E2EA47211"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_21961E03F7A34967985761C72D74030C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_813DABBE9D162B35557D7B62F615D7C0"
+        "OwnerKey" = "8:_21011BBF78F0762548EDB8CEBBAEFF03"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_32BFD39501154E16E26110278A6D96BF"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_D1C0F5DC51B7F9429AE1D7659CED1A2B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_A9DA5FF474F24FB157EA6A5BAD5F31E2"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_314D216326C45BF5B67BAD061A9F69B8"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_84CFC9078E5E4CBC09D5689B74309018"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -95,12 +161,6 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_6276596ED202DC0BEF6E5AC442B7D90B"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_B22E8D6F752BC21D0B998D4E2EA47211"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -125,7 +185,7 @@
             {
             "Enabled" = "11:TRUE"
             "PromptEnabled" = "11:TRUE"
-            "PrerequisitesLocation" = "2:1"
+            "PrerequisitesLocation" = "2:2"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
                 "Items"
@@ -134,6 +194,11 @@
                     {
                     "Name" = "8:Microsoft .NET Framework 4 Client Profile (x86 and x64)"
                     "ProductCode" = "8:.NETFramework,Version=v4.0,Profile=Client"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.ReportViewer.10.0"
+                    {
+                    "Name" = "8:Microsoft Visual Studio 2010 Report Viewer"
+                    "ProductCode" = "8:Microsoft.ReportViewer.10.0"
                     }
                     "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
                     {
@@ -163,12 +228,34 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
     {
         "CustomAction"
         {
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_D6D4DA90DEB04B8CAAB616BBB14B7B34"
+            {
+            "Name" = "8:Primary output from isencoProject (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_21961E03F7A34967985761C72D74030C"
+            "FileType" = "3:2"
+            "InstallAction" = "3:1"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_734DDC1F_EDD3_4581_A469_4AA93A324445"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
         }
         "DefaultFeature"
         {
@@ -192,6 +279,99 @@
         }
         "File"
         {
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_21011BBF78F0762548EDB8CEBBAEFF03"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:datosCompartidos, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86"
+                "ScatterAssemblies"
+                {
+                    "_21011BBF78F0762548EDB8CEBBAEFF03"
+                    {
+                    "Name" = "8:datosCompartidos.exe"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:datosCompartidos.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_308687721B0E4E2FA56C86D34D0A739C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_314D216326C45BF5B67BAD061A9F69B8"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:OnBarcode.Barcode.RS2005CRI, Version=5.0.0.30809, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_314D216326C45BF5B67BAD061A9F69B8"
+                    {
+                    "Name" = "8:OnBarcode.Barcode.RS2005CRI.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:OnBarcode.Barcode.RS2005CRI.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_308687721B0E4E2FA56C86D34D0A739C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_32BFD39501154E16E26110278A6D96BF"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:OnBarcode.Barcode.WinForms, Version=6.0.0.30809, Culture=neutral, PublicKeyToken=4da8d7f865f70e30, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_32BFD39501154E16E26110278A6D96BF"
+                    {
+                    "Name" = "8:OnBarcode.Barcode.WinForms.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:OnBarcode.Barcode.WinForms.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_308687721B0E4E2FA56C86D34D0A739C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_5B0202182BFBC7ECB97164C9C82D56F4"
             {
             "AssemblyRegister" = "3:1"
@@ -254,20 +434,51 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_813DABBE9D162B35557D7B62F615D7C0"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_84CFC9078E5E4CBC09D5689B74309018"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:datosCompartidos, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86"
+            "AssemblyAsmDisplayName" = "8:OnBarcode.Barcode.RS2005, Version=5.0.0.30809, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_813DABBE9D162B35557D7B62F615D7C0"
+                    "_84CFC9078E5E4CBC09D5689B74309018"
                     {
-                    "Name" = "8:datosCompartidos.exe"
+                    "Name" = "8:OnBarcode.Barcode.RS2005.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:datosCompartidos.exe"
+            "SourcePath" = "8:OnBarcode.Barcode.RS2005.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_308687721B0E4E2FA56C86D34D0A739C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A9DA5FF474F24FB157EA6A5BAD5F31E2"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:OnBarcode.Barcode.RS2008, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_A9DA5FF474F24FB157EA6A5BAD5F31E2"
+                    {
+                    "Name" = "8:OnBarcode.Barcode.RS2008.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:OnBarcode.Barcode.RS2008.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_308687721B0E4E2FA56C86D34D0A739C"
@@ -299,6 +510,37 @@
                     }
                 }
             "SourcePath" = "8:Microsoft.ReportViewer.ProcessingObjectModel.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_308687721B0E4E2FA56C86D34D0A739C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_D1C0F5DC51B7F9429AE1D7659CED1A2B"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:OnBarcode.Barcode.RS2008CRI, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_D1C0F5DC51B7F9429AE1D7659CED1A2B"
+                    {
+                    "Name" = "8:OnBarcode.Barcode.RS2008CRI.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:OnBarcode.Barcode.RS2008CRI.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_308687721B0E4E2FA56C86D34D0A739C"
@@ -402,22 +644,22 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:instalador Isenco"
+        "ProductName" = "8:Sistema Isenco"
         "ProductCode" = "8:{3FFA4D36-A088-4E90-81DD-113F851CA250}"
-        "PackageCode" = "8:{7B60D0C0-24B3-4F77-81B9-005B7C5D1DD7}"
+        "PackageCode" = "8:{23421972-529A-4A40-9426-906985852A7B}"
         "UpgradeCode" = "8:{5261888B-BDB7-4362-BAB0-B6EE02F93AB9}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
         "DetectNewerInstalledVersion" = "11:TRUE"
-        "InstallAllUsers" = "11:FALSE"
+        "InstallAllUsers" = "11:TRUE"
         "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:Default Company Name"
+        "Manufacturer" = "8:ISENCO"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:instalador Isenco"
+        "Title" = "8:Sistema Isenco"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:Default Company Name"
+        "ARPCONTACT" = "8:ISENCO"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
