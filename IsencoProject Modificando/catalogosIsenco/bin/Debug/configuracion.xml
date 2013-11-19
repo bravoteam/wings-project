@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<cnn>
-  <name conexion="BD">
-    <server>192.168.2.5</server>
-    <database>isenco</database>
-    <user>sa</user>
-    <pass>isenco</pass>
-  </name>
-</cnn>
