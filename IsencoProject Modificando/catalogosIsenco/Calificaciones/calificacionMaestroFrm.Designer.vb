@@ -23,9 +23,9 @@ Partial Class calificacionMaestroFrm
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim ReportDataSource1 As Microsoft.Reporting.WinForms.ReportDataSource = New Microsoft.Reporting.WinForms.ReportDataSource()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim ReportDataSource2 As Microsoft.Reporting.WinForms.ReportDataSource = New Microsoft.Reporting.WinForms.ReportDataSource()
         Me.calificacionesMaestrosBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.reportesDT = New catalogosIsenco.reportesDT()
         Me.Label9 = New System.Windows.Forms.Label()
@@ -160,7 +160,7 @@ Partial Class calificacionMaestroFrm
         Me.cmbAux.FormattingEnabled = True
         Me.cmbAux.Location = New System.Drawing.Point(751, 10)
         Me.cmbAux.Name = "cmbAux"
-        Me.cmbAux.Size = New System.Drawing.Size(324, 23)
+        Me.cmbAux.Size = New System.Drawing.Size(225, 23)
         Me.cmbAux.TabIndex = 55
         Me.cmbAux.Visible = False
         '
@@ -268,8 +268,8 @@ Partial Class calificacionMaestroFrm
         '
         'Matricula
         '
-        DataGridViewCellStyle1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Matricula.DefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Matricula.DefaultCellStyle = DataGridViewCellStyle3
         Me.Matricula.HeaderText = "Matricula"
         Me.Matricula.Name = "Matricula"
         Me.Matricula.ReadOnly = True
@@ -291,9 +291,9 @@ Partial Class calificacionMaestroFrm
         'NOMBRE
         '
         Me.NOMBRE.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells
-        DataGridViewCellStyle2.Format = "N2"
-        DataGridViewCellStyle2.NullValue = Nothing
-        Me.NOMBRE.DefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle4.Format = "N2"
+        DataGridViewCellStyle4.NullValue = Nothing
+        Me.NOMBRE.DefaultCellStyle = DataGridViewCellStyle4
         Me.NOMBRE.HeaderText = "NOMBRE"
         Me.NOMBRE.Name = "NOMBRE"
         Me.NOMBRE.ReadOnly = True
@@ -341,7 +341,7 @@ Partial Class calificacionMaestroFrm
         Me.TabPage1.Controls.Add(Me.DG)
         Me.TabPage1.Location = New System.Drawing.Point(4, 22)
         Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3, 3, 3, 3)
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage1.Size = New System.Drawing.Size(1322, 844)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Captura de Calificaciones"
@@ -352,7 +352,7 @@ Partial Class calificacionMaestroFrm
         Me.TabPage2.Controls.Add(Me.ReportViewer1)
         Me.TabPage2.Location = New System.Drawing.Point(4, 22)
         Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3, 3, 3, 3)
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage2.Size = New System.Drawing.Size(1322, 844)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Impresion de Calificaciones"
@@ -361,9 +361,9 @@ Partial Class calificacionMaestroFrm
         'ReportViewer1
         '
         Me.ReportViewer1.Dock = System.Windows.Forms.DockStyle.Fill
-        ReportDataSource1.Name = "DataSet1"
-        ReportDataSource1.Value = Me.calificacionesMaestrosBindingSource
-        Me.ReportViewer1.LocalReport.DataSources.Add(ReportDataSource1)
+        ReportDataSource2.Name = "DataSet1"
+        ReportDataSource2.Value = Me.calificacionesMaestrosBindingSource
+        Me.ReportViewer1.LocalReport.DataSources.Add(ReportDataSource2)
         Me.ReportViewer1.LocalReport.ReportEmbeddedResource = "catalogosIsenco.reporteCalificacionesMaestro.rdlc"
         Me.ReportViewer1.Location = New System.Drawing.Point(3, 3)
         Me.ReportViewer1.Name = "ReportViewer1"

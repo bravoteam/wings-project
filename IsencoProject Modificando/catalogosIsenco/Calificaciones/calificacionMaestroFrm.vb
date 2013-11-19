@@ -30,18 +30,6 @@ Public Class calificacionMaestroFrm
             cmbObtener.Enabled = False
             cmdGuardar.Enabled = False
         End If
-
-        'Se obtiene las materias
-        variables.sql = "select pm.id, m.idmateria,m.nombre + '-' + cast(cl.semestre as varchar) + '°' + pm.grupo + '-' + pm.campus + ' ' + l.nombre as nombrestodos " & _
-            "from personal_materia pm inner join personal p on p.id=pm.idpersonal inner join " & _
-            "cicloescolar_licenciatura cl on cl.id=pm.idciclolicenciatura inner join materias m on m.idmateria=cl.idmateria inner join licenciaturas l on l.idlicenciatura=cl.idlicenciatura " & _
-            "where pm.idpersonal=" & variables.personalUser & ""
-        b.abrirConexion()
-        ds = b.getDataSet(variables.sql)
-        b.cerrarConexion()
-        loadComboBox(ds, comboMaterias, "idmateria", "nombrestodos")
-        loadComboBox(ds, cmbAux, "id", "idmateria")
-        obtenerInformacion(cmbAux.SelectedValue)
     End Sub
     Private Sub obtenerInformacion(id As Integer)
         variables.conexion.abrirConexion()
@@ -67,11 +55,30 @@ Public Class calificacionMaestroFrm
         End While
     End Sub
 
+    Private Sub comboMaterias_DropDown(ByVal sender As Object, ByVal e As System.EventArgs) Handles comboMaterias.DropDown
+        Dim b As New BaseDatos
+        Dim ds As New DataSet
+        'Se obtiene las materias
+        If Len(comboMaterias.Text) >= 0 Then
+            variables.sql = "select pm.id, m.idmateria,m.nombre + '-' + cast(cl.semestre as varchar) + '°' + pm.grupo + '-' + pm.campus + ' ' + l.nombre as nombrestodos " & _
+                        "from personal_materia pm inner join personal p on p.id=pm.idpersonal inner join " & _
+                        "cicloescolar_licenciatura cl on cl.id=pm.idciclolicenciatura inner join materias m on m.idmateria=cl.idmateria inner join licenciaturas l on l.idlicenciatura=cl.idlicenciatura " & _
+                        "where pm.idpersonal=" & variables.personalUser & ""
+            b.abrirConexion()
+            ds = b.getDataSet(variables.sql)
+            b.cerrarConexion()
+            loadComboBox(ds, comboMaterias, "id", "nombrestodos")
+            loadComboBox(ds, cmbAux, "idmateria", "id")
+            obtenerInformacion(cmbAux.SelectedValue)
+            DG.Rows.Clear()
+        End If
+    End Sub
+
     Private Sub comboMaterias_SelectedValueChanged(sender As System.Object, e As System.EventArgs) Handles comboMaterias.SelectedValueChanged
         Dim index As Integer
         index = cmbAux.FindString(comboMaterias.SelectedValue.ToString)
         cmbAux.SelectedIndex = index
-        obtenerInformacion(cmbAux.SelectedValue)
+        obtenerInformacion(Val(cmbAux.Text))
     End Sub
 
     Private Sub cmbObtener_Click(sender As System.Object, e As System.EventArgs) Handles cmbObtener.Click
@@ -110,7 +117,7 @@ Public Class calificacionMaestroFrm
             "where a.IDCAMPUS = '" & txtCampus.Text & "' and a.IDLICENCIATURA = '" & txtLicenciatura.Text & "' " & _
             "and a.IDESPECIALIDAD = '" & txtEspecialidad.Text & "' " & _
             "and a.IDSEMESTRE = '" & txtSemestre.Text & "' and a.IDGRUPO = '" & txtGrupo.Text & "' " & _
-            "and c.IDSEMESTRE='" & txtSemestre.Text & "' and c.idmateria=" & Val(comboMaterias.SelectedValue) & " " & _
+            "and c.IDSEMESTRE='" & txtSemestre.Text & "' and c.idmateria=" & Val(cmbAux.SelectedValue) & " " & _
             "AND c.idlicenciatura='" & variables.IdLice & "'" & _
             " and c.idgrupo='" & txtGrupo.Text & "' and a.idstatus<>'EGRESADO' and a.IDSTATUS NOT LIKE '%BAJA%' " & _
             "group by a.MATRICULA, m.NOMBRE, c.CALIFICACION, c.calificacion2, c.asistenciaP1, c.asistenciaP2 , m.IDMATERIA, " & _
@@ -129,7 +136,7 @@ Public Class calificacionMaestroFrm
                     "where a.IDCAMPUS = '" & txtCampus.Text & "' and a.IDLICENCIATURA = '" & txtLicenciatura.Text & "' " & _
                     "and a.IDESPECIALIDAD = '" & txtEspecialidad.Text & "' and " & _
                     "a.IDSEMESTRE = '" & txtSemestre.Text & "' and a.IDGRUPO = '" & txtGrupo.Text & "' and a.IDSTATUS<>'EGRESADO' and a.IDSTATUS NOT LIKE '%BAJA%' " & _
-                    " and m.idmateria=" & Val(comboMaterias.SelectedValue) & " " & _
+                    " and m.idmateria=" & Val(cmbAux.SelectedValue) & " " & _
                     "group by a.MATRICULA, m.NOMBRE, m.IDMATERIA, a.apellido_paterno, a.apellido_materno, a.nombre,a.idalumno " & _
                     "order by a.apellido_paterno,a.apellido_materno, a.nombre, m.IDMATERIA"
                 b.abrirConexion()
@@ -506,7 +513,7 @@ Public Class calificacionMaestroFrm
 
         calificacionesMaestrosTableAdapter.Fill(reportesDT.calificacionesMaestros, _
                                                     variables.idMaestro, _
-                                                    comboMaterias.SelectedValue, _
+                                                    cmbAux.SelectedValue, _
                                                     Convert.ToDecimal(variables.IdLice), _
                                                     variables.idesp, _
                                                     variables.ciclo, _
