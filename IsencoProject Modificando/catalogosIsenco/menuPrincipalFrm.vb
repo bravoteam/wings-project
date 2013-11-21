@@ -260,7 +260,7 @@ Public Class menuPrincipalFrm
         estadisticasFinalFrm.Show()
     End Sub
 
-    Private Sub AsignarMaestroAlumnoToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AsignarMaestroAlumnoToolStripMenuItem.Click
+    Private Sub AsignarMaestroAlumnoToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         FrmAlumnoMaestro.Show()
     End Sub
 End Class
