@@ -1203,11 +1203,9 @@ F:\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\Generat
 F:\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\RdlCompile.cache
 F:\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\RdlCompile.compiled
 D:\Documents\IsencoProject\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.FrmAlumnoMaestro.resources
-C:\proyectos\wings-project\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.exe.config
-C:\proyectos\wings-project\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.xml
-C:\proyectos\wings-project\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.pdb
 C:\proyectos\wings-project\IsencoProject Modificando\catalogosIsenco\bin\Debug\Resources\Logo ISENCO.jpg
 C:\proyectos\wings-project\IsencoProject Modificando\catalogosIsenco\bin\Debug\Resources\LOGO SE a colores.jpg
+C:\proyectos\wings-project\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.exe.config
 C:\proyectos\wings-project\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.exe
 C:\proyectos\wings-project\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.pdb
 C:\proyectos\wings-project\IsencoProject Modificando\catalogosIsenco\bin\Debug\catalogosIsenco.xml
@@ -1289,3 +1287,5 @@ C:\proyectos\wings-project\IsencoProject Modificando\catalogosIsenco\obj\x86\Deb
 C:\proyectos\wings-project\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\RdlCompile.cache
 C:\proyectos\wings-project\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\RdlCompile.compiled
 C:\proyectos\wings-project\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.exe
+C:\proyectos\wings-project\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.xml
+C:\proyectos\wings-project\IsencoProject Modificando\catalogosIsenco\obj\x86\Debug\catalogosIsenco.pdb

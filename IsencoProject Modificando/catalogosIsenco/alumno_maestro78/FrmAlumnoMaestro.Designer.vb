@@ -76,11 +76,11 @@ Partial Class FrmAlumnoMaestro
         Me.Gbxdatos.Controls.Add(Me.Label1)
         Me.Gbxdatos.Controls.Add(Me.cmbCampus)
         Me.Gbxdatos.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Gbxdatos.Location = New System.Drawing.Point(6, 4)
+        Me.Gbxdatos.Location = New System.Drawing.Point(7, 2)
         Me.Gbxdatos.Margin = New System.Windows.Forms.Padding(4)
         Me.Gbxdatos.Name = "Gbxdatos"
         Me.Gbxdatos.Padding = New System.Windows.Forms.Padding(4)
-        Me.Gbxdatos.Size = New System.Drawing.Size(1290, 149)
+        Me.Gbxdatos.Size = New System.Drawing.Size(1290, 143)
         Me.Gbxdatos.TabIndex = 46
         Me.Gbxdatos.TabStop = False
         Me.Gbxdatos.Text = "Datos Escolares"
@@ -267,7 +267,7 @@ Partial Class FrmAlumnoMaestro
         Me.GbxAlumnos.Margin = New System.Windows.Forms.Padding(4)
         Me.GbxAlumnos.Name = "GbxAlumnos"
         Me.GbxAlumnos.Padding = New System.Windows.Forms.Padding(4)
-        Me.GbxAlumnos.Size = New System.Drawing.Size(1289, 529)
+        Me.GbxAlumnos.Size = New System.Drawing.Size(1289, 651)
         Me.GbxAlumnos.TabIndex = 48
         Me.GbxAlumnos.TabStop = False
         Me.GbxAlumnos.Text = "Alumnos"
@@ -275,7 +275,7 @@ Partial Class FrmAlumnoMaestro
         'lblRegs
         '
         Me.lblRegs.AutoSize = True
-        Me.lblRegs.Location = New System.Drawing.Point(9, 504)
+        Me.lblRegs.Location = New System.Drawing.Point(9, 628)
         Me.lblRegs.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblRegs.Name = "lblRegs"
         Me.lblRegs.Size = New System.Drawing.Size(17, 17)
@@ -292,7 +292,7 @@ Partial Class FrmAlumnoMaestro
         Me.DG.Margin = New System.Windows.Forms.Padding(4)
         Me.DG.Name = "DG"
         Me.DG.RowTemplate.Height = 24
-        Me.DG.Size = New System.Drawing.Size(1271, 471)
+        Me.DG.Size = New System.Drawing.Size(1271, 601)
         Me.DG.TabIndex = 39
         '
         'Label3
@@ -332,7 +332,7 @@ Partial Class FrmAlumnoMaestro
         Me.GbxDocentes.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GbxDocentes.Location = New System.Drawing.Point(6, 152)
         Me.GbxDocentes.Name = "GbxDocentes"
-        Me.GbxDocentes.Size = New System.Drawing.Size(1290, 114)
+        Me.GbxDocentes.Size = New System.Drawing.Size(1290, 240)
         Me.GbxDocentes.TabIndex = 47
         Me.GbxDocentes.TabStop = False
         Me.GbxDocentes.Text = "Materia - Docentes:"
@@ -372,7 +372,7 @@ Partial Class FrmAlumnoMaestro
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1308, 796)
+        Me.ClientSize = New System.Drawing.Size(1308, 922)
         Me.Controls.Add(Me.Gbxdatos)
         Me.Controls.Add(Me.GbxAlumnos)
         Me.Controls.Add(Me.GbxDocentes)

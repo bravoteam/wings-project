@@ -210,7 +210,7 @@ Public Class FRmRep_Registro2
         "</DeviceInfo>"
         Try
             Select Case Integer.Parse(FrmRegistro2.Label8.Text)
-                Case 4
+                Case 2
                     bytes = ReportViewer4.LocalReport.Render("PDF", deviceInfo, mimeType, encoding, extension, streamids, warnings)
                     ReportViewer4.LocalReport.ReportPath = "Reporte_registro_escolaridad6.rdl"
                     Dim fs As New FileStream("C:\ISENCO\" & "Registro_Escolaridad6" & "test" & ".pdf", FileMode.Create)

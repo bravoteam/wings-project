@@ -74,6 +74,10 @@ Public Class FrmAlumnoMaestro
         DG.Columns.Item("MATRICULA").ReadOnly = True
     End Sub
     Private Sub obtener_lista()
+        If CmbPlanEst.Text = "" Then
+            MsgBox("Falta Seleccionar el Plan de Estudios")
+            Exit Sub
+        End If
         DG.Rows.Clear()
         DG.Columns.Clear()
         GeneraGrid()
@@ -197,6 +201,7 @@ Public Class FrmAlumnoMaestro
                         With cmd2
                             .Parameters.AddWithValue("@IDALUMNO", DG(4, i).Value)
                             .Parameters.AddWithValue("@IDPERSONAL", CInt(lblidmaestro.Text))
+                            .Parameters.AddWithValue("@IDMATERIA", CInt(lblidmateria.Text))
                         End With
                         Dim nM = CInt(cmd2.ExecuteScalar())
                     Else
@@ -205,6 +210,7 @@ Public Class FrmAlumnoMaestro
                         With cmd2
                             .Parameters.AddWithValue("@IDALUMNO", DG(4, i).Value)
                             .Parameters.AddWithValue("@IDPERSONAL", CInt(lblidmaestro.Text))
+                            .Parameters.AddWithValue("@IDMATERIA", CInt(lblidmateria.Text))
                         End With
                         Dim nH As Integer = CInt(cmd2.ExecuteScalar())
                     End If
@@ -280,4 +286,6 @@ Public Class FrmAlumnoMaestro
             extraer_id_materia()
         End If
     End Sub
+
+
 End Class
