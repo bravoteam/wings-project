@@ -23,13 +23,12 @@ Partial Class calificacionMaestroFrm
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim ReportDataSource2 As Microsoft.Reporting.WinForms.ReportDataSource = New Microsoft.Reporting.WinForms.ReportDataSource()
-        Me.calificacionesMaestrosBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.reportesDT = New catalogosIsenco.reportesDT()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim ReportDataSource1 As Microsoft.Reporting.WinForms.ReportDataSource = New Microsoft.Reporting.WinForms.ReportDataSource()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.ObtenerCmd = New System.Windows.Forms.Button()
         Me.lblParcial = New System.Windows.Forms.Label()
         Me.cmdGuardar = New System.Windows.Forms.Button()
         Me.cmbObtener = New System.Windows.Forms.Button()
@@ -55,28 +54,18 @@ Partial Class calificacionMaestroFrm
         Me.ToolStripStatusLabel3 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
-        Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.ReportViewer1 = New Microsoft.Reporting.WinForms.ReportViewer()
+        Me.calificacionesMaestrosBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.reportesDT = New catalogosIsenco.reportesDT()
         Me.calificacionesMaestrosTableAdapter = New catalogosIsenco.reportesDTTableAdapters.calificacionesMaestrosTableAdapter()
-        CType(Me.calificacionesMaestrosBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.reportesDT, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         CType(Me.DG, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.StatusStrip1.SuspendLayout()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
-        Me.TabPage2.SuspendLayout()
+        CType(Me.calificacionesMaestrosBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.reportesDT, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'calificacionesMaestrosBindingSource
-        '
-        Me.calificacionesMaestrosBindingSource.DataMember = "calificacionesMaestros"
-        Me.calificacionesMaestrosBindingSource.DataSource = Me.reportesDT
-        '
-        'reportesDT
-        '
-        Me.reportesDT.DataSetName = "reportesDT"
-        Me.reportesDT.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
         'Label9
         '
@@ -90,6 +79,8 @@ Partial Class calificacionMaestroFrm
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.ReportViewer1)
+        Me.GroupBox1.Controls.Add(Me.ObtenerCmd)
         Me.GroupBox1.Controls.Add(Me.lblParcial)
         Me.GroupBox1.Controls.Add(Me.cmdGuardar)
         Me.GroupBox1.Controls.Add(Me.cmbObtener)
@@ -113,6 +104,21 @@ Partial Class calificacionMaestroFrm
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Elige la Materia a Calificar"
         '
+        'ObtenerCmd
+        '
+        Me.ObtenerCmd.BackColor = System.Drawing.Color.Blue
+        Me.ObtenerCmd.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.ObtenerCmd.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ObtenerCmd.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.ObtenerCmd.Image = Global.catalogosIsenco.My.Resources.Resources._16__Binoculars_next_
+        Me.ObtenerCmd.ImageAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.ObtenerCmd.Location = New System.Drawing.Point(1127, -1)
+        Me.ObtenerCmd.Name = "ObtenerCmd"
+        Me.ObtenerCmd.Size = New System.Drawing.Size(177, 28)
+        Me.ObtenerCmd.TabIndex = 59
+        Me.ObtenerCmd.Text = "Obtener Materias"
+        Me.ObtenerCmd.UseVisualStyleBackColor = False
+        '
         'lblParcial
         '
         Me.lblParcial.AutoSize = True
@@ -128,6 +134,7 @@ Partial Class calificacionMaestroFrm
         '
         Me.cmdGuardar.BackColor = System.Drawing.Color.Blue
         Me.cmdGuardar.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.cmdGuardar.Enabled = False
         Me.cmdGuardar.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmdGuardar.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.cmdGuardar.Image = Global.catalogosIsenco.My.Resources.Resources._16__Save_
@@ -143,6 +150,7 @@ Partial Class calificacionMaestroFrm
         '
         Me.cmbObtener.BackColor = System.Drawing.Color.Blue
         Me.cmbObtener.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.cmbObtener.Enabled = False
         Me.cmbObtener.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbObtener.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.cmbObtener.Image = Global.catalogosIsenco.My.Resources.Resources._16__Binoculars_next_
@@ -158,11 +166,10 @@ Partial Class calificacionMaestroFrm
         '
         Me.cmbAux.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbAux.FormattingEnabled = True
-        Me.cmbAux.Location = New System.Drawing.Point(751, 10)
+        Me.cmbAux.Location = New System.Drawing.Point(966, 147)
         Me.cmbAux.Name = "cmbAux"
-        Me.cmbAux.Size = New System.Drawing.Size(225, 23)
+        Me.cmbAux.Size = New System.Drawing.Size(73, 23)
         Me.cmbAux.TabIndex = 55
-        Me.cmbAux.Visible = False
         '
         'txtCampus
         '
@@ -260,16 +267,16 @@ Partial Class calificacionMaestroFrm
         Me.DG.AllowUserToDeleteRows = False
         Me.DG.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DG.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Matricula, Me.APELLIDO_PATERNO, Me.APELLIDO_MATERNO, Me.NOMBRE})
-        Me.DG.Location = New System.Drawing.Point(8, 199)
+        Me.DG.Location = New System.Drawing.Point(17, 196)
         Me.DG.Name = "DG"
         Me.DG.RowTemplate.Height = 24
-        Me.DG.Size = New System.Drawing.Size(1300, 628)
+        Me.DG.Size = New System.Drawing.Size(1295, 628)
         Me.DG.TabIndex = 44
         '
         'Matricula
         '
-        DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Matricula.DefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Matricula.DefaultCellStyle = DataGridViewCellStyle1
         Me.Matricula.HeaderText = "Matricula"
         Me.Matricula.Name = "Matricula"
         Me.Matricula.ReadOnly = True
@@ -291,9 +298,9 @@ Partial Class calificacionMaestroFrm
         'NOMBRE
         '
         Me.NOMBRE.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells
-        DataGridViewCellStyle4.Format = "N2"
-        DataGridViewCellStyle4.NullValue = Nothing
-        Me.NOMBRE.DefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle2.Format = "N2"
+        DataGridViewCellStyle2.NullValue = Nothing
+        Me.NOMBRE.DefaultCellStyle = DataGridViewCellStyle2
         Me.NOMBRE.HeaderText = "NOMBRE"
         Me.NOMBRE.Name = "NOMBRE"
         Me.NOMBRE.ReadOnly = True
@@ -302,9 +309,9 @@ Partial Class calificacionMaestroFrm
         'StatusStrip1
         '
         Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1, Me.ToolStripStatusLabel2, Me.ToolStripStatusLabel3})
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 837)
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 871)
         Me.StatusStrip1.Name = "StatusStrip1"
-        Me.StatusStrip1.Size = New System.Drawing.Size(1334, 22)
+        Me.StatusStrip1.Size = New System.Drawing.Size(1330, 22)
         Me.StatusStrip1.TabIndex = 45
         Me.StatusStrip1.Text = "StatusStrip1"
         '
@@ -328,7 +335,6 @@ Partial Class calificacionMaestroFrm
         'TabControl1
         '
         Me.TabControl1.Controls.Add(Me.TabPage1)
-        Me.TabControl1.Controls.Add(Me.TabPage2)
         Me.TabControl1.Location = New System.Drawing.Point(0, 1)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
@@ -347,28 +353,26 @@ Partial Class calificacionMaestroFrm
         Me.TabPage1.Text = "Captura de Calificaciones"
         Me.TabPage1.UseVisualStyleBackColor = True
         '
-        'TabPage2
-        '
-        Me.TabPage2.Controls.Add(Me.ReportViewer1)
-        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(1322, 844)
-        Me.TabPage2.TabIndex = 1
-        Me.TabPage2.Text = "Impresion de Calificaciones"
-        Me.TabPage2.UseVisualStyleBackColor = True
-        '
         'ReportViewer1
         '
-        Me.ReportViewer1.Dock = System.Windows.Forms.DockStyle.Fill
-        ReportDataSource2.Name = "DataSet1"
-        ReportDataSource2.Value = Me.calificacionesMaestrosBindingSource
-        Me.ReportViewer1.LocalReport.DataSources.Add(ReportDataSource2)
+        ReportDataSource1.Name = "DataSet1"
+        ReportDataSource1.Value = Me.calificacionesMaestrosBindingSource
+        Me.ReportViewer1.LocalReport.DataSources.Add(ReportDataSource1)
         Me.ReportViewer1.LocalReport.ReportEmbeddedResource = "catalogosIsenco.reporteCalificacionesMaestro.rdlc"
-        Me.ReportViewer1.Location = New System.Drawing.Point(3, 3)
+        Me.ReportViewer1.Location = New System.Drawing.Point(799, 296)
         Me.ReportViewer1.Name = "ReportViewer1"
-        Me.ReportViewer1.Size = New System.Drawing.Size(1316, 838)
+        Me.ReportViewer1.Size = New System.Drawing.Size(298, 192)
         Me.ReportViewer1.TabIndex = 5
+        '
+        'calificacionesMaestrosBindingSource
+        '
+        Me.calificacionesMaestrosBindingSource.DataMember = "calificacionesMaestros"
+        Me.calificacionesMaestrosBindingSource.DataSource = Me.reportesDT
+        '
+        'reportesDT
+        '
+        Me.reportesDT.DataSetName = "reportesDT"
+        Me.reportesDT.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
         'calificacionesMaestrosTableAdapter
         '
@@ -378,14 +382,13 @@ Partial Class calificacionMaestroFrm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoScroll = True
         Me.ClientSize = New System.Drawing.Size(1334, 859)
         Me.Controls.Add(Me.TabControl1)
         Me.Controls.Add(Me.StatusStrip1)
         Me.Name = "calificacionMaestroFrm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Alta de Calificaciones"
-        CType(Me.calificacionesMaestrosBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.reportesDT, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         CType(Me.DG, System.ComponentModel.ISupportInitialize).EndInit()
@@ -393,7 +396,8 @@ Partial Class calificacionMaestroFrm
         Me.StatusStrip1.PerformLayout()
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
-        Me.TabPage2.ResumeLayout(False)
+        CType(Me.calificacionesMaestrosBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.reportesDT, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -425,9 +429,9 @@ Partial Class calificacionMaestroFrm
     Friend WithEvents ToolStripStatusLabel3 As System.Windows.Forms.ToolStripStatusLabel
     Friend WithEvents TabControl1 As System.Windows.Forms.TabControl
     Friend WithEvents TabPage1 As System.Windows.Forms.TabPage
-    Friend WithEvents TabPage2 As System.Windows.Forms.TabPage
     Friend WithEvents ReportViewer1 As Microsoft.Reporting.WinForms.ReportViewer
     Friend WithEvents calificacionesMaestrosBindingSource As System.Windows.Forms.BindingSource
     Friend WithEvents reportesDT As catalogosIsenco.reportesDT
     Friend WithEvents calificacionesMaestrosTableAdapter As catalogosIsenco.reportesDTTableAdapters.calificacionesMaestrosTableAdapter
+    Friend WithEvents ObtenerCmd As System.Windows.Forms.Button
 End Class

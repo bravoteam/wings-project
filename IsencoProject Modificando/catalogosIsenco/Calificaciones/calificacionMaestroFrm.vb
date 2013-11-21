@@ -56,22 +56,7 @@ Public Class calificacionMaestroFrm
     End Sub
 
     Private Sub comboMaterias_DropDown(ByVal sender As Object, ByVal e As System.EventArgs) Handles comboMaterias.DropDown
-        Dim b As New BaseDatos
-        Dim ds As New DataSet
-        'Se obtiene las materias
-        If Len(comboMaterias.Text) <= 0 Then
-            variables.sql = "select pm.id, m.idmateria,m.nombre + '-' + cast(cl.semestre as varchar) + '°' + pm.grupo + '-' + pm.campus + ' ' + l.nombre as nombrestodos " & _
-                        "from personal_materia pm inner join personal p on p.id=pm.idpersonal inner join " & _
-                        "cicloescolar_licenciatura cl on cl.id=pm.idciclolicenciatura inner join materias m on m.idmateria=cl.idmateria inner join licenciaturas l on l.idlicenciatura=cl.idlicenciatura " & _
-                        "where pm.idpersonal=" & variables.personalUser & ""
-            b.abrirConexion()
-            ds = b.getDataSet(variables.sql)
-            b.cerrarConexion()
-            loadComboBox(ds, comboMaterias, "id", "nombrestodos")
-            loadComboBox(ds, cmbAux, "idmateria", "id")
-            obtenerInformacion(cmbAux.SelectedValue)
-            DG.Rows.Clear()
-        End If
+        DG.Rows.Clear()
     End Sub
 
     Private Sub comboMaterias_SelectedValueChanged(sender As System.Object, e As System.EventArgs) Handles comboMaterias.SelectedValueChanged
@@ -107,10 +92,9 @@ Public Class calificacionMaestroFrm
         Try
             DG.Rows.Clear()
             DG.Columns.Clear()
-
             sql = "select " & _
             "C.idcalificacion,a.MATRICULA, a.apellido_paterno, a.apellido_materno, a.nombre as nombre_alumno," & _
-            "m.IDMATERIA, m.NOMBRE, c.CALIFICACION, c.calificacion2,c.calificacion3, c.asistenciaP1, c.asistenciaP2,c.asistenciaP3,a.idalumno," & variables.idMaestro & " " & _
+            "m.IDMATERIA, m.NOMBRE, c.asistenciaP1, c.asistenciaP2,c.asistenciaP3,c.CALIFICACION, c.calificacion2,c.calificacion3,a.idalumno," & variables.idMaestro & " " & _
             "from alumno a " & _
             "inner join calificaciones c on c.Matricula = a.MATRICULA " & _
             "inner join materias m on m.IDMATERIA = c.IDMATERIA " & _
@@ -131,7 +115,7 @@ Public Class calificacionMaestroFrm
                 MsgBox("NO EXISTEN DATOS, GENERANDO REGISTROS")
 
                 sql = "select  0 as idcalificacion,a.MATRICULA, a.apellido_paterno, a.apellido_materno, a.nombre as nombre_alumno," & _
-                    "m.IDMATERIA, m.NOMBRE,  0 as calificacion,0 as calificacion2,0 as calificacion3,0 as asistenciaP1,0 as asistenciaP2,0 as asistenciaP3," & _
+                    "m.IDMATERIA, m.NOMBRE, 0 as asistenciaP1,0 as asistenciaP2,0 as asistenciaP3, 0 as calificacion,0 as calificacion2,0 as calificacion3," & _
                     "a.idalumno," & variables.idMaestro & "  from alumno a,materias m " & _
                     "where a.IDCAMPUS = '" & txtCampus.Text & "' and a.IDLICENCIATURA = '" & txtLicenciatura.Text & "' " & _
                     "and a.IDESPECIALIDAD = '" & txtEspecialidad.Text & "' and " & _
@@ -149,13 +133,17 @@ Public Class calificacionMaestroFrm
                 DG.Columns.Add("NOMBRE", "NOMBRES") '4
                 DG.Columns.Add("IDMATERIA", "IDMATERIA") '5
                 DG.Columns.Add("MATERIA", "MATERIA") '6
-             
+
+
                 DG.Columns.Add("PORCENTAJE1P", "PORCENTAJE1P") '7
                 DG.Columns.Add("PORCENTAJE2P", "PORCENTAJE2P") '8
                 DG.Columns.Add("PORCENTAJE3P", "PORCENTAJE3P") '9
                 DG.Columns.Add("CALIFICACION1P", "CALIFICACION1P") '10
                 DG.Columns.Add("CALIFICACION2P", "CALIFICACION2P") '11
                 DG.Columns.Add("CALIFICACION3P", "CALIFICACION3P") '12
+
+
+
                 DG.Columns.Add("IDALUMNO", "IDALUMNO") '13
                 DG.Columns.Add("IDMAESTRO", "IDMAESTRO") '14
 
@@ -206,14 +194,17 @@ Public Class calificacionMaestroFrm
                 DG.Columns.Add("NOMBRE", "NOMBRES") '4
                 DG.Columns.Add("IDMATERIA", "IDMATERIA") '5
                 DG.Columns.Add("MATERIA", "MATERIA") '6
-               
+
                 DG.Columns.Add("PORCENTAJE1P", "PORCENTAJE1P") '7
                 DG.Columns.Add("PORCENTAJE2P", "PORCENTAJE2P") '8
                 DG.Columns.Add("PORCENTAJE3P", "PORCENTAJE3P") '9
-
                 DG.Columns.Add("CALIFICACION1P", "CALIFICACION1P") '10
                 DG.Columns.Add("CALIFICACION2P", "CALIFICACION2P") '11
                 DG.Columns.Add("CALIFICACION3P", "CALIFICACION3P") '12
+
+
+
+
 
                 DG.Columns.Add("IDALUMNO", "IDALUMNO") '13
                 DG.Columns.Add("IDMAESTRO", "IDMAESTRO") '14
@@ -416,24 +407,25 @@ Public Class calificacionMaestroFrm
             For i = 0 To DG.RowCount - 1
                 cal = 0
                 cal2 = 0
+                cal3 = 0
                 idCalif = Val(DG(0, i).Value)
                 matricula = DG(1, i).Value
                 IDmat = Val(DG(5, i).Value)
-                If DG(7, i).Value = "" Then
-                    DG(7, i).Value = 0
+                If DG(10, i).Value = 0 Then
+                    DG(10, i).Value = 0
                 End If
-                cal = DG(7, i).Value
-                If DG(8, i).Value = "" Then
-                    DG(8, i).Value = 0
+                cal = DG(10, i).Value
+                If DG(11, i).Value = 0 Then
+                    DG(11, i).Value = 0
                 End If
-                cal2 = DG(8, i).Value
-                If DG(9, i).Value = "" Then
-                    DG(9, i).Value = 0
+                cal2 = DG(11, i).Value
+                If DG(12, i).Value = 0 Then
+                    DG(12, i).Value = 0
                 End If
-                cal3 = DG(9, i).Value
-                P1 = DG(10, i).Value
-                P2 = DG(11, i).Value
-                P3 = DG(12, i).Value
+                cal3 = DG(12, i).Value
+                P1 = DG(7, i).Value
+                P2 = DG(8, i).Value
+                P3 = DG(9, i).Value
                 variables.idalumno = DG(13, i).Value
                 If txtEspecialidad.Text = "" Then
                     idEspecialidad = 0
@@ -504,13 +496,14 @@ Public Class calificacionMaestroFrm
             variables.conexion.cerrarConexion()
             MsgBox("GUARDADO CON ÉXITO", MsgBoxStyle.Information)
             actualizarReporte()
-        Catch
-            MsgBox("ERROR VERIFIQUE LOS DATOS ", MsgBoxStyle.Critical)
-            Exit Sub
+        Catch ex As Exception
+            MsgBox("ERROR VERIFIQUE LOS DATOS " & ex.ToString, MsgBoxStyle.Critical)
         End Try
     End Sub
+    Public objeto As New ReportViewer
     Private Sub actualizarReporte()
 
+        objeto = ReportViewer1
         calificacionesMaestrosTableAdapter.Fill(reportesDT.calificacionesMaestros, _
                                                     variables.idMaestro, _
                                                     cmbAux.SelectedValue, _
@@ -529,9 +522,9 @@ Public Class calificacionMaestroFrm
         parameters.Add(New ReportParameter("parcial", variables.parcial))
         parameters.Add(New ReportParameter("LICENCIATURA", txtLicenciatura.Text & " " & txtEspecialidad.Text))
         parameters.Add(New ReportParameter("MAESTRO", variables.nombreUsuario.ToUpper))
-        ReportViewer1.LocalReport.SetParameters(parameters)
+        objeto.LocalReport.SetParameters(parameters)
 
-        ReportViewer1.RefreshReport()
+        objeto.RefreshReport()
         pdf()
     End Sub
 
@@ -554,17 +547,52 @@ Public Class calificacionMaestroFrm
            "  <MarginBottom>0.5cm</MarginBottom>" +
            "</DeviceInfo>"
         Try
+            'Inicializar la clase Random  
+            Dim Random As New Random()
 
-            Dim nombreR As String = "reporteCalificacionesMaestro.rdlc"
-            bytes = ReportViewer1.LocalReport.Render("PDF", deviceInfo, mimeType, encoding, extension, streamids, warnings)
-            ReportViewer1.LocalReport.ReportPath = nombreR
+            ' generar un random entre 1 y 100  
+            Dim numero As Integer = Random.Next(1, 100)
+
+            Dim nombreR As String = Mid(comboMaterias.Text, 1, 10) & txtSemestre.Text & txtGrupo.Text & numero
+            bytes = objeto.LocalReport.Render("PDF", deviceInfo, mimeType, encoding, extension, streamids, warnings)
+            objeto.LocalReport.ReportPath = "reporteCalificacionesMaestro.rdlc"
 
             Dim fs As New FileStream("C:\ISENCO\" & nombreR & ".pdf", FileMode.Create)
             fs.Write(bytes, 0, bytes.Length)
             fs.Close()
             Process.Start("C:\ISENCO\" & nombreR & ".pdf")
+            fs.Dispose()
+            '  If objeto.Created Then
+            'objeto.Dispose()
+            ' End If
+
         Catch EX As Exception
             MsgBox(EX.ToString)
         End Try
+    End Sub
+
+    Private Sub ObtenerCmd_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ObtenerCmd.Click
+        Dim b As New BaseDatos
+        Dim ds As New DataSet
+        'Se obtiene las materias
+        If Len(comboMaterias.Text) <= 0 Then
+            variables.sql = "select pm.id, m.idmateria,m.nombre + '-' + cast(cl.semestre as varchar) + '°' + pm.grupo + '-' + pm.campus + ' ' + l.nombre as nombrestodos " & _
+                        "from personal_materia pm inner join personal p on p.id=pm.idpersonal inner join " & _
+                        "cicloescolar_licenciatura cl on cl.id=pm.idciclolicenciatura inner join materias m on m.idmateria=cl.idmateria inner join licenciaturas l on l.idlicenciatura=cl.idlicenciatura " & _
+                        "where pm.idpersonal=" & variables.personalUser & ""
+            b.abrirConexion()
+            ds = b.getDataSet(variables.sql)
+            b.cerrarConexion()
+            loadComboBox(ds, comboMaterias, "id", "nombrestodos")
+            loadComboBox(ds, cmbAux, "idmateria", "id")
+            obtenerInformacion(cmbAux.SelectedValue)
+            DG.Rows.Clear()
+            cmdGuardar.Enabled = True
+            cmbObtener.Enabled = True
+        End If
+        Dim index As Integer
+        index = cmbAux.FindString(comboMaterias.SelectedValue.ToString)
+        cmbAux.SelectedIndex = index
+        obtenerInformacion(Val(cmbAux.Text))
     End Sub
 End Class

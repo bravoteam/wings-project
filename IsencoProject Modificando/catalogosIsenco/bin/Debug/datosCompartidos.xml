@@ -6,7 +6,20 @@ datosCompartidos
 </name>
 </assembly>
 <members>
-<member name="P:datosCompartidos.NumToLetter.Number">
+<member name="P:datosCompartidos.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:datosCompartidos.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:datosCompartidos.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:datosCompartidos.NumToLetter.Number">
 	<summary>
  Number property
  </summary>
@@ -36,19 +49,6 @@ datosCompartidos
  </summary>
 	<returns>A string with the value text</returns>
 	<remarks></remarks>
-</member><member name="P:datosCompartidos.My.Resources.Resources.ResourceManager">
-	<summary>
-  Returns the cached ResourceManager instance used by this class.
-</summary>
-</member><member name="P:datosCompartidos.My.Resources.Resources.Culture">
-	<summary>
-  Overrides the current thread's CurrentUICulture property for all
-  resource lookups using this strongly typed resource class.
-</summary>
-</member><member name="T:datosCompartidos.My.Resources.Resources">
-	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
-</summary>
 </member>
 </members>
 </doc>

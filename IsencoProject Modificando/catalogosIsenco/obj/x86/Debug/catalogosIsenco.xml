@@ -6,7 +6,20 @@ catalogosIsenco
 </name>
 </assembly>
 <members>
-<member name="T:catalogosIsenco.isencoDataSet.primerSemestreDataTable">
+<member name="P:catalogosIsenco.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:catalogosIsenco.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:catalogosIsenco.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:catalogosIsenco.isencoDataSet.primerSemestreDataTable">
 	<summary>
 Represents the strongly named DataTable class.
 </summary>
@@ -570,6 +583,222 @@ Used to sort self-referenced table's rows
 	<summary>
 TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
 </summary>
+</member><member name="T:catalogosIsenco.inscripcion.imssDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:catalogosIsenco.inscripcion.Documentos_alumnos_entregadosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:catalogosIsenco.inscripcion.Documentos_alumnosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:catalogosIsenco.inscripcion.imssRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:catalogosIsenco.inscripcion.Documentos_alumnos_entregadosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:catalogosIsenco.inscripcion.Documentos_alumnosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:catalogosIsenco.inscripcion.imssRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:catalogosIsenco.inscripcion.Documentos_alumnos_entregadosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:catalogosIsenco.inscripcion.Documentos_alumnosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:catalogosIsenco.inscripcion">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:catalogosIsenco.inscripcionTableAdapters.imssTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:catalogosIsenco.inscripcionTableAdapters.Documentos_alumnos_entregadosTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:catalogosIsenco.inscripcionTableAdapters.Documentos_alumnosTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:catalogosIsenco.inscripcionTableAdapters.TableAdapterManager.UpdateUpdatedRows(catalogosIsenco.inscripcion,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:catalogosIsenco.inscripcionTableAdapters.TableAdapterManager.UpdateInsertedRows(catalogosIsenco.inscripcion,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:catalogosIsenco.inscripcionTableAdapters.TableAdapterManager.UpdateDeletedRows(catalogosIsenco.inscripcion,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:catalogosIsenco.inscripcionTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:catalogosIsenco.inscripcionTableAdapters.TableAdapterManager.UpdateAll(catalogosIsenco.inscripcion)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:catalogosIsenco.inscripcionTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:catalogosIsenco.inscripcionTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:catalogosIsenco.inscripcionTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:catalogosIsenco.registroEscolaridad.REGISTRO_ESCOLARIDADDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:catalogosIsenco.registroEscolaridad.REGISTRO_ESCOLARIDAD_ANTERIORDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:catalogosIsenco.registroEscolaridad.REGISTRO_ESCOLARIDAD_REPETIDORDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:catalogosIsenco.registroEscolaridad.DATOS_FIRMASDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:catalogosIsenco.registroEscolaridad.REPORTE_REGISTRODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:catalogosIsenco.registroEscolaridad.REPORTE_REGISTRO_FUERADataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:catalogosIsenco.registroEscolaridad.REGISTRO_ESCOLARIDADRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:catalogosIsenco.registroEscolaridad.REGISTRO_ESCOLARIDAD_ANTERIORRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:catalogosIsenco.registroEscolaridad.REGISTRO_ESCOLARIDAD_REPETIDORRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:catalogosIsenco.registroEscolaridad.DATOS_FIRMASRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:catalogosIsenco.registroEscolaridad.REPORTE_REGISTRORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:catalogosIsenco.registroEscolaridad.REPORTE_REGISTRO_FUERARow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:catalogosIsenco.registroEscolaridad.REGISTRO_ESCOLARIDADRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:catalogosIsenco.registroEscolaridad.REGISTRO_ESCOLARIDAD_ANTERIORRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:catalogosIsenco.registroEscolaridad.REGISTRO_ESCOLARIDAD_REPETIDORRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:catalogosIsenco.registroEscolaridad.DATOS_FIRMASRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:catalogosIsenco.registroEscolaridad.REPORTE_REGISTRORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:catalogosIsenco.registroEscolaridad.REPORTE_REGISTRO_FUERARowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:catalogosIsenco.registroEscolaridad">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:catalogosIsenco.registroEscolaridadTableAdapters.REGISTRO_ESCOLARIDADTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:catalogosIsenco.registroEscolaridadTableAdapters.REGISTRO_ESCOLARIDAD_ANTERIORTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:catalogosIsenco.registroEscolaridadTableAdapters.REGISTRO_ESCOLARIDAD_REPETIDORTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:catalogosIsenco.registroEscolaridadTableAdapters.DATOS_FIRMASTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:catalogosIsenco.registroEscolaridadTableAdapters.REPORTE_REGISTROTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:catalogosIsenco.registroEscolaridadTableAdapters.REPORTE_REGISTRO_FUERATableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:catalogosIsenco.registroEscolaridadTableAdapters.TableAdapterManager.UpdateUpdatedRows(catalogosIsenco.registroEscolaridad,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:catalogosIsenco.registroEscolaridadTableAdapters.TableAdapterManager.UpdateInsertedRows(catalogosIsenco.registroEscolaridad,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:catalogosIsenco.registroEscolaridadTableAdapters.TableAdapterManager.UpdateDeletedRows(catalogosIsenco.registroEscolaridad,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:catalogosIsenco.registroEscolaridadTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:catalogosIsenco.registroEscolaridadTableAdapters.TableAdapterManager.UpdateAll(catalogosIsenco.registroEscolaridad)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:catalogosIsenco.registroEscolaridadTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:catalogosIsenco.registroEscolaridadTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:catalogosIsenco.registroEscolaridadTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
 </member><member name="T:catalogosIsenco.reportesDT.estadisticasDtDataTable">
 	<summary>
 Represents the strongly named DataTable class.
@@ -811,235 +1040,6 @@ Update Order Option
 Used to sort self-referenced table's rows
 </summary>
 </member><member name="T:catalogosIsenco.reportesDTTableAdapters.TableAdapterManager">
-	<summary>
-TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
-</summary>
-</member><member name="P:catalogosIsenco.My.Resources.Resources.ResourceManager">
-	<summary>
-  Returns the cached ResourceManager instance used by this class.
-</summary>
-</member><member name="P:catalogosIsenco.My.Resources.Resources.Culture">
-	<summary>
-  Overrides the current thread's CurrentUICulture property for all
-  resource lookups using this strongly typed resource class.
-</summary>
-</member><member name="T:catalogosIsenco.My.Resources.Resources">
-	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
-</summary>
-</member><member name="T:catalogosIsenco.registroEscolaridad.REGISTRO_ESCOLARIDADDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:catalogosIsenco.registroEscolaridad.REGISTRO_ESCOLARIDAD_ANTERIORDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:catalogosIsenco.registroEscolaridad.REGISTRO_ESCOLARIDAD_REPETIDORDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:catalogosIsenco.registroEscolaridad.DATOS_FIRMASDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:catalogosIsenco.registroEscolaridad.REPORTE_REGISTRODataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:catalogosIsenco.registroEscolaridad.REPORTE_REGISTRO_FUERADataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:catalogosIsenco.registroEscolaridad.REGISTRO_ESCOLARIDADRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:catalogosIsenco.registroEscolaridad.REGISTRO_ESCOLARIDAD_ANTERIORRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:catalogosIsenco.registroEscolaridad.REGISTRO_ESCOLARIDAD_REPETIDORRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:catalogosIsenco.registroEscolaridad.DATOS_FIRMASRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:catalogosIsenco.registroEscolaridad.REPORTE_REGISTRORow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:catalogosIsenco.registroEscolaridad.REPORTE_REGISTRO_FUERARow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:catalogosIsenco.registroEscolaridad.REGISTRO_ESCOLARIDADRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:catalogosIsenco.registroEscolaridad.REGISTRO_ESCOLARIDAD_ANTERIORRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:catalogosIsenco.registroEscolaridad.REGISTRO_ESCOLARIDAD_REPETIDORRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:catalogosIsenco.registroEscolaridad.DATOS_FIRMASRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:catalogosIsenco.registroEscolaridad.REPORTE_REGISTRORowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:catalogosIsenco.registroEscolaridad.REPORTE_REGISTRO_FUERARowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:catalogosIsenco.registroEscolaridad">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:catalogosIsenco.registroEscolaridadTableAdapters.REGISTRO_ESCOLARIDADTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:catalogosIsenco.registroEscolaridadTableAdapters.REGISTRO_ESCOLARIDAD_ANTERIORTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:catalogosIsenco.registroEscolaridadTableAdapters.REGISTRO_ESCOLARIDAD_REPETIDORTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:catalogosIsenco.registroEscolaridadTableAdapters.DATOS_FIRMASTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:catalogosIsenco.registroEscolaridadTableAdapters.REPORTE_REGISTROTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:catalogosIsenco.registroEscolaridadTableAdapters.REPORTE_REGISTRO_FUERATableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="M:catalogosIsenco.registroEscolaridadTableAdapters.TableAdapterManager.UpdateUpdatedRows(catalogosIsenco.registroEscolaridad,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Update rows in top-down order.
-</summary>
-</member><member name="M:catalogosIsenco.registroEscolaridadTableAdapters.TableAdapterManager.UpdateInsertedRows(catalogosIsenco.registroEscolaridad,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Insert rows in top-down order.
-</summary>
-</member><member name="M:catalogosIsenco.registroEscolaridadTableAdapters.TableAdapterManager.UpdateDeletedRows(catalogosIsenco.registroEscolaridad,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Delete rows in bottom-up order.
-</summary>
-</member><member name="M:catalogosIsenco.registroEscolaridadTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
-</summary>
-</member><member name="M:catalogosIsenco.registroEscolaridadTableAdapters.TableAdapterManager.UpdateAll(catalogosIsenco.registroEscolaridad)">
-	<summary>
-Update all changes to the dataset.
-</summary>
-</member><member name="T:catalogosIsenco.registroEscolaridadTableAdapters.TableAdapterManager.UpdateOrderOption">
-	<summary>
-Update Order Option
-</summary>
-</member><member name="T:catalogosIsenco.registroEscolaridadTableAdapters.TableAdapterManager.SelfReferenceComparer">
-	<summary>
-Used to sort self-referenced table's rows
-</summary>
-</member><member name="T:catalogosIsenco.registroEscolaridadTableAdapters.TableAdapterManager">
-	<summary>
-TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
-</summary>
-</member><member name="T:catalogosIsenco.inscripcion.imssDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:catalogosIsenco.inscripcion.Documentos_alumnos_entregadosDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:catalogosIsenco.inscripcion.Documentos_alumnosDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:catalogosIsenco.inscripcion.imssRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:catalogosIsenco.inscripcion.Documentos_alumnos_entregadosRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:catalogosIsenco.inscripcion.Documentos_alumnosRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:catalogosIsenco.inscripcion.imssRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:catalogosIsenco.inscripcion.Documentos_alumnos_entregadosRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:catalogosIsenco.inscripcion.Documentos_alumnosRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:catalogosIsenco.inscripcion">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:catalogosIsenco.inscripcionTableAdapters.imssTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:catalogosIsenco.inscripcionTableAdapters.Documentos_alumnos_entregadosTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:catalogosIsenco.inscripcionTableAdapters.Documentos_alumnosTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="M:catalogosIsenco.inscripcionTableAdapters.TableAdapterManager.UpdateUpdatedRows(catalogosIsenco.inscripcion,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Update rows in top-down order.
-</summary>
-</member><member name="M:catalogosIsenco.inscripcionTableAdapters.TableAdapterManager.UpdateInsertedRows(catalogosIsenco.inscripcion,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Insert rows in top-down order.
-</summary>
-</member><member name="M:catalogosIsenco.inscripcionTableAdapters.TableAdapterManager.UpdateDeletedRows(catalogosIsenco.inscripcion,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Delete rows in bottom-up order.
-</summary>
-</member><member name="M:catalogosIsenco.inscripcionTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
-</summary>
-</member><member name="M:catalogosIsenco.inscripcionTableAdapters.TableAdapterManager.UpdateAll(catalogosIsenco.inscripcion)">
-	<summary>
-Update all changes to the dataset.
-</summary>
-</member><member name="T:catalogosIsenco.inscripcionTableAdapters.TableAdapterManager.UpdateOrderOption">
-	<summary>
-Update Order Option
-</summary>
-</member><member name="T:catalogosIsenco.inscripcionTableAdapters.TableAdapterManager.SelfReferenceComparer">
-	<summary>
-Used to sort self-referenced table's rows
-</summary>
-</member><member name="T:catalogosIsenco.inscripcionTableAdapters.TableAdapterManager">
 	<summary>
 TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
 </summary>
